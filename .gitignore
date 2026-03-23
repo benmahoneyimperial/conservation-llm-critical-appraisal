@@ -1,0 +1,21 @@
+# Environment variables / Secrets
+.env
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore data directories to prevent committing copyrighted papers
+data/papers/
+data/processed_text/

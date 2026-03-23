@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conservation-llm-critical-appraisal"
+version = "0.0.0"
+description = "Example scaffold for analysis package"
+
+[tool.poetry]
+
