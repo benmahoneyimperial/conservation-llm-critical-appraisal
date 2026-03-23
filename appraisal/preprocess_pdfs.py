@@ -42,7 +42,7 @@ def preprocess_all_pdfs(input_dir: str, output_dir: str):
 if __name__ == "__main__":
     # This allows running the script from the command line.
     # Example usage:
-    # python scripts/preprocess_pdfs.py data/papers data/processed_text
+    # python appraisal/preprocess_pdfs.py data/papers data/processed_text
 
     parser = argparse.ArgumentParser(
         description="Extract text from PDF files in a directory."
