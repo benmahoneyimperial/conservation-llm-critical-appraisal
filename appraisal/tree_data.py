@@ -3,37 +3,126 @@
 # Branch nodes have "question", "yes", and "no" keys
 
 decision_tree_1 = {
-    "start": {
-        "question": "Question 1.1\nCategory: General (please answer)\n\nQuestion: Is it possible for the impact of the exposure or the effectiveness of the intervention to be confounded in this study?\n\n(Context): E.g., Select Y/SY when randomisation is considered to deconfound.",
-        "yes": "q_1_2",
-        "no": "result_low_risk_a"
+
+    # -------------------------
+    # 1.1
+    # -------------------------
+    "q_1_1": {
+        "question": "1.1. Is it possible for the impact of the exposure or the effectiveness of the intervention to be confounded in this study?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no"],
+        "mapping": {
+            "yes": "q_1_2",
+            "seemingly yes": "q_1_2",
+            "seemingly no": "result_low_risk_a",
+            "no": "result_low_risk_a"
+        }
     },
+
+    # -------------------------
+    # 1.2
+    # -------------------------
     "q_1_2": {
-        "question": "Question 1.2\nCategory: Conditional (answer if Y/SY to 1.1, otherwise select 'Not applicable')\n\nQuestion: Did the author(s) control for all the potential confounders?\n\n(Context): All potential confounders should be listed in Appendix A.",
-        "yes": "q_1_4",
-        "no": "q_1_3"
+        "question": "1.2. Did the author(s) control for all the potential confounders?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear", "not applicable"],
+        "mapping": {
+            "yes": "q_1_4_a",
+            "seemingly yes": "q_1_4_a",
+            "no": "q_1_3",
+            "seemingly no": "q_1_3",
+            "unclear": "q_1_3",
+            "not applicable": "result_invalid_path"
+        }
     },
+
+    # -------------------------
+    # 1.3
+    # -------------------------
     "q_1_3": {
-        "question": "Question 1.3\nCategory: Conditional (answer if N/SN/Unclear to 1.2, otherwise select 'Not applicable')\n\nQuestion: Is there any justifiable reason for not controlling for all the potential confounders (so that omission of some of the potential confounders is unlikely to influence the assessment of the effectiveness or impact)?\n\n(Context): E.g., select Y/SY when there is evidence that omission of some of the potential confounders does not affect the assessment of effectiveness or impact. This may be the case if adjusting all potential confounders will lead to overadjustment, or an ‘instrumental variable’ is used for estimating the effectiveness or impact, etc. Instrumental variable is a variable that (1) is not associated with the confounder(s), (2) is associated with the intervention/exposure but (3) does not directly influence the outcome. If used appropriately, it enables valid estimation. See Hernán & Robins 2020 for guidance.",
-        "yes": "q_1_4",
-        "no": "result_high_risk_d"
+        "question": "1.3. Is there any justifiable reason for not controlling for all the potential confounders?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "not applicable"],
+        "mapping": {
+            "yes": "q_1_4_b",
+            "seemingly yes": "q_1_4_b",
+            "no": "result_high_risk_d",
+            "seemingly no": "result_high_risk_d",
+            "not applicable": "result_invalid_path"
+        }
     },
-    "q_1_4": {
-        "question": "Question 1.4\nCategory: Conditional (answer if Y/SY to 1.2 or 1.3, otherwise select 'Not applicable')\n\nQuestion: Were the potential confounders, that were controlled for, (and/or the instrumental variable used if applicable) likely to be measured accurately and precisely enough?\n\n(Context): Measurements of factors may be nominal (categorical), ordinal (ranks) or scale.",
-        "yes": "q_1_5",
-        "no": "result_medium_risk_e"
+
+    # -------------------------
+    # 1.4 (Path A: from 1.2 YES)
+    # -------------------------
+    "q_1_4_a": {
+        "question": "1.4. Were the potential confounders measured accurately and precisely enough?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear", "not applicable"],
+        "mapping": {
+            "yes": "q_1_5_a",
+            "seemingly yes": "q_1_5_a",
+            "no": "q_1_5_a",
+            "seemingly no": "q_1_5_a",
+            "unclear": "q_1_5_a",
+            "not applicable": "result_invalid_path"
+        }
     },
-    "q_1_5": {
-        "question": "Question 1.5\nCategory: Conditional (answer if you have answered 1.4, otherwise select 'Not applicable')\n\nQuestion: Did the author(s) analyse the effect appropriately by taking into account the potential confounders, as well as the issue of accuracy and precision of the measurements of the potential confounders (and the instrumental variable if applicable)?\n\n(Context): Examples of appropriate adjustment techniques for confounding may include stratification, matching, inverse probability weighting, standardisation, G-estimation, and instrumental variable estimation.",
-        "yes": "result_low_risk_b",
-        "no": "result_medium_risk_c"
+
+    # -------------------------
+    # 1.5 (Path A)
+    # -------------------------
+    "q_1_5_a": {
+        "question": "1.5. Did the author(s) analyse the effect appropriately taking confounders into account?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear", "not applicable"],
+        "mapping": {
+            "yes": "result_low_risk_b",
+            "seemingly yes": "result_low_risk_b",
+            "no": "result_medium_risk_c",
+            "seemingly no": "result_medium_risk_c",
+            "unclear": "result_medium_risk_c",
+            "not applicable": "result_invalid_path"
+        }
     },
-    # Final Judgments
+
+    # -------------------------
+    # 1.4 (Path B: from 1.3 YES)
+    # -------------------------
+    "q_1_4_b": {
+        "question": "1.4. Were the potential confounders measured accurately and precisely enough?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear", "not applicable"],
+        "mapping": {
+            "yes": "q_1_5_b",
+            "seemingly yes": "q_1_5_b",
+            "no": "q_1_5_b",
+            "seemingly no": "q_1_5_b",
+            "unclear": "q_1_5_b",
+            "not applicable": "result_invalid_path"
+        }
+    },
+
+    # -------------------------
+    # 1.5 (Path B)
+    # -------------------------
+    "q_1_5_b": {
+        "question": "1.5. Did the author(s) analyse the effect appropriately taking confounders into account?",
+        "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear", "not applicable"],
+        "mapping": {
+            "yes": "result_low_risk_b",
+            "seemingly yes": "result_low_risk_b",
+            "no": "result_high_risk_d",
+            "seemingly no": "result_high_risk_d",
+            "unclear": "result_high_risk_d",
+            "not applicable": "result_invalid_path"
+        }
+    },
+
+    # -------------------------
+    # RESULTS
+    # -------------------------
     "result_low_risk_a": "LOW RISK: Confounding is not considered possible.",
-    "result_low_risk_b": "LOW RISK: Confounders were identified, measured accurately, and analyzed appropriately.",
+    "result_low_risk_b": "LOW RISK: Confounders appropriately handled.",
     "result_medium_risk_c": "MEDIUM RISK: Analysis of confounders was not appropriate.",
-    "result_high_risk_d": "HIGH RISK: Not all confounders were controlled for without justification.",
-    "result_medium_risk_e": "MEDIUM RISK: Confounders were not measured accurately enough."
+    "result_high_risk_d": "HIGH RISK: Confounding not properly addressed.",
+    
+    # Safety catch
+    "result_invalid_path": "ERROR: Invalid traversal (likely incorrect 'Not Applicable' usage)."
 }
 
 decision_tree_2 = {
@@ -389,4 +478,14 @@ decision_tree_7 = {
     "result_low_risk": "LOW RISK",
     "result_medium_risk": "MEDIUM RISK",
     "result_high_risk": "HIGH RISK"
+}
+
+TREES = {
+    "1": decision_tree_1,
+    "2": decision_tree_2,
+    "3": decision_tree_3,
+    "4": decision_tree_4,
+    "5": decision_tree_5,
+    "6": decision_tree_6,
+    "7": decision_tree_7,
 }
