@@ -1,45 +1,72 @@
 import os
-from .tree_data import decision_tree_1, decision_tree_2, decision_tree_3, decision_tree_4, decision_tree_5, decision_tree_6, decision_tree_7
+from .tree_data import TREES
 from .llm_client import ask_llm
 
-def traverse_tree(tree, paper_text, node_id="start", verbose=True):
-    """Traverse the decision tree asking questions and following paths."""
-    node = tree[node_id]
-    
-    if isinstance(node, str):
-        return node
-    
-    # For batch processing, we'll just print the question.
-    # The actual ask_llm call is now the main part of the logic.
-    if verbose:
-        print(f"  - Asking: {node['question'][:100]}...")
-    answer = ask_llm(node["question"], paper_text)
-    if verbose:
-        print(f"    > Answer: {answer}")
-    
-    # Simplified logic for demonstration
-    if "yes" in answer.lower():
-        return traverse_tree(tree, paper_text, node["yes"], verbose=verbose)
-    else:
-        return traverse_tree(tree, paper_text, node["no"], verbose=verbose)
+def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
+    node_id = start_node
+    path = []
+    chat_history = []
+
+    while True:
+        node = tree[node_id]
+
+        # If leaf node then return result
+        if isinstance(node, str):
+            if verbose:
+                print(f"\nFinal Result: {node}")
+            return {
+                "result": node,
+                "path": path
+            }
+
+        # Ask LLM
+        response = ask_llm(node["question"], paper_text, chat_history=chat_history, valid_answers=node.get("valid_answers"))
+        answer = response["final_answer"]
+
+        answer = answer.strip().lower()
+
+        # Validate answer DO I WANT TO FORCE A 'no' if answer is invalid? PROS: keeps us on the tree, CONS: may bias towards 'no' if LLM is confused. Maybe better to return an error and mark this question as failed?
+        if answer not in node["valid_answers"]:
+            if verbose:
+                print(f"Invalid answer '{answer}' → forcing 'no'")
+            answer = "no"
+
+        if verbose:
+            print(f"\nNode: {node_id}")
+            print(f"Answer: {answer}")
+            # print(f"Full response: {response['full_response']}")
+
+        # Store trace
+        path.append({
+            "node": node_id,
+            "answer": answer,
+            "full_response": response["full_response"]
+        })
+
+        # Update chat history for the next node
+        chat_history.append({"role": "user", "content": node["question"]})
+        if response["full_response"]:
+            chat_history.append({"role": "assistant", "content": response["full_response"]})
+
+        # Move to next node
+        node_id = node["mapping"][answer]
 
 
-def run_all_trees(paper_text):
-    """Run all configured decision trees on a single paper's text."""
+def run_all_trees(paper_text, verbose=True):
     results = {}
-    trees = {
-        "Tree 1 (Confounding)": decision_tree_1,
-        "Tree 2 (Selection)": decision_tree_2,
-        "Tree 3 (Intervention)": decision_tree_3,
-        "Tree 4 (Performance)": decision_tree_4,
-        "Tree 5 (Detection)": decision_tree_5,
-        "Tree 6 (Reporting)": decision_tree_6,
-        "Tree 7 (Analysis)": decision_tree_7
-    }
-    
-    for name, tree in trees.items():
-        results[name] = traverse_tree(tree, paper_text)
-        
+
+    for tree_id, tree in TREES.items():
+        if verbose:
+            print(f"\n--- Running Tree {tree_id} ---")
+
+        start_node = "start" if "start" in tree else f"q_{tree_id}_1"
+        output = traverse_tree(tree, paper_text, start_node=start_node, verbose=verbose)
+
+        results[tree_id] = {
+            "result": output["result"],
+            "path": output["path"]
+        }
+
     return results
 
 
