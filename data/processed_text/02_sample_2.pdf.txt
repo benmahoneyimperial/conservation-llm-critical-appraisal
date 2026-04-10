@@ -1,0 +1,770 @@
+RESEARCH ARTICLE
+Artificial Bird Perches for the Regeneration
+of Degraded Tropical Peat Swamp Forest:
+A Restoration Tool with Limited Potential
+Laura L. B. Graham1,2 and Susan E. Page1
+Abstract degraded zone species and dispersed mainly tree species
+from the degraded area. Furthermore, while some seeds
+Forest rehabilitation activities have been initiated on
+of forest-area tree species were dispersed, largely only the
+degraded peatland at several sites in Southeast Asia. In
+degraded area tree species survived to seedling stage. Nei-
+ordertoachieverehabilitationefficientlyandonthelargest
+ther seasonality nor distance from forest edge proved to
+possible scale, cost-effective, transferable methods need to
+besignificantfactorsinfluencingseeddispersalorseedling
+beestablished.Onepotentialmethod,whichhaspreviously
+recruitment, the latter highlighting that seeds were prin-
+proven successful in both temperate and neotropical for-
+cipally being dispersed from within the degraded area
+estecosystems,istheconstructionofartificialbirdperches
+outside the forest edge. These provide resting perches for ratherthanfromtheforest.Althoughartificialperchesdid
+frugivorous birds, encouraging them to fly out of the for- increase seed dispersal, their use as an actual restoration
+est,thusincreasingseeddispersalandsubsequentseedling toolintheprocessofforestregenerationondegradedtrop-
+recruitment into the degraded area. This method was tri- ical peatland is limited. Furthermore, when the cost- and
+alled for the first time in degraded tropical peat swamp effort-to-areafactorsareconsidered,thismethodisshown
+forestinIndonesia.Theresultsshowthatthepercheswere to be inefficient.
+usedbyfrugivorousbirds,leadingtoasignificantincrease
+in seed dispersal; however, seedling recruitment was not Keywords:perchingsites,seeddispersal,seedlingrecruit-
+increased. The frugivorous birds using the perches were ment, tropical peatlands.
+Introduction 2002). Following disturbance and degradation these services
+are either greatly reduced or lost (Page et al. 2009).
+Tropical peatlands make up approximately 11% (44 million
+Given the array of environmental services that the TPSF
+hectares [Mha]) of global peatlands, of which Indonesia sup-
+ecosystem can provide, at local to national and international
+ports the greatest area, 21 Mha (Page et al. 2011). The nat-
+scales, there is growing interest in implementing ecosys-
+ural vegetation of lowland peatlands in Indonesia is tropical
+temrestorationandrehabilitationprograms.Tropicalpeatland
+peatswampforest(TPSF);however,between1985and2005,
+restoration is, however, a difficult process. TPSF shows low
+Indonesia lost over 30% of its TPSF through logging, fires,
+ability to regenerate, particularly following multiple distur-
+andconversionoflandforagricultureandplantations,withan
+bance events (Pageet al. 2009); furthermore, transferable and
+annual deforestation rate of 1.7% (Hooijer et al. 2006). Fol-
+cost-effective restoration methods still have to be developed.
+lowing forest clearance and drainage, the landscape becomes
+Seed dispersal limitation has been identified as one of
+susceptible to fire and flooding, and woody vegetation is
+the most common forest regeneration barriers (Hooper et al.
+replacedbyferns,shrubs,andsedges(Pageet al.2009).When
+2005).Inthetropics,50–90%oftreesrelyonseeddispersalby
+undisturbed, tropical peatlands act as globally significant car-
+animals(Holl1998;Hollet al.2000)withbirdsbeingthemost
+bonsinks(Pageet al.2011),supportadiverseandspecialized
+important vectors (Howe & Smallwood 1982; Corlett 2009).
+fauna and flora (Rieley & Page 1997), maintain stable hydro-
+IntheforestsofIndonesianBorneo,gibbons,orangutans,other
+logicalandnutrientcyclingsystems(Wo¨stenet al.2006),and
+primates, bats, rodents, pigs, and deer all play a role in seed
+provideameansoflivelihoodforlocalcommunities(Sjarkowi
+dispersal (Corlett 2009). Following forest degradation, some
+of these seed dispersers may be able to make use of the new
+habitat, but most will remain within familiar forest territory,
+1DepartmentofGeography,UniversityofLeicester,UniversityRoad,
+where there is food and protection (Cardoso da Silva et al.
+Leicester,U.K.
+2AddresscorrespondencetoL.L.B.Graham,emailllbg1@le.ac.uk 1996).Thus,unlessseedsaredispersedthroughwater,wind,or
+animal behavior, the regeneration route for many tree species
+©2011SocietyforEcologicalRestorationInternational
+doi:10.1111/j.1526-100X.2011.00805.x is disrupted (Wang & Smith 2002).
+SEPTEMBER 2012 RestorationEcology Vol.20,No.5,pp.631–637 631BirdPerchesTropicalPeatlandsLimitedPotential
+One potential method to overcome this barrier is the use (Rubiaceae).Thereislimitednaturaltreeregenerationinclud-
+of artificial bird perches, which have been successful in for- ingseveralstuntedSyzygium spp.(Myrtaceae)andCombreto-
+estrestorationeffortsinbothtemperate(McClanahan&Wolfe carpusrotundatus (Anisophylleaceae).
+1993)andtropicalforestenvironments;workintheneotropics
+has shown that birds no longer fly out into deforested zones
+if there are insufficient perching sites (Holl 1998; Zanini & ConstructionofthePerches
+Ganade 2005). If, however, artificial perches are constructed Sixteen perches were constructed in the degraded zone; eight
+nearto,butoutsidetheforestedge,thenfrugivorousbirdsuse at 50-m DFFE and eight at 200-m DFFE, with 40 m between
+thesetorestonanddefecate.Usingthismethod,seeddispersal, each perch and 20 m between each collection site; for every
+seedling recruitment, and tree species diversity into a defor- perchposition,therewasanadjacentcontrolpositionatwhich
+ested zone can increase—in some cases up to 150 times the seed traps and seedling plots were established (see below),
+previouslevelsofseeddispersal(Holl1998;Shiels&Walker but without an artificial perch. The control positions enabled
+2003;Hooperet al.2005;Zanini&Ganade2005).Theeffect the monitoring of natural dispersal and regeneration rates
+of distance from the forest edge (DFFE) (Holl 1998; Hooper (Fig. 1a). Each perch was constructed of wood in situ (Fig.
+et al.2005)andseasonality(Guevara&Laborde1993;Shiels S1,SupportingInformation)andhadanapproximateheightof
+&Walker2003;Zanini&Ganade2005)onbirdactivity,seed 8 m, with a perch area of 1.33×0.66–m (Fig. 2). The envi-
+dispersal,andseedlingrecruitmenthavealsobeenconsidered. ronmentalconditionsat50-and200-mDFFEwerenoticeably
+ItisnecessarytotakeDFFEintoconsiderationasbirdactivity different: the “forest edge” was defined as where the canopy
+could either increase or reduce beyond the forest edge, thus cover was less than 50% (although in reality it dropped from
+the positioning of artificial bird perches should take this into
+account.Equally,ifartificialperchesareintendedtobetempo-
+(a)
+rary,theimpactofseasonespeciallyinrelationtotreefruiting
+timesandmigrationalbirdactivitymaybeimportant.Although
+50m 150m
+thefindingsfrompreviousstudieshavebeenmixed,frequently
+an effect of season and/or distance has been observed.
+The use of artificial perches to increase regeneration
+in degraded landscapes has not been previously tested in 20m
+TPSF. This study, carried out from July 2007 to July
+2008, encompassing both the dry (June–November) and wet
+(December–May)seasons,investigated:(1) which,ifany,bird
+specieswereutilizingtheconstructedperches;(2) ifseeddis-
+Trap and persal and seedling recruitment into degraded TPSF could be
+plot only
+increased through the use of artificial bird perches; (3) which
+treespecieswerebeingdispersedandbecomingestablishedin
+the degraded area; and (4) the influence of DFFE and season
+Perch, plot
+of the year (dry or wet) on the quantity and quality of seed and trap
+dispersal.
+Methods
+Forest
+StudyArea edge
+ThestudytookplaceintheNaturalLaboratoryofPeatSwamp
+Forest (2 ◦ 18(cid:3)S, 113 ◦ 50(cid:3)E, elevation a.s.l. 30 m), a protected
+areaofTPSFinthecatchmentoftheSabangauRiver,approx-
+imately 15 km southwest of Palangka Raya, the provincial
+(b)
+capitalofCentralKalimantan,Indonesia.Theclimateishumid
+◦ tropical, with a mean temperature range from 22.0 to 28.9 C Seed Seedling
+and an annual rainfall of 2912 mm/yr (2003–2007 average), trap plot
+with a wet season from October–November to May–June
+Perch
+(Harrison 2009). At the study site, primary TPSF is bordered
+bydegradedpeatland,upto2 kmwideandseveralkilometers
+Figure1. (a)Locationofseedtrapsandseedlingplots(adjacentsquare
+inlength,locatedbetweentheforestedgeandtheriver.Inthe
+boxes)andperches(stars)inrelationtoforestedge.Only3perchesper
+degraded zone the forest has been lost over the last 40 years
+distanceareshown,although16perchesweremade;8ateachdistance,
+as a result of logging and frequent burning. The vegetation is witheachperchhavinganadjacentcontrolpositionand(b)viewfrom
+dominatedbysedges,ferns,pandans,andlow-growingshrubs aboveanartificialbirdperch,showingtheaerialperch,andbeneaththe
+such as Ploiariumalternifolium (Theaceae) and Timonius sp. locationoftheseedtrapandtheseedlingplot.
+632 RestorationEcology SEPTEMBER 2012
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+LicenseBirdPerchesTropicalPeatlandsLimitedPotential
+The piping square was filled with sagging netting to catch
+the feces falling from above. Netted walls (30-cm high) were
+attached to prevent the loss of trap-content by the wind (Fig.
+S2). Every fortnight for 1 year, the contents of the seed traps
+werecollectedandsorted.Seedswereseparatedoutfrombird
+feces and plant litter, counted and classified by plant species.
+Seeds and bird feces were dried in a drying oven for 14 days
+◦
+at 40–50 C, and their dry weights were recorded.
+LevelofRecruitment
+A1×1–mseedlingplotwasestablishedbeneatheachperch,
+and at every control position, adjacent to the seed-fall trap.
+Original vegetation was left undisturbed and all original
+seedlings present within the plot were identified and tagged
+(Fig. 1b). Every month for 1 year, the seedling plots were
+checked,seedlingsurvivalrecorded,andnewrecruitsrecorded
+and tagged (Fig. S2).
+Figure2. Newlyconstructedartificialbirdperch,50mfromtheforest
+edge(rightofpicture).
+Statistics
+>70% to <30% in the space of a few meters). Beyond the
+Bird-observation frequency was analyzed, with respect to
+forestedge,therewerestilloccasionalindividualtrees,reach-
+species, against DFFE using analysis of variance (ANOVA),
+ing a maximum height of 8 m, that is, the same height as the
+and against season using a paired t test. Regarding season, bird perches. These individual trees declined with further dis-
+the number of visits per observation day was calculated
+tancefromtheforest,beingnearlyentirelyabsentafter100 m.
+for the wet season (December–May) and the dry season
+Furthermore,at200-mDFFEtherewasdeeperflooding,lower
+(June–November), with respect to DFFE (50 and 200 m).
+nutrientavailability,higherlightintensityatgroundlevel,and
+Biomass (dry weight) of bird feces and seeds were analyzed
+highercompetitionwithinvasiveplantspeciesascomparedto
+separately, first using paired t tests to establish the effect of
+50-m DFFE (unpublished data).
+season, then using independent t tests to establish the effect
+of DFFE and control/perch position. Seedlings recruited into
+BirdObservations the seedling plots were analyzed with respect to DFFE and
+betweencontrolandperchpositionsusingt tests.Inallcases,
+A bird-observation platform was constructed at 125-m DFFE,
+the data were tested for normal distribution and homogeneity
+between the two rows of perches (Fig. S2). During the
+ofvariance,andwherethesewerenotupheld,Mann–Whitney
+first 7 months of the study, 4 days every month were spent
+U and Wilcoxon Signed Rank nonparametric tests were used.
+recording: bird duration on the perch, species (identified
+using MacKinnon & Phillips 2009; also used to describe bird
+habitat and feeding preferences), and direction of incoming
+and outgoing flights. A pilot study showed that peak times of Results
+bird activity were 05:30–09:30 and 15:30–17:30, thus these
+BirdObservations
+times were selected for observation. Only five perches could
+be watched at any given time, so five perches at 50-m DFFE During the 1-year of bird observations, totalling 216 h of
+were observed for the first hour, and five perches 200-m observation time, both insectivorous and frugivorous birds
+DFFE were observed for the second hour, and so on. The were observed using the perches (Table S1, Supporting Infor-
+DFFE perches watched for the first hour were alternated for mation). Insectivorous birds were more abundant, both in
+subsequentwatchingdays.Forthefinal5 monthsofstudy,the number of observations (76% of total bird observations) and
+bird-observation days were reduced to 2 days per month, as total time spent using the perches (89% of total duration),
+dataindicatedthatthedominantbirdspeciesandactivitieshad thanfrugivorousbirds,butthelatterwerealsoseenfrequently
+already been established, thus only seasonal variation needed (24% of total bird observations, 11% of total duration). The
+to be accounted for. dominant frugivores were Yellow-vented bulbul (Pycnono-
+tusgoiavier) and Cream-vented bulbul (Pycnonotussimplex).
+Thesetwobulbulspeciesweregroupedforsubsequentanalysis
+LevelofSeedDispersal as, on occasion, it was difficult to distinguish between them.
+A seed-fall trap was erected beneath each perch, directly Potentially, the next most dominant frugivorous group was
+adjacent to the main pole, and also at each control position the flowerpeckers (Dicaeidae); however, these are very small
+(Fig. 1b).Thesewereconstructedfromplasticpipingtocreate birds (10 cm in length) and their coloring closely resembles
+a 1×1–m, raised approximately 60 cm above the ground. Olive-backed sunbird (Nectarinia jugularis), which was also
+SEPTEMBER 2012 RestorationEcology 633
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+LicenseBirdPerchesTropicalPeatlandsLimitedPotential
+observedusingtheperches.Itwasoftendifficulttodistinguish
+between these two groups, thus their results were combined.
+5
+Unlike the frugivorous flowerpeckers, sunbirds are nectari-
+vores, also eating insects, thus the combined data should be
+interpreted with this in mind. There were several instances of 4
+hornbill and parrot flying over the 50-m perches, although
+they were never observed using them. Given the rarity of 3
+other observed bird species, analysis was limited to the two
+dominantgroups:bulbuls(P.goiavier/P.simplex)andflower- 2
+peckers/sunbirds (Dicaeidae/N.jugularis).
+Bulbulsshowedaslightpreferencefortheperchesat200 m
+1
+comparedtothoseat50-mDFFE(F =4.327,p=0.071).
+[1,8]
+There was no similar trend for the flowerpeckers/sunbirds
+0
+(F =0.478, p=0.509). Neither bulbuls nor flowerpeck-
+[1,8] 50m Dry 50m Wet 200m Dry 200m Wet
+ers/sunbirds showed any seasonal effect apart from the flow-
+erpeckers/sunbirds at 200 m, which made more visits to the
+perches in the wet season, compared to the dry season (p=
+0.043 using Wilcoxon Signed Rank test).
+Dataonthedirectionofincomingandoutgoingflightsshow
+that the bulbuls and the flowerpeckers/sunbirds were most
+often seen flying in and out from the surrounding degraded
+peatland, rather than from the forest (Table S2).
+LevelofSeedDispersal
+The biomass of bird feces was affected by season, with
+two of the four combinations, namely control positions 50-
+m DFFE and perch positions 200-m DFFE, showing sig-
+nificantly greater biomass during the dry season (p=0.043
+and 0.012, respectively, using Wilcoxon Signed Rank test).
+As season was an influencing factor, seasonal data were
+kept separate for subsequent analyses. DFFE was not found
+to be a significant factor with regard to any season for
+biomassofbirdfeces.Analysisofbirdfecesbiomassbetween
+control and perch positions, with respect to season and
+DFFE, showed that perch positions had a significantly higher
+biomass for all distances and seasons compared with the
+control positions (p≤0.003 for all combinations of season
+and distance, using the Mann–Whitney nonparametric test;
+Fig. 3a).
+Seedbiomasswasnotsignificantlyseasondependent;how-
+ever,seasonaldatawereanalyzedseparatelytoeasilycompare
+withdataonbirdfeces.Seedbiomasswasalsonotsignificantly
+influencedbyDFFE.Seedbiomasswas,however,significantly
+influenced by perch/control position, for all combinations of
+season and distance (p≤0.003 for all combinations of sea-
+sonanddistance,usingtheMann–Whitneynonparametrictest;
+Fig. 3b).
+Seedsfromatotalof13plantspecieswerefoundintheseed
+traps (Table S3), 10 of which were animal-dispersed species.
+Ofthese10species,totalling936seeds(wind-dispersedseeds
+totalling 226), 3 were known to occur in the degraded zone
+andtotaled40%oftotalseednumber,whereas7specieswere
+from forest edge or closed-canopy species, totaling 26% of
+totalseednumber.Unfortunately,20%ofseedscollectedcould
+not be identified owing to small seed size and alteration to
+rep
+secef
+drib
+fo
+thgiew
+evitalumuc
+egarevA
+)g(
+part
+Distance from forest edge and Season
+5
+4
+3
+2
+1
+0
+50m Dry 50m Wet 200m Dry 200m Wet
+)g(
+part
+rep
+sdees
+fo
+thgiew
+evitalumuc
+egarevA
+(a)
+(b)
+Distance from forest edge and Season
+Figure3. Averagecumulativebiomassof(a)birdfecesand(b)seeds
+pertrapforeachseasonandeachtrapdistance,showingacomparison
+betweenthecontrolpositionseedtraps(white)andtheperchseedtraps
+(black).
+seed color and texture that occurred on passage through the
+birds’ guts.
+LevelofRecruitment
+The number of animal-dispersed seedlings recruited during
+the study (not including those which died during the study
+period) was not significantly greater beneath the perches than
+inthecontrolseedlingplots(p=0.224at50 m,p=0.219at
+200 m, using the Mann–Whitney nonparametric test and the
+t test, respectively; Fig. 4). Equally, there was no significant
+effect of DFFE (p=0.296, using the t test).
+The animal-dispersed seedling species were nearly all
+Syzygium sp. “tampohot” (79%), which already grows in the
+degraded area. There were other seedlings recruited, although
+farfewerinnumber,thatwereonlynormallyfoundwithinthe
+forestortheforestedge,suchasGarcinia sp.andCalophyllum
+sp. (Clusiaceae), and Elaeocarpus mastersii (Eleocarpaceae)
+(TableS4).Therewerealso“edge-degradedtreespecies”that
+were recorded at the seedling stage, but were not noted at the
+seed-trap stage. It is unlikely that seeds would arrive in the
+634 RestorationEcology SEPTEMBER 2012
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+LicenseBirdPerchesTropicalPeatlandsLimitedPotential
+14
+12
+10
+8
+6
+4
+2
+0
+50m 200m
+sgnildees
+fo
+.on
+egarevA
+At this study location, none of the birds using the perches
+were migratory and TPSF has a relatively consistent fruit
+productionthroughouttheyear(Cannonet al.2007),providing
+explanations for the lack of seasonal effect observed. This
+study only ran for 1 year and while this region is sometimes
+subject to extreme dry seasons, the dry season during this
+year was relatively short. It is possible that if the study had
+beencontinuedformoreyears,thelackofanyseasonaleffect
+could have been determined with greater confidence. Year-
+round fruiting combined with the scarcity of migratory birds
+gives us further certainty in our result, although it is possible
+that,inespeciallydryyears,smokefromwildfirescouldreduce
+birdactivity,ashasbeenobservedwithgibbons(Cheyne2007)
+and that drought could lead to a reduction in fruit availability
+(Davies & Unam 1999).
+Distance from forest edge
+Given the environmental differences between the plots at
+Figure4. Thecumulativenumberofseedlings,ofspecieswith 50- and 200-m DFFE (as described above), it was anticipated
+bird-dispersedseeds,thatwererecruitedduringthe1-yearofstudyin that the effectiveness of the perches might be lower closer to
+seedlingtrapseitheratperchorcontrolpositions,showninrelationto theforestedgeasbirdshadtheoptionofusingnaturalperches
+distancefromtheforestedge.
+at 50 m. Other studies have shown bird preferences for more
+“complex,” natural perches (McDonnel & Stiles 1983; Holl
+seedlingplotswithoutalsobeingpresentinthetraps,thusthe 1998). Hooper et al. (2005) considered the effect of DFFE
+seedsofthesespeciesprobablymadeuppartofthe“unknown” and the availability and use of natural perches with regard
+quotient of seeds. to seed dispersal. They showed that seed dispersal reduced
+with distance and suggested this was due to reduction in the
+vegetation suitable for perching (Slocum & Horvitz 2000).
+Discussion Similarly, Holl (1998) found that more birds were observed
+usingartificialbirdperchesatpositionsfartherfromtheforest
+To assess whether artificial bird perches are an effective
+(250 m) than nearer (25 m).
+restorationmethodfordegradedTPSF,thereshouldbebothan
+Inthisstudy,bulbulsshowedaslightpreferenceforperches
+increaseinseeddispersalandseedlingrecruitment.Thisstudy
+at 200-m DFFE, but this did not follow through to a greater
+has shown that eight species of frugivorous bird species used
+number of seeds dispersed to this distance. Furthermore,
+the bird perches, with two groups, the bulbuls and the flow-
+frugivorousbirdsusingthepercheswereseentomainlyflyin erpeckers/sunbirds, using the perches regularly. Bulbuls are
+and out from the surrounding degraded area, rather than from
+described by Corlett (2009) as the most important avian seed
+the forest. Guevara and Laborde (1993) identified two groups
+dispersers in tropical east Asia. In addition, the seeds found
+of birds using perches in degraded areas: those that inhabited
+in the seed traps underneath the perches were often located
+thedegradedareaandthosecrossingthearea.Theysuggested
+withinbirdfeces,emphasizingthatitwasthebirds,ratherthan
+thatthesecondgroupwasmoreimportantinbringingseedsout
+other agents, bringing the seeds into the study area. Seed-rain
+beneath the perches was significantly greater than at the con- from the forest. The Yellow-vented and White-vented bulbuls
+trol positions. In addition, seeds found in the traps included and flowerpeckers/sunbirds mainly habituate disturbed areas
+thoseofbothforest-edgeandclosed-canopytreespecies,indi- (MacKinnon & Phillips 2009), which mayexplain the lack of
+cating that some seeds were being brought from within the effect observed regarding DFFE, despite the findings of other
+forest, although most had been dispersed from within the studies: in this instance the birds were not flying out from
+degraded zone. Seedling recruitment rates, however, were not theforestandselectingoptimumperchesinrelationtoDFFE,
+significantly higher beneath the perches compared with the but instead were already within the degraded area, using the
+control plots and the tree species being recruited were nearly two distances relatively equally, without a predisposition for
+all common degraded zone species, especially Syzygium sp. “natural perches.”
+“tampohot.” There was a distinct shift in tree species composition
+Bird activity was not highly dependent on season and seed betweentheseed-trapandtheseedlingrecruitmentstages,with
+dispersal operated throughout the year. Although there was fewer “edge” and “closed-canopy” forest species recorded as
+lower bird feces biomass during the wet season, this could seedlings than as seeds (eight species, 26%, compared with
+be explained by rain causing the feces to wash through the three species, 8%). This indicates that while some seeds were
+trap netting. Zanini and Ganade (2005) reported seasonal beingbroughtfrominsidetheforestandtheforestedgeoutto
+trends correlating to the timing of fruiting in the forest, the perches, many of these tree species were poorly adapted
+whileGuevaraandLaborde(1993)foundnoeffectofseason, to the degraded conditions, at either germination or seedling
+explained by a lack of migratory birds using the perches. stage. Other studies have shown that while seed dispersal is
+SEPTEMBER 2012 RestorationEcology 635
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+LicenseBirdPerchesTropicalPeatlandsLimitedPotential
+increasedbyeithernaturalorartificialperches,itdoesnotnec- and offers the possibility of “relocating” perches regularly to
+essarilyfollowthatthiswillincreaseseedlingregeneration,as increasetheareacovered(Brend,2008,OrangutanFoundation,
+perches,particularlyartificialperches,onlyaddresstheprocess personal communication), or the use of rope or wire strung
+of seed dispersal and do not ameliorate local environmen- betweenperchestoincreasethegroundareacovered(Graham,
+tal conditions (Holl 1998; Holl et al. 2000; Shiels & Walker 2007,UniversityofNewcastle,personalcommunication),this
+2003). Studies considering natural perches such as isolated method still has a very high cost-to-area ratio in comparison
+treeshaveshownthatthesemore“complexperches”caname- with direct planting of seedlings.
+lioratetheharshenvironmentalconditionsofthedegradedarea This study indicates that although artificial bird perches do
+directlybeneaththem,creatingpocketsofmorehospitableland increase seed dispersal in degraded areas of TPSF, they have
+(Guevara&Laborde1993;Slocum2000;Hooperet al.2005). a poor potential as a restoration tool in this ecosystem. Seeds
+Artificial perches would not do this until vegetation began to thataredispersedfromwithintheforestappearpoorlyadapted
+establishbeneaththem.Thechangeintreespeciescomposition to survive under the altered environmental conditions of the
+seen in this study suggests that the environment beneath the degradedzone.Furthermore,thefrugivorousbirdspeciesusing
+perches was not suitable for all the species dispersed there. the perches are primarily those that habituate the degraded
+Forest-adapted tree species often do not possess appropriate area, resulting in predominantly degraded zone tree species
+physiological characteristics to tolerate such harsh environ- beingdispersedandrecruited.Finally,thecostofthismethod
+ments. While forest species have been observed regenerating isveryhighcomparedtotheareathatitbenefits.Onthebasis
+in some neotropical studies (Zanini & Ganade 2005), others of this study, we recommend that other restoration tools such
+foundlowseedlingsurvival(Hollet al.1998)oradominance as seed sowing or direct planting should be investigated to
+of secondary tree species (Slocum 2000). Degraded TPSF is facilitate TPSF restoration.
+greatly altered from its original form with extreme periods
+of flooding, high light intensity and competition, and altered ImplicationsforPractice
+nutrient availability (Rieley & Page 2005), thus forest tree
+• The construction of artificial bird perches in degraded
+species that were dispersed into the degraded zone were not
+areas of TPSF near the remaining forest fragments
+able to survive.
+improves seed dispersal but not seedling regeneration.
+Thesizeofseedsthatcanbedispersedbythefrugivoresis
+• Thecostisveryhighandweighspoorlyagainstthesmall
+limited.Bulbulsareonlymedium-sizeddispersers,whilemany
+area assisted.
+TPSFtreeshavelargeseedsandarereliantonlargedispersers,
+• This method is considered of low value for TPSF
+includingprimates(Corlett2009).Similarproblemshavebeen
+restoration and alternative methods such as seed sowing
+noted in other studies (Nepstad et al. 1996; Slocum 2000)
+and seedling transplants should be further investigated
+and direct planting has been suggested for the introduction of
+instead.
+large-seededtreespecies.Analternativeistoconsiderattract-
+• The fact that this method, although successful in other
+ing larger seed dispersers to the degraded area. Hornbills,
+ecosystems, is not a workable restoration tool for
+for example, which were observed flying over the artificial
+degraded TPSF highlights the difficulty in restoring this
+perches,areimportantlargeseeddispersersinthisregionand
+ecosystem, further emphasizing the importance of con-
+a greater focus on their niche requirements, for example, by
+serving remaining areas of intact TPSF.
+providinghigherperches,mightproducepositiveresults(Wun-
+derle 1997; Corlett 2009). This is important because larger
+seeded species often survive better in degraded areas given
+Acknowledgments
+their high seed energy and nutrient stores (Wunderle 1997;
+Hooper et al. 2005). This study was funded by Rufford Small Grants for Nature
+There are at least 7 Mha of degraded peatland in Sumatra Conservation. The study was greatly supported under the
+and Kalimantan (Miettinen & Liew 2010) and as much as 9 administration of CIMTROP (Centre for the International
+Mha across the whole Southeast Asian region (Hooijer et al. cooperation in the Management of Tropical Peatlands), espe-
+2006). Restoration methods must both improve regeneration cially Dr. S. Limin and Yunsiska. Field work was only possi-
+ratesandalsobetransferableandcost-andarea-effective.The ble with numerous assistants, in particular Salahuddin and A.
+potentialfortransferringthismethodwouldbehigh,withbird Thomas. Discussion and reviews were appreciated, especially
+species and behavioral patterns being broadly homogenous fromW.S.Graham,S.Brend,M.R.Posa,J.Rieley,andtwo
+throughouttheregion.Thecostandareaeffectivenessofusing anonymousreviewers.Plantspeciesidentificationwasassisted
+artificial perches are, however, a further consideration. Perch by W. Giesen.
+constructionistime-consumingandexpensive;ateamoffour
+was able to construct five perches in 1 day with each perch
+LITERATURECITED
+costing $60. Furthermore, only the area beneath the perch
+received assisted regeneration (i.e. approximately 4 m2). For Cannon,C.H., L.M. Curran,A.J. Marshall, and M.Leighton. 2007. Long-
+termreproductivebehaviorofwoodyplantsacrosssevenBorneanforest
+such a high cost, this area is very small. Even considering
+types in the Gunung Palung National Park (Indonesia): suprannual
+alternative solutions such as the use of bamboo rather than synchrony,temporalproductivityandfruitingdiversity.EcologyLetters
+wood for perch construction, which is cheaper and lighter 10:956–969.
+636 RestorationEcology SEPTEMBER 2012
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+LicenseBirdPerchesTropicalPeatlandsLimitedPotential
+CardosodaSilva,J.M.,C.Uhl,andG.Murray.1996.Plantsuccession,land- Rieley,J.O.,andS.E.Page.1997.Biodiversityandsustainabilityoftropical
+scapemanagement,andtheecologyoffrugivorousbirdsinabandoned peatlands.SamaraPublishing,Cardigan,UnitedKingdom.
+Amazonianpastures.ConservationBiology10:491–503. Rieley,J.O.,andS.E.Page.2005.Wiseuseoftropicalpeatlands:focuson
+Cheyne,S.M.2007.Effectsofmeteorology,astronomicalvariables,location SoutheastAsia.AlterraPublishing,Wageningen,TheNetherlands.
+and human disturbance on the singing apes: Hylobates albibarbis. Shiels,A.B., and L.R.Walker. 2003. Bird perches increase forest seeds on
+AmericanJournalofPrimatology70:1–7. PuertoRicanlandslides.RestorationEcology11:457–465.
+Corlett,R.T.2009.TheecologyoftropicaleastAsia.OxfordUniversityPress, Sjarkowi,H.F.2002.Socio-entropysystemapproach(SESA)towardssustain-
+Inc.,NewYork. ablemanagementofapeatlandforestecosysteminCentralKalimantan.
+Davies,S.J., and L.Unam. 1999. Smoke-haze from the 1997 Indonesian Pages 224–235 in J.O.Rieley and S.E.Page, editors. Peatlands for
+forestfires:effectsonpollutionlevels,localclimate,atmosphericCO2 people, natural resources, functions and sustainable management. Pro-
+concentrations,andtreephotosynthesis.ForestEcologyandManagement ceedingsoftheInternationalSymposiumonTropicalPeatlands,Jakarta,
+124:137–144. 22–23 August 2001. BPPT and Indonesian Peat Association, Jakarta,
+Guevara,S., and J.Laborde. 1993. Monitoring seed dispersal at isolated Indonesia.
+standing trees in tropical pastures: consequences for local species Slocum,M.G.2000.Logsandfernpatchesasrecruitmentsitesinatropical
+availability.Vegetatio107:319–338. pasture.RestorationEcology8:408–413.
+Harrison,M.E. 2009. Orang-utan feeding behaviour in Sabangau, Central Slocum,M.G.,andC.C.Horvitz.2000.Seedarrivalunderdifferentgenera
+Kalimantan.Ph.D.thesis.UniversityofCambridge,Cambridge,United oftreesinaneotropicalpasture.PlantEcology149:51–62.
+Kingdom. Wang,B.C.,andT.B.Smith.2002.Closingtheseeddispersalloop.Trends
+Holl,K.D.1998.Dobirdperchingstructureselevateseedrainandseedling inEcologyandEvolution17:379–385.
+establishment in abandoned tropical pasture? Restoration Ecology Wo¨sten,J.H.M.,J.vanderBerg,P.vanEijk,G.J.M.Gevers,W.B.J.T.
+6:253–261. Giesen,A.Hooijer,etal.2006.Interrelationshipsbetweenhydrologyand
+Holl,K.D., M.E. Loik,E.H.V. Lin, and I.A.Samuels. 2000. Tropical ecology in fire degraded tropical peat swamp forests. Water Resources
+montaneforestrestorationinCostaRica:overcomingbarrierstodispersal Development22:157–174.
+andestablishment.RestorationEcology8:339–349. Wunderle,J.M. Jr. 1997. The role of animal seed dispersal in accelerating
+Hooijer,A.,M.Silvius,H.Wo¨sten,andS.Page.2006.PEAT-CO2,assessment native forest regeneration on degraded tropical lands. Forest Ecology
+ofCO2emissionsfromdrainedpeatlandsinSEAsia.DelftHydraulics andManagement99:223–235.
+ReportQ3943.DelftHydraulics,Delft,TheNetherlands. Zanini,L., and G.Ganade. 2005. Restoration of Araucaria Forest: the role
+Hooper,E.,P.Legendre,andR.Condit.2005.Barrierstoforestregeneration of perches, pioneer species, and soil fertility. Restoration Ecology
+and of deforested and abandoned land in Panama. Journal of Applied 13:507–514.
+Ecological42:1165–1174.
+Howe,H.F.,andJ.Smallwood.1982.Theecologyofseeddispersal.Annual
+ReviewofEcologyandSystematics13:201–228.
+SupportingInformation
+MacKinnon,J., and K.Phillips. 2009. A field guide to the birds of Borneo,
+AdditionalSupportingInformationmaybefoundintheonlineversionofthis
+Sumatra,JavaandBali.OxfordUniversityPress,Inc.,NewYork.
+article:
+McClanahan,T.R., and R.W.Wolfe. 1993. Accelerating forest succession
+inafragmentedlandscape:theroleofbirdsandperches.Conservation FigureS1. Stylizeddrawingoftheconstructionoftheartificialbirdperch.
+Biology7:279–288. FigureS2. (a)Collectingbirdfecesandseedsfromseed-falltrapbeneatha
+McDonnel,M.J.,andE.W.Stiles.1983.Thestructuralcomplexityofoldfield perch50mfromforestedge,(b)controlpositionat200mfromtheforestedge;
+vegetationandtherecruitmentofbird-dispersedplantspecies.Oecologia recordingseedlingsand(c)bird-observationplatform.
+56:109–116. TableS1. Listofbirdspeciesobservedusingtheartificialbirdperchesduring
+Miettinen,J.,andS.C.Liew.2010.Degradationanddevelopmentofpeatlands thestudy,thefrequencyandtotaldurationoftheirobservedtimespentontheperches,
+andtheirfeedingpreference,listedinorderoflongesttotalperchingduration.
+inPeninsularMalaysiaandintheislandsofSumatraandBorneosince
+TableS2. Directionofincomingandoutgoingflightsfromtheperchesofthe
+1990.LandDegradationandDevelopment21:285–296.
+twomostcommonlyobservedfrugivores.
+Nepstad,D.C.,C.Uhl,C.A.Pereira,andJ.M.C.daSilva.1996.Acompar-
+TableS3. Listofalltreeseedspeciesfoundintheseed-falltrapsandtheir
+ativestudyoftreeestablishmentinabandonedpastureandmatureforest foresttypepreference,listedbymeansofdispersalandpercentageoftotalseedsin
+easternAmazonia.Oikos76:25–39. thetraps.
+Page,S.E., A. Hoscilo,H. Wosten,J. Jauhiainen,H. Ritzema,K. Tansey, TableS4. Thespeciesofseedlingswithbird-dispersedseedsthatwererecruited
+etal. 2009. Ecological restoration of lowland tropical peatlands in duringthe1-yearofstudyinseedlingtraps,shownbytotalnumberandpercentage
+Southeast Asia—current knowledge and future research directions. andalsoshowsthepercentageofcorrespondingseedsfoundinadjacentseedtraps.
+Ecosystems12:288–905. Pleasenote:Wiley-Blackwellisnotresponsibleforthecontentorfunctionality
+Page,S.E.,J.O.Rieley,andC.J.Banks.2011.Globalandregionalimpor- ofanysupportingmaterialssuppliedbytheauthors.Anyqueries(otherthanmissing
+tance of the tropical peatland carbon pool. Global Change Biology material)shouldbedirectedtothecorrespondingauthorforthearticle.
+17:798–818.
+SEPTEMBER 2012 RestorationEcology 637
+1526100x,
+2012,
+5,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1111/j.1526-100X.2011.00805.x
+by
+Imperial
+College
+London,
+Wiley
+Online
+Library
+on
+[23/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License

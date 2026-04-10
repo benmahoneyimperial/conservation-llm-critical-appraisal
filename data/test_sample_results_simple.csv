@@ -1,0 +1,9 @@
+Paper Name,Domain 1,Domain 2,Domain 3,Domain 4,Domain 5,Domain 6,Domain 7,Overall
+02_sample_8.pdf,Error,Error,Error,Error,Error,Error,Error,Provider returned error
+02_sample_1.pdf,Medium Risk,Medium Risk,Medium Risk,Not Applicable,Medium Risk,Low Risk,Low Risk,Medium Risk
+02_sample_3.pdf,Medium Risk,Low Risk,Not Applicable,Low Risk,Low Risk,Low Risk,Low Risk,Medium Risk
+02_sample_2.pdf,High Risk,Medium Risk,Low Risk,Medium Risk,Medium Risk,Low Risk,Low Risk,High Risk
+02_sample_6.pdf,High Risk,Medium Risk,Medium Risk,Not Applicable,Low Risk,Low Risk,Unclear,High Risk
+02_sample_7.pdf,Medium Risk,Medium Risk,Not Applicable,Not Applicable,Low Risk,Low Risk,Low Risk,Medium Risk
+02_sample_5.pdf,Medium Risk,Low Risk,Low Risk,Low Risk,Low Risk,Low Risk,Low Risk,Medium Risk
+02_sample_4.pdf,Unclear,Unclear,Low Risk,Not Applicable,Unclear,Low Risk,Low Risk,Medium Risk

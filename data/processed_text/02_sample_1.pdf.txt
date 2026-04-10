@@ -1,0 +1,640 @@
+Society for Conservation Biology
+Accelerating Forest Succession in a Fragmented Landscape: The Role of Birds and Perches
+Author(s): T. R. McClanahan and R. W. Wolfe
+Source: Conservation Biology, Vol. 7, No. 2 (Jun., 1993), pp. 279-288
+Published by: Wiley for Society for Conservation Biology
+Stable URL: https://www.jstor.org/stable/2386425
+Accessed: 23-03-2026 10:57 UTC
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+Wiley, Society for Conservation Biology are collaborating with JSTOR to digitize, preserve
+and extend access to Conservation Biology
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/termsAccelerating Forest Succession
+in a Fragmented Landscape:
+The Role of Birds and Perches
+T. R. McCLANAHAN*
+Center for Wetlands
+University of Florida
+Gainesville, FL 32611, U.S.A.
+R. W. WOLFE
+J. F. New Associates
+708 Roosevelt Road
+Walkerton, IN 46574, U.S.A.
+Abstract: Previous research suggests that in highly frag- Aceleracion de la sucesion del bosque en un paisaje
+mented forest landscapes ecological succession can be ar- fragmentado: el papel de las aves y los cetros para ponerse
+rested by lack of seeds, but that seed deposition abundance en percha
+and diversity of bird-dispersed plants can be enhanced by
+bird-attracting structures such as snags. Consequently, bird
+Resumen: Estudiosprevios sugieren que en unpaisaje bos-
+perches remain a potential tool for accelerating ecological
+coso muy fragmentado la sucesion ecol6gica puede ser de-
+succession and reforesting disturbed land. Consequently, in
+tenidapor lafalta de semillaspero que la abundancia de la
+order to determine the effectiveness of bird perches in re-
+deposicion de semillasy la diversidad de las plantas disper-
+claiming forested landscapes, seed dispersal, seedbank stor-
+sadas por pajaros puede ser aumentada por estructuras que
+age, and recruitment of bird-dispersedplants was studied on
+atraen a los pacjaros tales como los pedazos de ramas des-
+a central Florida mined site with clay-rich soil undergoing
+gajadas que quedan en los acrboles. Por consiguiente, los
+primary succession over a seven-year period. Data collection
+cetrosparaponerse enpercha son, potencialmente, una berra-
+included 20 continuous months of seed dispersal data, an
+mienta para acelerar la sucesion ecol6gica y la reforesta-
+analysis of the total and germinable seedbanks, and plant
+cion de tierras perturbadas. A los efectos de determinar la
+recruitment at one and two years after a fire destroyed
+efectividad de los cetros en paisajes boscosos en restaura-
+perches and burnt vegetation. Seed dispersal to perches
+cion, se estudio la dispersion de semillas, el almacenamiento
+reached a peak seedfall by weight in August, which was at-
+de bancos de semillas y el reclutamiento de plantas disper-
+tributable to nonmigratory birds. Myrica cerifera, the most
+sadas por semillas en un sitio minado del centro de la Flo-
+abundant species dispersed to the sites, was the only species
+rida que posee un suelo rico en arcilla y que estai pasando
+dispersed during the winter and spring months, and it may
+por una sucesion primaria que ya lleva ma's de 7 anios de
+be a keystone species for the frugivorous bird guild in central
+duracion. La recoleccion de datos incluyo 20 meses conti-
+Florida Seedfall beneath perches had a higher diversity of
+seed genera, and seed numbers (340 seeds m-2 yr- 1) were nuos de datos de dispersion de semillas, un anaclisis del total
+de los bancos de semillas y de aquellos germinables y el
+150 times greater than in sites without perches. Seeds of bird-
+reclutamietno deplantas J y 2 anios despues de que unfuego
+dispersed plants in the seedbank under perches numbered 77
+destruyo los cetros y quemo la vegetacion. La dispersion de
+? 33 (m -2) in total and 17 ? 5 for the viable seedbank. The
+semillas hacia los cetros alcanzo un pico (medido en termi-
+population density of bird-dispersed plants was 1.4 and 2. 0
+nos delpeso de semillas depositadas) en agosto; estepicofue
+plants m-2 at one and two years after the fire. Less than
+atribuible a aves no migratorias. Myrica cerifera, la especie
+mas abundantemente dispersada a los sitios fue la uinica
+*Present address: Wildlife Conservation International, Coral Reef
+especie dispersada durante los meses de invierno y prima-
+Conservation Project, P.O. Box 99470, Mombasa, Kenya
+Paper submitted March 6, 1991; revised manuscript accepted June vera y puede llegar a ser una especie "keystone" para los
+20, 1992. paj]arosfrugivoros en el centro de la Florida La depositacion
+279
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms280 Primary Forest Succession McClanahan & Wolfe
+0.06% of the dispersed seeds survived to become seedlings. de semillas debajo de los cetros tuvo una mayor diversidad
+Species composition shifted from seedfall to seedlings, with en el genero de las semillas, y el nuzmero de semillas (340
+small-seeded, early-successional (r-selected) shrubs and semillas m-2 anio -) fue 150 veces mayor que en los sitios
+herbs becoming relatively more common than the desired sin cetros. El nu'mero de semillas deplantas dispersadaspor
+large-seeded, late-successional (K-selected) tree species. pcajaros en lo bancos de semillas debajo de los cetros fue 77
+Perches attracted birds and associated seeds, but the physi- ? 33 (m-2) para el total y 17 ? 5 para los bancos de
+cally harsh conditions created by primary succession and/or semillas viables. La densidad de lasplantas dispersadaspor
+high predation on seeds appeared to reduce the success of the pcajaros fue 1.4 y 2.0 plantas m-2 al inicio del primer y
+desired late-successional plant species. Nonetheless, there segundo anio depue's del incendio, respectivamente. Menos de
+was a higher abundance and diversity of bird-dispersed un 0.06% de las semillas dispersadas sobrevivieron para
+plants under perches, suggesting that perch structures have a transformarse enplaIntulas. Hubo un cambio en la composi-
+limited ability to enhance plant diversity under conditions cion de especies que comprendi6 todos los estadios entre
+of primary succession. depositacion de semillas y plantulas, con los arbustos de
+semillas pequenias y estadios sucesionales tempranos (i.e.
+especies r-seleccionadas) bacie'ndose relativamente mas co-
+munes que las especies arboreas de semillas ma's grandes y
+estadios sucesionales tardios (i.e. especies K-seleccionadas).
+Los cetros atrajeronpadjarosy las semillas asociadas, pero las
+condicionesfisicas rigurosas creadaspor la sucesion prima-
+ria y/o la alta predacion sobre las semillas parece reducir el
+exito de las deseadas especies deplantas que caracterizan los
+estadios sucesionales tardios. Sin embargo, bubo una mayor
+abundanciay diversidad deplantas dispersadasporpajaros
+debajo de los cetros, esto sugiere que las estructuras tipo
+perchas tienen una capacidad limitada para mejorar la di-
+versidad de plantas bajo condiciones de sucesion primaria
+Introduction 1986), herbivory (Harper 1969; Colley 1983; Clark &
+Clark 1985; Risch & Carroll 1986; Walker et al. 1986;
+Facilitation or acceleration of ecological succession is Sork 1987; Louda 1989; Bach 1990; Schupp 1990), lon-
+an important challenge for the reclamation, conserva- gevity, and disturbance frequency (Connell & Slatyer
+tion, and reforestation of forest ecosystems. In frag- 1977; Connell 1978; Walker et al. 1986) as determi-
+mented landscapes, lack of propagules or large distances nants of plant community structure. Reproduction and
+to sources of propagules can reduce the rate of forest dispersal are often assumed by many plant ecologists to
+recovery and result in landscapes persistently domi- be sufficient for regeneration, as seedfall (Hoppes 1988;
+nated by low-diversity and early-successional vegetation Young et al. 1988) and seedbank storages (Roberts
+(McClanahan 1986a, 1986b). Reforestation of late- 1981) are high and persist for long periods of time
+succession, high-diversity ecosystems may, at times, be (Kivilaan & Bandurski 1981; Chancellor 1986). Yet
+accelerated by planting desired species. Yet tree plant- many temperate forest species do not develop persis-
+ing is expensive in human energy and money and may tent seedbanks (Marquis 1975; Pickett & McDonnell
+not produce the same ecosystems (in terms of diversity 1989), and seedbanks may, therefore, have limited value
+and ecological processes) that result from nature's self- in reforesting disturbed sites (van der Valk & Pederson
+organization. Consequently, at times it may prove ben- 1989).
+eficial to enhance the attractiveness of disturbed sites to Recent research suggests that colonization can poten-
+animals that disperse propagules of late-successional tially be limited by poor seed set from pollen limitations
+species. Bird perches (such as snags) provide such a at low plant population density (McClanahan 1986c;
+service (DeBussche et al. 1982; McDonnell & Stiles Jennersten 1988; Worthen & Stiles 1988; Allison 1990),
+1983; Brown & Archer 1987; McClanahan & Wolfe large distances from seed sources (McClanahan 1986a,
+1987) and may prove useful in accelerating forest re- 1986b; Hughes & Fahey 1988), a lack of dispersing or-
+covery, particularly in highly fragmented forest land- ganisms or dispersal sites, or high post-dispersal mortal-
+scapes. ity Uanzen 1970; Clark & Clark 1984; Goldberg 1985;
+Historically, plant ecologists have largely focused on Sork 1987; Louda 1989). These limitations on plant col-
+post-germination processes such as resource competi- onization processes can potentially determine species
+tion (Clements et al. 1929; Salisbury 1936; Tilman composition, rates of vegetative development, and eco-
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/termsMcClanahan & Wolfe Primary Forest Succession 281
+system processes (Vitousek & Walker 1989). Recruit- boring the mined phosphorus approximately 5-10 m
+ment and colonization limitations are likely to be par- beneath the soil's surface) and the more sandy "over-
+ticularly important in highly fragmented landscapes burden." Soil, after mining, was compact, devoid of plant
+where forest patches are small, distances to seed material, high in clay and phosphorus, but low in nitro-
+sources are great, and seedbank storages have decayed gen and organic matter (Wallace & Best 1983). In 1983,
+or, in the case of primary succession, not developed. seven large (mean height = 11.3 ? 2.8 m) dead trees
+Previous work in central Florida's phosphate mining (snags) were erected with a pole-driving machine at
+region suggests that revegetation may be affected by the convenient locations throughout the site. Three snags
+fragmented nature of the landscape due to mining, ur- were placed together, while the other four were placed
+banization and agriculture (pasture and orange groves), haphazardly throughout the site. Snags were between
+which increases the distance to seed sources, reduces approximately 60 and 240 m from the floodplain forest
+seedfall to sites away from seed sources, and makes time edge (McClanahan & Wolfe 1987). Three seed traps
+an unreliable predictor of successional development were placed at 1, 2, and 3 m from the base of each snag,
+(McClanahan 1986a). McClanahan (1986a) suggested and a control trap was placed more than 10 m from the
+that biological information (biodiversity) is the cause of snag. Seed traps were constructed from plastic seedling
+ecological succession and that dispersal of this biodiver- trays (0.135 m2) with a fiberglass mesh bottom (1.4
+sity entails spatial dependency, while its introduction mm, which is smaller than the expected size of bird-
+and development are time-dependent processes. Conse- dispersed seeds) and a wire covering (2.5 cm openings)
+quently, McClanahan & Wolfe (1987) hypothesized that to help prevent seed loss through the bottom (by wash-
+the placement of snags on mined sites will increase the ing through the water percolation holes) or top
+density of bird-dispersed seeds arriving at sites and in- (through predation by rodents and birds). Seeds caught
+crease plant species richness, diversity, and rates of suc- in the three seed traps per snag were combined and
+cessional development by insuring the presence of late- considered as one sample in the data analysis. McClana-
+successional, animal-dispersed seeds. The validity of this han and Wolfe (1987) reported seed deposition be-
+prediction depends on the success or mortality of these neath these snags for two seasons (July to November
+seeds during initial recruitment stages. This study re- 1983 and 1984). This study reports on 20 continuous
+ports on the dispersal and recruitment of plants with months of seed dispersal between July 1984 and Febru-
+bird-dispersed (ornithocorous) seeds. Research focused ary 1986. Traps were visited monthly, seeds found in
+on quantities, timing, and species composition of seeds traps were collected, tested for hardness (gently rolled
+dispersed to perches (dead trees) and control plots, between fingers) as an indication of viability (Grabe
+their subsequent storage in the seedbank, and germi- 1970), and identified (using the University of Florida
+nation. These data are used to determine the role of Herbarium seed collection when necessary).
+seed deposition and early recruitment stages on vege- Bird species visiting snags and known to feed and
+tative regeneration of mined sites undergoing primary disperse seeds (Martin et al. 1951) were identified. Fru-
+succession. givorous bird species and their food plants were deter-
+mined from compiled studies (Martin et al. 1951; Mc-
+Clanahan 1984). All species reported in this study are
+Methods either frugivorous birds or bird-dispersed plants (Martin
+et al. 1951; McClanahan 1984). Seeds could not always
+This study presents seed dispersal data collected be- be identified with certainty to the species level, and
+tween 1984 and 1986 and seedbank, germination, and therefore the genus was used as the level of taxonomic
+recruitment studies undertaken between 1988 and resolution. Seeds were easily identifiable to the genus
+1990. Research was conducted on the Whidden Creek level, with the exception of the Vitaceae, which were
+phosphate reclamation site located in central Florida classified at the family level. Air-dried seeds of the var-
+(27042'N, 18051 'W). The site is adjacent to a floodplain ious genera were weighted (n = 20-100 seeds/genus)
+forest on one side and to pasture and early successional and used in the data presentation. Seed weight is gen-
+vegetation on the three other sides. Dominant fruiting erally a good indicator of the successional stage of the
+tree species (McClanahan 1984) in the floodplain in- plant, r-selected early successional plants having smaller
+cluded Magnolia virginiana (relative importance value seeds and K-selected late-successional plants having
+index (RIVI) = 9.2%) and Nyssa sylvatica (RIVI = larger seeds (Pianka 1970). Seed weight data accounted
+5.0% ), the saplings Sambucus canadensis (RIVI = for more than one species per genus because average
+10%), and species of Cornus (RIVI = 7.3%). The site seed weights found in traps were used, which reflected
+was mined for phosphate and recontoured prior to the species' relative abundance. Three species not
+1982. Soil, after mining and reclamation in 1982, was caught in traps were found in germination studies, and
+composed of the mixed-clay lense layer (originally har- their seed weights were determined from samoles avail-
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms282 Primary Forest Succession McClanahan & Wolfe
+able from the University of Florida Herbarium. In the neath snags must have originated from seed, but some
+spring of 1989, a fire swept through most of the site and were burnt in the fire and resprouted. Recruitment of
+burned all but one snag. bird-dispersed plants away from snags was monitored by
+Seed bank studies were undertaken to determine (1) an equivalent number of quadrats randomly placed at
+the total bird-dispersed seedbank (seeds unable to pass distances greater than 10 m from snags.
+through the 1.4-mm mesh on the bottom of the trap) In order to determine if snags increased the biodiver-
+and (2) the germinable bird-dispersed seeds found in sity (species richness and diversity) on mined sites, data
+the seedbank after the 1989 fire. The total bird- were analyzed to determine patterns of dispersal, seed-
+dispersed seedbank was determined in September 1989 bank densities, germination success, diversity, effect of
+by haphazardly taking a soil sample (0.25 m2) to a depth seed weight (as a measure of the species' successional
+of 10 cm within a 3-m radius of each of the six snags and stage), and species similarity patterns between succes-
+three control sites (haphazardly chosen sites more than sive colonization stages. Species diversity was calculated
+10 m from snags within the mined area). Above-ground using Simpson's (1949) Index (D = 1 -_ pi2), which
+vegetation (grasses and herbs) was removed, samples results in a number between 0 and 1,0 being the lowest
+washed through a 1.4-mm sieve, and the remaining sam- and 1 the highest possible diversity. Cluster analysis was
+ple dried (50? C for 2 days). Dried seeds and organic performed on the data (Ludwig & Reynolds 1988) to
+matter were floated off using a sodium bicarbonate, so- determine if the relative importance of species changed
+dium hexametaphosphate, and magnesium sulphate so- between seedrain, the total and germinable seedbank,
+lution (Malone 1967); they were then dried again and and recruitment. The Bray-Curtis (1957) measure of
+sorted for seeds. Seeds were identified and tested for similarity was used with average between-group link-
+viability using the tetrazolium technique (Grabe 1970). ages. Cluster analysis included only those bird-dispersed
+We refer to seedbank sieving results as the total seed- species found in the seedfall.
+bank.
+Seedbank germination was quantified during May
+1989 from soil collected beneath six snags and three Results
+control sites by taking six random cores per snag site
+(within 3 m from the base of the snag) with a PVC pipe The most common frugivorous birds visiting snags in-
+(diameter = 4.5 cm; surface area = 63.6 cm2) to a cluded Mockingbirds (Mimus polylottos), Common
+depth of 10 cm. Three cores were randomly combined Grackles (Quiscalus quiscula), and Brown Thrashers
+to make one sample, resulting in two samples per snag (Toxostoma rufum); Blue Jays (Cyanocitta cristata),
+and six control samples. Soil samples were placed in Boat-tailed Grackles (Quiscalus major), Robins (Tur-
+greenhouse seedling trays (to a depth of about 2 cm), dus migratorius), warblers (Parulidae), and Redbellied
+spread over a bed of vermiculite (about 3 cm depth), Woodpeckers (Picoides borealis) were less frequently
+watered daily, and lightly fertilized (6N-6P-6K) bi- observed. Twelve genera of bird-dispersed seed were
+weekly for the first three months. To account for seeds found beneath snags, compared to two genera for con-
+that might enter the greenhouse, three seedling trays trol traps. Total seedfall varied with peak seed densities
+were randomly placed among the seedbank study trays in August and March (Fig. la), but data analyzed by total
+and covered with sterilized peat (about 4 cm deep) to seed weight indicated that August was the peak of seed-
+act as controls. Emergent bird-dispersed plant seedlings fall biomass because many small seeds (such as Myrica)
+were identified (Wunderlin 1982) and counted for 10 fell in March. Total seed mass during seasonal peaks was
+continuous months. More than 95% of the seedlings less variable than seed mass of individual species, which
+emerged in the first two months. We refer to results frequently displayed different seedfall densities between
+from these germinated seeds as the germinable seed- 1984 and 1985. The Vitaceae had a high seedfall peak in
+bank. 1984 and a much smaller peak in 1985, while Cornus
+Plant recruitment at the study site was determined displayed the opposite pattern. Magnolia seedfall was
+from surveys completed in August 1989 and March similar for both years. Myrica, which had the highest
+1990. Beneath six snags, five 1-M2 quadrats were ran- seedfall density (Fig. 2), had a seedfall peak between
+domly placed within a 5-m radius of the snags. Bird- December and April, offset from most species (Fig. la).
+dispersed plants (plants with fleshy fruits; Martin et al. Myrica has a small seed, and therefore its seed mass
+1951) were identified (Wunderlin 1982) and counted. contribution was small. Seedfall density beneath snags
+Observation of root and stems indicated that a few bird- correlated negatively with seed weight and was best
+dispersed plants (<10%) may have resprouted from predicted by a semi-log relationship (ln(y) = 3.26 -
+plant rootstocks left by the fire; therefore, recruitment 0.021x; r = -0.69;p < 0.05; x = seed weight in mg;
+includes resprouting and germination from seeds. No y = density in M2), indicating that the majority of seeds,
+planting of bird-dispersed plants was undertaken near on a density basis, were from early successional plant
+snags, and therefore all bird-dispersed plants found be- species.
+Conservadion Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms100- 2
+McClanahan & Wolfe Primary Forest Succession 283
+(a) Z Seed numbers
+80 - p | \ ---0-- Seed weight
+E 60 ~~~~~~~~~~~~E
+N 0' 0
+0~~~~~~~~~~~~~~0
+20 -
+J AN S |O :N / D Ji F- -M'' OA -M' MJ Ja gAn So Ol lN 0D) J F
+20
+.*... Vitaceae()
+-*-CornusA
+a?~~~~~~~~~~~1 ab.
+----~O--- Magnolia /"
+* --~~- Persea
+al)I
+co984 - 0 Prunus 1
+J A SO0N DJ F M A M J J A SON D J F
+Figur(eC ) 1-U -C- ~a~l~l~~i~c~~aRrhpusa
+N -une0- - Phytolacca
+E 60 -e--Myrica
+..... k.... Lantana
+40-
+*0aJ)a~) ~FM~~A~M~J J9A
+Fiue .Sedal aten f a ttl edal umesan ee eghs ()tre ndvne,ad c srb
+collctedu 20e sng uigte2oot olcinpro
+Seedbank results differed depending on the technique data transformation (Fig. 3; ln(y) = 4.18 - 0.951n(x); r
+applied. Sieving produced a higher density and species = 0.86; p < 0.01). Assuming that average annual seed-
+richness than the germination technique (Table 1; Fig. fall was constant during the seven years of the snags'
+3). Testing by tetrazolium, however, indicated that less existence indicates that an average of about 3% of the
+than 2% of seeds were viable. For the eight species seedfall reached the seedbank (Table 2).
+found, smaller seeds were more abundant than larger Only three genera were found in the greenhouse-
+seeds and were best predicted by a double logarithmic germinated seedbank. Solanum, a genus not found in
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms284 Primary Forest Succession McClanahan & Wolfe
+50 - (a)
+200
+E i
+40-
+30-
+100 C 20-
+10
+0
+Myr Phy Lan VIt Cor Pru Mag Per
+Genera
+o 20 - __ ~~~~~~~~~~~~~~(b)
+Cal Myr Phy Lan Rhu Tox Vit Cor Pru Mag Nys Per
+Genera
+Figure 2. Total annual seedfall (x ? S.E) of each CY
+genus collected beneath snags. Genera code is the
+C 10grX
+first three letters of the genus name (see Table 2).
+Data are arranged from lightest seeds on the left
+to heaviest seeds on the right Seeds numbers and Sol M y r Lan
+0
+diversity caught in control traps away from perches
+were negligible and therefore are not presented.
+Genera
+Figure 3. Seed density (x S.E) of genera found
+seedfall probably due to its small seed size (it may have in the seedbank by (a) a sieving and flotation tech-
+passed through the 1.4-mm mesh of the seedtrap bot- nique and (b) germination technique. Genera code
+tom), was numerically dominant. As in the total seed- is the first three letters of the genus name (see Table
+bank, small-seeded genera were more common than 2; Sol = Solanum). Data are arranged from smallest
+large-seeded genera (Fig. 3b), although the presence of seeds on the left to largest seeds on the right
+only three species makes this observation statistically
+untestable. Bird-dispersed seeds were not found in seed-
+lation density of recruits. The abundance of most ger-
+bank samples collected away from perches or green-
+minated species was constant between years (Mann-
+house seedling trays that controlled for seed inputs
+Whitney U-test, NS), with the exception of Phytolacca
+while trays were in the greenhouse (Table 1).
+and Sambucus (Mann Whitney U-test, p < 0.01). Clus-
+Recruitment of seedlings from bird-dispersed seeds
+ter analysis of the species' relative importance (Fig. 5)
+beneath the perches was low (-2 m-2) but about two
+indicated that seedfall and total seedbank species com-
+orders of magnitude greater than sites without perches
+position were similar, as were the two annual surveys of
+(Table 1). The most abundant recruiting species with
+recruited plants. The germinable seedbank was interme-
+bird-dispersed seeds were shrubs or herbs, such as
+Myrica, Phytolacca, and Lantana, that have small- to
+intermediate-sized seeds (Fig. 4). There was no signifi- Table 2. Genera found within seed traps under perches, their
+cant linear correlation between seed weight and popu- genera code used in figures, seed weight, percentage of the
+seedfall that reached the total seedbank, and percentage of
+seedfall that recruited based on the assumption that seedfall was
+constant during the seven years of the perches' existence.
+Table 1. Total density and diversity of seeds and plants found
+beneath snags and controls. Seedbank Field
+Weight % Recruitment
+Snags (m -2)* Controls (m-2)* Genus Code (mg) Arrival %
+(sample Size) (Sample Size) Diversity** Callicarpa Cal 0.70 0.0 0.0
+Seedfall 340.9 ? 66.1 (7) 2.04 ? 2.04 (7) 0.76 Myrica Myr 1.9 3.4 0.028
+Total Seedbank 77.3 ? 33.6(6) 0 (3) 0.67 Phytolacca Phy 5.6 7.0 0.13
+Lantana Lan 12.1 0.53 0.15
+Germinable Rhus Rhu 12.5 0 0.0
+Seedbank 17.0 ? 5.2 (12) 0(6) 0.37
+1989 Field Toxicodendron Tox 14.3 0.0 0.0
+Recruitment 1.4 ? 0.25 (30) 0(30) 0.77 Vitaceae Vit 17.5 2.83 0.038
+Cornus Cor 18 14.0 0.0
+1990 Field Prunus Pru 51 1.51 .11
+Recruitment 2.0 ? 0.45 (30) 0.07 ? 0.04 (30) 0.78
+Magnolia Mag 73 .63 0.0
+Nyssa Nys 105 0.0 0.0
+* x ? SE
+Persea Per 159 9.0 .22
+** Simpson's Index, D.
+No statistical tests are provided for seed densities as there is a large Average (?S.D.) 3.2 ? 4.5 0.056 ? 0.076
+difference between snags and controls.
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/termsMcClanahan & Wolfe Primary Forest Succession 285
+1.0I 1990
+1.2'-
+0060*4 1.0 - ~~~El 1 989
+E 0.8
+0.6
+0) 0.4-
+0.2-
+0.0 r
+Sol Sam Rub Myr Phy Lan Vit Mom Pru Per
+Genera
+Figure 4. Density of plants with ornithochorous seeds found beneath snags for two time periods (August 1989
+and May 1990). Genera code is the first three letters of the genus name (see Table 2; Sol = Solanum, Rub =
+Rubus, Mom = Momordica). Data are arranged from smallest seeded genera on the left to the largest seeded
+genera on the right
+diate between seedfall and plant recruitment. The per- but perhaps simplistic knowledge of the processes.
+centage of seedfall that germinated in the field was ap- Many details were lost due to sampling at different
+proximately 0.06% (Table 2). scales (different sized sample plots). For example, seed-
+traps used for seedfall measurements were sufficient for
+intermediate to large seeds (shortest axis more than 2
+Discussion mm), but it was apparent from germination results that
+some genera with small seeds (such as Solanum, Sam-
+The objectives of this study were to determine if the bucus, and Rubus) were probably not retained or were
+placement of snags would accelerate succession and in- missed while seed traps were searched. The germinable
+crease plant biodiversity on disturbed lands within a seedbank study found only three species. This may be
+fragmented forest landscape. This was to be achieved by attributable in part to the small soil-surface area sam-
+following bird-dispersed seeds through early post- pled-to species-area considerations-and to the low
+dispersal stages to determine the importance of snags in seed density. Unless a large area of greenhouse space is
+enhancing seed dispersal and subsequent plant recruit- available, this is likely to be a problem of many seedbank
+ment on the plants' assemblage structure and diversity. studies (Simpson et al. 1989). The seedbank sieving
+The techniques used were sufficient to develop a basic technique allows sampling at a larger scale but, depend-
+ing on mesh size, small seeds may be missed or lost
+during sorting and counting. This technique may be suf-
+Seedfall ficient for determining total seedbank quantities and
+Total species composition for species with large seeds, but
+Seedbank
+many species with small seeds are undoubtedly lost.
+Germina ble
+Also, because a large percentage of this seedbank is not
+Seedbank
+I I * viable (Schneider & Sharitz 1986; this study), the tetra-
+1 989 -
+Recruitment zolium technique for testing seed viability is also nec-
+1 990 essary. It is not clear why most seeds tested in this study
+Recruitment appeared nonviable. The tetrazolium test is fairly sub-
+jective, however, relies heavily on expertise and intu-
+100 80 60 40 20 1 0
+ition (Leadum 1984), and may be affected by handling
+and methodologies used prior to the test. In particular,
+% Similarity
+seed removal procedures such as storage, soaking, and
+Figure 5. Cluster analysis of similarity (Bray-Curtis drying may have detrimental effects on seeds.
+1957) of the relative species abundance in the seed- Seed dispersal was highly seasonal. Although seasonal
+fall, total and viable bird-dispersed seedbank, and peaks were consistent for combined genera between
+germinated plants at one and two years after a fire. studied years, some genera showed marked variation.
+Analysis based on genera found in the seedfall. Skeate's (1987) data on fruiting species in northern
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms286 Primary Forest Succession McClanahan & Woffe
+Florida (around 300 km north of our study site) also interpretations (Pickett et al. 1987). Under conditions
+showed marked between-year variation in some species. where seed mortality is high and random, species having
+Skeate (1987) found a strong correspondence between the highest seed inputs (early-successional and small-
+peak fruiting and the peak presence of migratory birds seed species) are likely to become increasingly domi-
+between November and January. A comparison with nant with time, simply due to the increased probability
+Skeate's data suggests that there were consistent differ- of localized extinction of the less abundant species. Al-
+ences in fruiting times of forest species between north ternatively, processes such as predation, competition,
+and central Florida. Our study shared many of the same physical stress (such as fire, desiccation, soil condi-
+species, but seed biomass and species richness peaked tions), and the probability of finding a "safe site" may
+in August, before the arrival of migratory birds. This differentially increase the mortality of large-seeded, late-
+suggests that most seed dispersal by birds in central successional species. The conditions of primary succes-
+Florida is carried out by resident birds. The lack of fre- sion (low organic matter and a high clay soil) were
+quent freezes may maintain a more stable population of likely to be harsh for most seeds, but perhaps more so
+frugivorous birds than in regions farther to the north. for late-successional seeds. The soils' compact structure
+Furthermore, earlier fruiting may also occur due to the may make it difficult for large seeds to enter and be-
+longer growing season in central Florida. come incorporated into the seedbank. Seeds remaining
+The unique dispersal season of Myrica during winter on the soil surface would presumably suffer greater
+and spring suggests that it may be an important food mortality from factors such as predation and desicca-
+source for frugivorous birds between summer fruiting tion. Wilson and Whelan (1990), working with a similar
+peaks. Myrica has a low pericarp/seed ratio but a high group of seed genera, found that seed-eating ants (com-
+wax content (McClanahan & Wolfe personal observa- mon at our site; Dunn 1988) preyed most heavily on
+tion). This suggests that it may be a less preferred fruit large seeds.
+in the summer when birds require water and sugars, but Myrica, a successful species on the site, is nitrogen-
+more attractive during the winter when energy stores fixing (Vitousek & Walker 1989), perhaps allelopathic
+are important (Herrera 1982). The availability ofMyrica (Dunevitz & Ewel 1981), and frequently dominant on
+between seasonal fruiting peaks suggests that it may sup- early-successional land in the phosphate mining region
+port the frugivore guild during periods of low fruit (Rushton 1983). Many of its dispersal and vegetative
+abundance and may, therefore, be a frugivore "keystone characteristics appear to make it well suited for coloni-
+species" (Terborgh 1986). zation of disturbed soils (Vitousek & Walker 1989).
+Snags and other vegetative structures clearly have the Myrica colonization may provide nitrogen, organic mat-
+ability to attract birds and seeds (DeBussche et al. 1982; ter, shade, and a moist microhabitat, but its potential
+McDonnell & Stiles 1983; Guevara et al. 1986; McClana- allelopathy may be detrimental to the establishment of
+han & Wolfe 1987; Vitousek & Walker 1989), which other plants. Lantana camera, another successful spe-
+affects reforestation (McClanahan 1986a, 1986b), colo- cies beneath snags, is an exotic to Florida and appears
+nization potential, plant community structure, and eco- well suited for colonization of disturbed land. Conse-
+system processes (Vitousek & Walker 1989; Aplet quently, it remains possible that snags will enhance the
+1990). But to what extent is the resultant plant associ- success of "pest" or exotic species that rely on frugiv-
+ation a reflection of dispersal? Our study indicates that orous birds.
+areas with perches had a higher abundance and diversity Sites may be recruitment-limited in the sense that
+of bird-dispersed plants growing beneath them than ar- seed availability may affect a site's resultant plant com-
+eas without perches. Yet plant associations under position. However, the initial floristics model (Egler
+perches did not entirely reflect seed inputs during the 1954) is not entirely sufficient to explain colonization,
+study period and were not successful in reforesting late- because processes (either random or deterministic) re-
+successional genera before perches were destroyed. Be- sult in species composition changes between recruit-
+tween dispersal and germination, a selection process ment stages (Pickett et al. 1987). From the reclamation
+occurred that changed relative genera composition (Fig. and reforestation perspective, the placement of snags
+5). Our data indicate that small-seeded genera were may be useful in maintaining a continuous, stable, and
+most frequently deposited beneath snags (a semi-log re- high diversity of seed inputs. This may increase the
+lationship), but that small seeds became increasingly probability of reforesting later-successional species, in-
+dominant in the seedbank (a log-log relationship). Ger- creasing species diversity, and accelerating ecological
+minated and sprouted plants up to two years after the succession, but it will not necessarily insure establish-
+fire were typically early-successional shrubs with small ment of desired species until conditions such as soil,
+seeds. Many late-successional tree species present in the predators, and microclimate are appropriate for their
+seedrain appeared to suffer from mortality and were not establishment. Snags and other bird attractors may be
+present among recruiting genera. useful techniques for insuring a high abundance and
+These results have several not necessarily exclusive diversity of seed inputs on disturbed sites, but snags do
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/termsMcClanahan & Woffe Primary Forest Succession 287
+not at present appear to be a panacea for inexpensively Connell, J. H., and R. 0. Slayter. 1977. Mechanisms of succes-
+reforesting disturbed land. Snags may have their greatest sion in natural communities and their role in community sta-
+bility and organization. American Naturalist 111:1119-1144.
+success in conjunction with other factors, such as plant-
+ing desired but poorly colonizing species, and planning
+DeBussche, M.,J. Escarre, andJ. Lepart. 1982. Ornithocory and
+disturbances such that distances to seed sources are re- plant succession in Mediterranean abandoned orchards. Veg-
+duced (McClanahan 1986a, 1986b). etatio 48:255-266.
+Dunevitz, V., and J. Ewel. 1981. Allelopathy of wax myrtle
+Acknowledgments (Myrica cerifera) on Schinus terebinthfolius. Florida Scientist
+44:13-20.
+This research was part of a project of the Center for
+Dunn, W. J. 1988. Ecological paradigms, species interactions,
+Wetlands, University of Florida, under contract with the
+and primary succession on phosphate-mined land. Ph.D. thesis.
+Florida Institute for Phosphate Research: "Interactions University of Florida, Gainesville, Florida.
+of Wetlands with Phosphate Mining," H. T. Odum and
+G. R. Best, principal investigators. We appreciate the as- Egler, F. E. 1954. Vegetation science concepts. 1. Initial floris-
+tic composition: A factor in old-field vegetation development.
+sistance of G. R. Best, B. Tighe, N. Raymond, J. Tyvoll, C.
+Vegetatio 4:412-417.
+Cox, S. Brown, M. Brown, and the staff of the University
+of Florida Herbarium. H. T. Odum, J. Aho, J. Putz, and Erdelen, M. 1984. Bird communities and vegetation structure.
+two anonymous reviewers made useful comments on I. Correlations and comparisons of simple and diversity indi-
+the manuscript. ces. Oecologia 61:277-284.
+Garwood, N. C. 1983. Seed germination in a seasonal tropical
+Literature Cited forest in Panama: A community study. Ecology 53:159-181.
+Allison, T. D. 1990. Pollen production and plant density affect
+Goldberg, D. E. 1985. Effects of pH, competition, and seed
+pollination and seed production in Taxus canadensis. Ecology
+predation on the distributions of two tree species. Ecology
+71:516-522.
+66:503-511.
+Aplet, G. H. 1990. Alteration of earthworm community bio- Grabe, D. F. 1970. Tetrazolium testing handbook for agricul-
+mass by alien Myricafaya in Hawai'i. Oecologia 82:414-416.
+tural seeds (29). Association of Seed Analysts,
+Bach, C. E. 1990. Plant successional stage and insect herbivory: Green, D. G. 1989. Simulated effects of fire, dispersal and spa-
+Flea beetles and sand-dune willow. Ecology 71:598-609. tial pattern on competition within forest mosaics. Vegetatio
+82:139-153.
+Bray, J. R., and J. T. Curtis. 1957. An ordination of the upland
+forest communities of southern Wisconsin. Ecological Mono- Guevara, S. E., S.E. Purata, and E. Van der Maarel. 1986. The
+graphs 27:325-349. role of remnant forest trees in tropical secondary succession.
+Vegetatio 66:77-84.
+Brown, J. R., and S. Archer. 1987. Woody plant dispersal and
+gap formation in a North American subtropical savanna wood- Herrera, C. M. 1982. Seasonal variation in the quality of fruits
+land: The role of domestic herbivores. Vegetatio 73:73-80. and diffuse coevolution between plants and avian dispersers.
+Ecology 63:773-785.
+Chancellor, R. J. 1986. Decline of arable weeds during 20 years
+Hoppes, W. G. 1988. Seedfall pattern of several species of bird-
+in soil under grass and the periodicity of seedling emergence
+dispersed plants in an Illinois woodland. Ecology 69:320-329.
+after cultivation. Journal of Applied Ecology 23:631-638.
+Hughes, J. W., and T.J. Fahey. 1988. Seed dispersal and colo-
+Clark, D. A., and D. B. Clark. 1984. Spacing dynamics of a trop-
+nization in a disturbed northern hardwood forest. Bulletin of
+ical rain forest tree: Evaluation of the Janzen-Connell model.
+the Torey Botanical Club 115:89-99.
+American Naturalist 124:769-788.
+Janzen, D. H. 1970. Herbivores and the number of tree species
+Clark, D. B., and D. A. Clark. 1985. Seedling dynamics of a trop-
+in tropical forests. American Naturalist 104:501-528.
+ical tree: Impacts of herbivory and meristem damage. Ecology
+66:1884-1892.
+Jennersten, 0. 1988. Pollination inDianthus deltoides (Caryo-
+phyllaceae): Effects of habitat fragmentation on visitation and
+Clements, F. E., J. E. Weaver, and H. C. Hanson. 1929. Plant seed set. Conservation Biology 2:359-366.
+competition: An analysis of community functions. Publication
+No. 398. Carnegie Institution of Washington. Washington, D.C. Kivilaan, A., and R. S. Bandurski. 1981. The one 100-year pe-
+riod for Dr. Beal's seed viability experiment. American Journal
+Colley, P. D. 1983. Herbivory and defensive characteristics in of Botany 68:1290-1292.
+a lowland tropical forest. Ecological Monographs 53:209-233.
+Leadum, C. L. 1984. Quick tests for tree seed viability (18).
+Connell, J. H. 1978. Diversity in tropical rain forests and coral British Columbia Ministry of Forests, Victoria, British Colum-
+reefs. Science 199:1302-1310. bia, Canada.
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms288 Primaly Forest Succession McClanahan & Wolfe
+Louda, S. M. 1989. Predation in the dynamics of seed regener- Schneider, R. L., and R. R. Sharitz. 1986. Seed bank dynamics in
+ation. Pages 25-52 in M. A. Leck, V. T. Parker, and R. L. Simp- a southeastern riverine swamp. American Journal of Botany
+sons. Ecology of soil seed banks. Academic Press, San Diego, 73:1022-1030.
+California.
+Schupp, E. W. 1990. Annual variation in seedfall, postdispersal
+Ludwig, J. A., and J. F. Reynolds. 1988. Statistical ecology: A predation, and recruitment of a neotropical tree. Ecology
+primer on methods and computing. John Wiley & Sons, New 71:504-515.
+York, New York.
+Simpson, E. H. 1949. Measurements of diversity. Nature
+Malone, C. R. 1967. A rapid method for enumeration of viable 163:688.
+seeds in soil. Weeds 15:381-382.
+Simpson, R. L., M. A. Leck, and V. T. Parker. 1989. Seed banks:
+Marquis, D. A. 1975. Seed storage and germination under General concepts and methodological issues. Pages 3-8 in
+northern hardwood forests. Canadian Journal of Forestry Re- M. A. Leck, V. T. Parker, and R. L. Simpsons. Ecology of soil
+search 5:478-484. seed banks. Academic Press, San Diego, California.
+Martin, A. C., H. S. Zim, and H. S. Nelson. 1951. American Wild- Skeate, S. T. 1987. Interactions between birds and fruits in a
+life and Plants. McGraw-Hill, New York, New York. northern Florida hammock community. Ecology 68:297-309.
+McClanahan, T. R. 1984. The effects of dispersal on ecological Sork, V. L. 1987. Effects of predation and light on seedling
+succession and optimal size islands. M.A. thesis. University of establishment in Gustavia superba Ecology 68:1341-1350.
+Florida, Gainesville, Florida.
+Terborgh, J. 1986. Community aspects of frugivory in tropical
+McClanahan, T. R. 1986a The effect of a seed source on pri- forests. Pages 371-384 in A. Estrada, and T. H. Flemings. Fru-
+mary succession in a forest ecosystem. Vegetatio 65:175-178. givores and seed dispersal. Dr. W. Junk Publishers, Dordrecht,
+The Netherlands.
+McClanahan, T. R. 1986b. Seed dispersal from vegetation is-
+lands. Ecological Modelling 32:30 1-309. Thompson, K, and J. P. Grime. 1979. Seasonal variation in the
+seed banks of herbaceous species in ten contrasting habitats.
+McClanahan, T. R. 1986c. Pollen dispersal and intensity as cri- Journal of Ecology 67:893-921.
+teria for the minimum viable population and species reserves.
+Environmental Management 10:381-383. Tilman, D. 1986. Resources, competition and the dynamics of
+plant communities. Pages 51-65 in M. J. Crawley. Plant ecol-
+McClanahan, T. R., and R. W. Wolfe. 1987. Dispersal of orni- ogy. Blackwell Scientific Publications, Oxford, England.
+thochorous seeds from forest edges in central Florida. Vege-
+tatio 71:107-112. van der Valk, A. G., and R. L. Pederson. 1989. Seed banks and
+the management of restoration of natural vegetation. Pages
+McDonnell, M.J., and E. W. Stiles. 1983. The structural com- 329-346 in M. A. Leck, V. T. Parker, and R. L. Simpsons. Ecol-
+plexity of old field vegetation and the recruitment of bird- ogy of soil seed banks. Academic Press, San Diego, California.
+dispersed plant species. Oecologia 56:109-116.
+Vitousek, P. M., and L. R. Walker. 1989. Biological invasion by
+Pianka, E. R. 1970. On r- and K-selection. American Naturalist Myrica faya in Hawai'i: Plant demography, nitrogen fixation,
+104:592-597. ecosystem effects. Ecological Monographs 59:247-265.
+Pickett, S. T. A., and M. J. McDonnell. 1989. Seed bank dynam- Walker, L. R., J. C. Zasada, and F. S. Chapin. 1986. The role of
+ics in temperate deciduous forests. Pages 123-148 in M. A. life history processes in primary succession on an Alaskan
+Leck, V. T. Parker, and R. L. Simpsons. Ecology of soil seed floodplain. Ecology 67:1243-1253.
+banks. Academic Press, San Diego, California.
+Wallace, P. M., and G. R. Best. 1983. Enhancing ecological suc-
+Pickett, S. T. A., S. L. Collins, and J.J. Armesto. 1987. Models, cession (6): Succession of vegetation, soils and mycorrhizal
+mechanisms and pathways in succession. The Botanical Re- fungi following strip mining for phosphate. University of Ken-
+view 53:335-371. tucky, Lexington, Kentucky.
+Risch, S.J., and C. R. Carroll. 1986. Effects of seed predation by Wilson, M. F., and C.J. Whelan. 1990. Variation in postdis-
+a tropical ant on competition among weeds. Ecology persal survival of vertebrate-dispersed seeds: Effects of density,
+67:1319-1327. habitat, location, season, and species. Oikos 57:191-198.
+Roberts, H. A. 1981. Seed banks in soils. Advances in Applied Worthen, W. B., and E. W. Stiles. 1988. Pollen-limited fruit set
+Biology 6:1-55. in isolated patches of Maiant*emum canadense Desf. in New
+Jersey. Torrey Botanical Club 115:299-305.
+Rushton, B.T. 1983. Ecosystem organization in phosphate
+clay-settling ponds. M.A. thesis. University of Florida, Gaines- Wunderlin, R. P. 1982. Guide to the vascular plants of central
+vylle, Florida. Florida. University Presses of Florida, Tampa, Florida.
+Salisbury, E.J. 1936. Natural selection and competition. Pro- Young, K R., J. J. Ewel, and B. J. Brown. 1987. Seed dynamics
+ceedings of the Royal Society of London (B) 121:47-49. during forest succession in Costa Rica. Vegetatio 71:157-1 73.
+Conservation Biology
+Volume 7, No. 2, June 1993
+This content downloaded from 209.35.68.104 on Mon, 23 Mar 2026 10:57:36 UTC
+All use subject to https://about.jstor.org/terms

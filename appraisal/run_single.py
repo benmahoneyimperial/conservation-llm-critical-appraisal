@@ -33,6 +33,10 @@ def analyse_single_paper(file_path: str):
 
     if isinstance(results, dict):
         for tree_name, tree_data in results.items():
+            if tree_name == "overall":
+                print(f"\n--- OVERALL BIAS RISK ---")
+                print(f"  Final Judgment: {tree_data}")
+                continue
             print(f"\n--- {tree_name} ---")
             final_judgment = tree_data.get("result", "N/A")
             for step in tree_data.get("path", []):

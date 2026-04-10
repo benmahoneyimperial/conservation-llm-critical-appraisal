@@ -1,0 +1,553 @@
+Bird Perches Increase Forest Seeds on Puerto
+Rican Landslides
+Aaron B. Shiels1,2,3 and Lawrence R. Walker1
+Abstract troduced perches. Because 99% of the seed inputs to con-
+trols and perch plots in the six landslides were wind-
+Landslides result in the loss of vertical vegetative structure,
+dispersed seeds (mostly graminoids), perches can improve
+soil nutrients, and the soil seed bank. These losses impede
+landslide restoration if woody plants establish and shade
+timely recovery of tropical forest communities. In this study
+out the dominant graminoid and climbing fern ground
+we added bird perches to six Puerto Rican landslides with
+cover. Although increasing seed inputs from forest species
+three types of surfaces (bare, climbing fern, grass) in an ef-
+is a critical step in accelerating revegetation of landslides,
+fort to facilitate inputs of forest seeds through bird dispersal
+we suggest that supplemental restoration techniques be ap-
+and to accelerate plant succession. Numbers of bird-
+plied in addition to bird perches to promote forest recovery.
+dispersed forest seeds were significantly higher in plots be-
+neath introduced perches than in control plots. Perches did
+not increase forest seedling densities compared with control Key words: bird perches, disturbance, landslides, Puerto
+plots. Seven different species of birds were observed on in- Rico, revegetation, seeds, seedlings, seed dispersal.
+Introduction mon dispersal mechanism for seeds in disturbed areas, as
+Landslides are among the most severe natural disturbances shown in forest gaps in Panama (Augspurger & Franson
+in tropical rainforests (Garwood et al. 1979; Walker et al. 1988) and pastures in a dry forest in Costa Rica (Janzen
+1996; Restrepo & Vitousek 2001) and are relatively com- 1988). However, the wind-dispersed species such as grasses
+mon in Puerto Rico as a result of high rainfall events (e.g., and ferns that initially colonize tropical landslides (e.g., in
+hurricanes, tropical storms) and steep slopes (Larsen & Hawaii [Restrepo & Vitousek 2001] and in Puerto Rico
+Simon 1993). Although landslides are part of the natural [Walker & Boneta 1995]) may slow succession by being
+disturbance regime in Puerto Rico, approximately half of physically and numerically dominant for decades (Walker
+the total landslides are associated with roads (Larsen & 1994; Wunderle 1997). Vertebrates, and especially birds,
+Torres Sanchez 1998), suggesting anthropogenic distur- disperse seeds of mid- to late-successional trees and shrubs,
+bance increases landsliding. The loss of existing vegetation particularly in wet tropical forests (Devoe 1989; Wunderle
+and topsoil after a landslide results in the loss of vertical 1997). Additionally, some bird species in the tropics dis-
+vegetative structure (Walker 1994), most soil nutrients play preference to gaps compared with the forest under-
+(Walker et al. 1996), and the soil seed bank (Guariguata story (Schemske & Brokaw 1981; Levey 1988), though
+1990). These losses make it more difficult to alleviate soil perch availability may limit seed dispersal by birds to open
+erosion and to restore rainforest communities. sites (Campbell et al. 1990). The introduction of perches
+The availability of plant propagules has been proposed may facilitate dispersal of forest seeds by birds, which may
+as one of the major limiting factors for plant colonization in turn accelerate plant succession on landslides. However,
+on landslides in Puerto Rico (Walker et al. 1996). Because seed germination and seedling establishment on landslides
+few seeds remain in the soil after a landslide (Guariguata may be further restricted by other factors, such as the
+1990), plant succession depends primarily on seed rain availability of soil nutrients on recently eroded landslides
+(Restrepo & Vitousek 2001). Past studies of seed dispersal (Shiels 2002).
+to disturbed sites in the tropics have focused on treefall Although several studies have inferred that the presence
+gaps (Augspurger & Franson 1988; Denslow & Gomez of forest seeds and seedlings below established shrubs and
+Diaz 1990) and land clearings (Young et al. 1987; Willson isolated trees was a result of seed deposition by birds (Gue-
+& Crome 1989; Holl 1998) and only occasionally on land- vara et al. 1986; Toh et al. 1999; Slocum 2001), experimen-
+slides (Walker & Neris 1993). Wind is often the most com- tal studies using introduced perches as recruitment foci are
+less common. Bird perches have been constructed to in-
+crease seed rain in temperate pastures (McDonnell &
+1Department of Biological Sciences University of Nevada, Las Vegas, 4505 Stiles 1983; McDonnell 1986), temperate mined sites (Mc-
+Maryland Pkwy., Las Vegas, NV 89154-4004, U.S.A.
+2Address correspondence to A. B. Shiels, email shiels@sunites.upr.clu.edu Clanahan & Wolfe 1993), and tropical pastures in Costa
+3Current address: Institute for Tropical Ecosystem Studies, University of Rica (Holl 1998) and Colombia (Aide & Cavelier 1994)
+Puerto Rico, P.O. Box 23341-3341, San Juan, PR 00931-3341, U.S.A.
+but not, to our knowledge, on landslides.
+© 2003 Society for Ecological Restoration International In this study perches were added to landslides in Puerto
+DECEMBER 2003 Restoration Ecology Vol. 11 No. 4, pp. 457–465 457Bird Perches Increase Forest Seeds
+Rico to determine the ecological role of birds in plant suc- (Wiley & Bauer 1985). Several species are found more fre-
+cession on landslides and to test the practicality of perches quently in forest gaps than in the mature forest (Wunderle
+to increase forest seed inputs and accelerate forest recov- et al. 1987). Over the elevational range covered by the chosen
+ery on landslides. Specifically, we addressed the following landslides, avian species diversity was similar (J. Wunderle
+questions: 2001, U.S. Forest Service, personal communication).
+Landslides less than 20 m wide or long were excluded
+(1) Does introducing perches to Puerto Rican landslides
+from this study. From all remaining landslides in the LEF
+increase forest seeds and seedlings?
+that were readily accessible (i.e., (cid:3)200 m from a road), we
+(2) To what extent does the local bird community use the
+randomly chose six landslides comprised of two landslides
+introduced perches?
+from each of the following three dominant ground cover
+(3) Does existing vegetation ground cover (or lack thereof)
+types: Gleicheniaceae climbing fern (ES9, ES17), grass
+affect bird visitation to perches, forest seed inputs, and
+(ES15, ES16), and bare ((cid:4)80% exposed soil; RB12, MY7).
+forest seedling establishment?
+Landslides were defined by watersheds (ES, Río Espíritu
+(4) What are the restoration implications of adding bird
+Santo; RB, Río Blanco; MY, Río Mameyes; and numbered
+perches to Puerto Rican landslides?
+as in previous studies at these sites, e.g., see Walker &
+Neris 1993; Myster & Walker 1997). Dominant vegetation
+Methods surrounding each landslide was noted, and elevation, area
+of the landslide, aspect, slope, and light intensity were also
+Study Site
+recorded for each landslide (Table 1).
+This study took place on landslides between 450 and 650 m
+a.s.l. in the Luquillo Experimental Forest (LEF). The LEF
+covers roughly 110 km2 (11,000 ha) in northeastern Puerto Perch Additions
+Rico, between 18o15(cid:2)N–18o23(cid:2)N and 65o52(cid:2)W–65o48(cid:2)W. On each landslide we established four circular plots (each
+Mean annual precipitation ranges from 3,000 to 4,000 mm 2 m diameter; 3.14 m2) no closer than 5 m from the nearest
+with high year-to-year variation and little seasonality. Mean forest edge to the center of the plot, such that each plot
+monthly temperatures range from 21 to 25oC (Brown et al. was at least 4 m on center from each adjacent plot as one
+1983; Soil Survey Staff 1995). of four corners of a square or along a straight line follow-
+The natural vegetation where this study occurred is sub- ing the forest edge, depending on the landslide dimen-
+tropical lower montane wet and rain forest sensu Holdridge sions. Two of the four plots on each landslide were ran-
+(Ewel & Whitmore 1973). Common landslide-colonizing domly assigned introduced perches (hereafter referred to
+vegetation includes several types of grasses (e.g., Andro- as perches) and two plots served as controls. Perches were
+pogon, Paspalum), thicket-forming climbing ferns (Dicran- made from tree saplings retrieved near each landslide;
+opteris, Gleichenia), other ferns (e.g., Cyathea, Nephrolepis), stripped of leaves, flowers, and fruits; and erected to a
+herbs (e.g., Nepsera, Sauvagesia), and woody colonizers, height of 4–4.5 m above the ground. Perches were held in
+such as Cecropia and Tabebuia (Walker & Boneta 1995; place by burying approximately 0.7 m of the lower section
+Walker et al. 1996). Botanical nomenclature follows Little of the perch in the ground and stabilizing the perch by at-
+et al. (1974) for trees, Taylor (1994) for other flowering taching guidewires to stakes. All perches were thinned to
+plants, and Proctor (1989) for ferns. have approximately equal branching area (17–18 branches
+Approximately half of the 246 bird species that occur on (cid:4) 1 cm diameter at the main stem). Among the six land-
+the island of Puerto Rico are breeding permanent resi- slides a total of three tall naturally occurring stems were
+dents and half are nonbreeding migrants and visitors (Raf- trimmed to 1.3 m height to avoid complications with this
+faele 1989). The LEF is home to 66 species of land birds study. Introduced perches were used in this study instead
+Table 1. Site characteristics for the six landslides used for perch additions in the Luquillo Experimental Forest in northeastern Puerto Rico.
+Light above Light at
+Canopy Ground Level
+Dominant Elevation Area Slope ((cid:5) Einsteins• ((cid:5) Einsteins•
+Site Vegetation (m a.s.l) (m2) Aspect (degree) m(cid:6)2•s(cid:6)1) m(cid:6)2•s(cid:6)1)
+RB12 None; bare soil 650 506 E 34 2,000 2,000
+MY7 None; bare soil 630 1,120 NE 25 2,700 1,370
+ES9 Climbing fern 470 1,444 NW 20 2,300 20
+ES17 Climbing fern 440 851 NW 23 1,975 60
+ES15 Grass 480 1,722 NW 30 2,300 300
+ES16 Grass 480 1,295 N 18 2,200 175
+The area for each site was determined from a rectangle using the widest dimensions. Light intensity was determined by averaging three measurements taken between
+noon and 2 p.m. local time on a clear day ((cid:3)10% cloud cover) at two different heights: 1 m above the ground (which was above ground cover, if present) and at ground
+level.
+458 Restoration Ecology DECEMBER 2003Bird Perches Increase Forest Seeds
+of naturally occurring perches to control for variation in used for perch additions. Bird observations took place
+living stems (e.g., stem height, foliar and fruiting density, from either 5:30 to 8:00 a.m. or 12:00 to 2:00 p.m. The
+spatial location in the landslide) and because natural morning observation period was used as the main sam-
+perches are generally absent in most young landslides (es- pling period because it represented the time period of
+pecially bare landslides). Natural perches might therefore most bird activity in this forest (J. Wunderle 2000, U.S.
+influence bird activity and microclimate differently than Forest Service, personal communication; A. Shiels 2001,
+introduced perches. personal observation). However, less frequent mid-day sam-
+pling was conducted at these sites to account for potential
+species and/or visitation differences from morning to after-
+Seeds
+noon. Avian identification was based on Raffaele (1989).
+Within each perch and each control plot, ten 33 (cid:7) 23.5-cm
+Two randomly chosen landslides were visited during
+subplots (each 0.0776 m2) were haphazardly located at
+each sampling day. The total time of observation at each
+least 10 cm from each other. Subplots were randomly as-
+landslide was 1 hr for the morning sampling and 0.5 hr for
+signed to either trap seeds or record established forest seed-
+the afternoon sampling. All bird observations were con-
+lings (described below). Five seed baskets were placed on
+ducted by the senior author while stationary, partially con-
+the ground surface in each plot, secured with a 30-cm stake,
+cealed by surrounding vegetation, at a distance of 5–8 m
+lined with nylon cloth (3 threads/mm) to trap seeds, and fi-
+from the nearest introduced perch such that both perches
+nally covered with 1.3-cm metal screening to exclude ro-
+were visible. Weather conditions at the time of each obser-
+dents. Only 5% of all seeds in our study area were more
+vation were noted. For each bird observation the bird spe-
+than 1.3 cm in diameter and were thereby excluded from
+cies, the location at which birds were observed, and the
+our study. Seed traps were visited every 3 weeks between
+total visitation time within the respective habitat were re-
+14 June 2000 and 17 August 2001. Pieces of nylon cloth
+corded. The four location categories included: on the
+were exchanged upon seed collection with clean cloths of
+perch, in the landslide on a natural perch, on vegetation at
+equal size. Once seeds were collected they were identified the forest edge (i.e., (cid:8)15 m into the forest), or flying over
+to species using matching seed samples collected from the
+the landslide without perching in landslides or at the forest
+surrounding forest and landslides. Only diaspores at least
+edge. The observer was careful not to count the same bird
+2 mm long were counted and identified, and each seed was
+twice. However, the amount of time birds spent in the
+categorized as bird dispersed or wind dispersed based on
+landslide area was the primary focus of these observations
+seed size, morphology, and reference to Devoe (1989).
+rather than the number of individuals.
+Wind-dispersed seeds included not only those dispersed
+Although seasonality was not accounted for in this bird
+strictly by wind but also those dispersed by gravity and one
+observation study, the single 3-month period of bird obser-
+species dispersed by epizoochory (Desmodium). Because
+vation is likely to be representative, or an underestimate,
+of the large quantity of seeds less than 1 mm in Miconia
+of mean daily bird visitation given that all the birds ob-
+(Melastomaceae) fruits, the fruits collected from species in
+served were classified as nonmigratory (Raffaele 1989).
+this family were counted as a single bird-dispersed seed if
+Additionally, a past mist-capture study suggests that the
+found more than 50% intact.
+resident bird populations for this area do not change sea-
+sonally except when a hurricane during the previous year
+Seedlings disrupts bird activities (Waide 1991).
+Each of the five seedling subplots, matching dimensions of
+the seed baskets, was visited in July 2000, August 2000,
+Statistical Analyses
+January 2001, June 2001, and August 2001. During each vis-
+The average of bird-dispersed seed totals caught at the
+itation the number of seedlings of bird-dispersed seeds were
+end of the experiment below perches and controls at each
+counted within each subplot. All bird-dispersed seeds and
+landslide was compared using a Wilcoxon rank scores test
+seedlings of bird-dispersed seeds in this study represent for-
+(n (cid:9) 6 for perch and control). The average of bird-dispersed
+est species. There were no attempts to exclude rodents from
+seed totals below perches was then compared among the
+seedling establishment subplots, and subplots were not
+three landslides cover classes (bare, climbing fern, grass)
+weeded at any point during the experiment. Because of
+using a Kruskal-Wallis test. The total number of wind-
+the presence of existing vegetation within subplots at the
+beginning of the experiment, July 2000 ((cid:8)45 days after dispersed seeds at each of the four plots within a landslide
+was first averaged to compare landslide cover classes using
+perch addition) was the period used to compare forest
+a Kruskal-Wallis test. However, it should be noted that
+seedling establishment between perch and control plots
+sample sizes for each of the cover classes were small (n (cid:9) 2
+with the August 2001 period.
+for each). The number of seedlings of bird-dispersed seeds
+(defined by Devoe 1989) below perches and controls were
+Bird Observations
+compared between the July 2000 and August 2001 sam-
+We conducted bird observations from 1 June 2001 to 15 pling periods using a Wilcoxon rank scores test (n (cid:9) 6 for
+August 2001 in the LEF on the six landslides that were each perch and each control). Frequency of bird visitation
+DECEMBER 2003 Restoration Ecology 459Bird Perches Increase Forest Seeds
+Table 2. Species of seeds collected, in perches and control plots combined, on all six landslides in the Luquillo Experimental Forest, northeastern
+Puerto Rico.
+Family Life Form RB12 MY7 ES9 ES17 ES15 ES16 Percent
+Bird-dispersed seeds
+Alchornea latifolia Euphorbiaceae Tree X X 5.4
+Clusia clusioides Clusiaceae Tree X X 1.3
+Clusia rosea Clusiaceae Tree X X X 9.4
+Guarea guidonia Meliaceae Tree X X X 5.4
+Matayba domingensis Sapindaceae Tree X X X 6.3
+Miconia racemosa Melastomaceae Shrub X X X X X 6.8
+Myrsine coriacea Myrsinaceae Tree X X 3.1
+Nectandra turbacensis Lauraceae Tree X X 2.3
+Palicourea spp. Rubiaceae Shrub X X 3.1
+Passiflora sexflora Passifloraceae Vine X 2.7
+Phytolacca rivinoides Phytolaccaceae Herb X 0.5
+Psychotria berteriana Rubiaceae Shrub X X X 5.9
+Rourea surinamensis Connaraceae Vine X 0.5
+Roystonea borinquena Araecaceae Palm X 1.3
+Schefflera morototoni Araliaceae Tree X X X X 40.1
+Schlegelia brachyantha Scrophulariaceae Vine 5.9
+Wind-dispersed seeds
+Andropogon bicornis Poaceae Graminoid X X X X X X 27.7
+Guzmania spp. Bromeliaceae Bromeliad X X
+Desmodium spp. Fabaceae Herb X X X X 0.9
+Elephantopus mollis Asteraceae Herb X X X 0.9
+Homalium racemosum Flacourtiaceae Tree X (cid:3)0.1
+Lasiacis divaricata Poaceae Graminoid X X X 0.3
+Mikania spp. Asteraceae Vine X X X X 0.7
+Paspalum conjugatum Poaceae Graminoid X X X X X 57.6
+Paspalum millegrana Poaceae Graminoid X X X X X 0.7
+Rhynchospora holoschoenoides Cyperaceae Graminoid X X X X 10.8
+Tabebuia heterophylla Bignoniaceae Tree X X X X X X 0.4
+Urena lobata Malvaceae Herb X (cid:3)0.1
+Seeds were classified as either bird dispersed or wind dispersed. Landslides where seeds were found are denoted by an X. Dominant landslide cover includes the fol-
+lowing: bare (RB12, MY7), climbing fern (ES9, ES17), grass (ES15, ES16).
+to perches for each observation period was compared seasonally, with most seeds appearing during the wet sea-
+among landslides and among cover class types using son (data not shown). When averaged across all six land-
+Kruskal-Wallis tests. Duration of bird visitation to perches slides, perch plots had significantly more bird-dispersed
+was compared among landslides and among cover classes seeds than control plots ((cid:12)2 (cid:9) 7.79; df (cid:9) 1; p (cid:9) 0.005; Fig.
+using one-way analyses of variance (ANOVAs) after homo- 1). Over the course of the 14-month study only two bird-
+geneous distributions were determined (two-way ANOVAs dispersed seeds were found in the control plots within all
+could not be used because of lack of replication on one six landslides. Perches increased seed species richness be-
+landslide). All statistical analyses were performed using cause 14 of the 28 total species collected were bird dis-
+JMP (2000), which expresses critical values in chi-square persed and only found in perch plots, whereas 12 species
+for the Kruskal-Wallis and Wilcoxon rank scores non- were wind dispersed and found in both perch and control
+parametric tests. Significance was determined at p (cid:3) 0.05, plots. However, variation among landslides was high with
+and means are presented (cid:10) SE. respect to species richness (Table 2).
+Although not statistically significant ((cid:12)2 (cid:9) 3.43; df (cid:9) 2; p (cid:9)
+0.18), landslides with grass-dominated ground cover tended
+Results to have more bird-dispersed seeds below the perches com-
+A total of 21,507 seeds ((cid:11)2 mm) were collected on the six pared with both climbing fern-covered landslides and bare
+landslides during the 14-month study. Approximately 1%, landslides (Table 3). Additionally, landslides varied widely
+or 222 seeds, were classified as bird dispersed, and the with respect to wind-dispersed seeds, with the highest
+largest fraction of these (89 seeds) were Schefflera moroto- number of wind-dispersed seeds on RB12 (Table 3) but
+toni. Most of the wind-dispersed seeds were from two with no significant difference among vegetation cover
+types of grasses, Andropogon bicornis and Paspalum con- types ((cid:12)2 (cid:9) 3.43; df (cid:9) 2; p (cid:9) 0.18).
+jugatum (Table 2). Inputs of bird-dispersed seeds changed The mean number of seedlings of bird-dispersed seeds
+460 Restoration Ecology DECEMBER 2003Bird Perches Increase Forest Seeds
+Table 4. Seedlings of bird-dispersed seeds per square meter
+in perch and control plots on six landslides in the Luquillo
+Experimental Forest, northeastern Puerto Rico (mean (cid:10) SE;
+n (cid:9) 2 for each site).
+Landslide
+Site Cover Perch Control
+RB12 Bare 2.58 (cid:10) 2.58 1.29 (cid:10) 1.29
+MY7 Bare 10.31 (cid:10) 7.73 0
+ES9 Climbing fern 0 0
+ES17 Climbing fern 11.60 (cid:10) 9.02 7.73 (cid:10) 0.0
+ES15 Grass 6.44 (cid:10) 1.29 0
+ES16 Grass 0 0
+Means were based on the number of seedlings that established between the first
+seedling census (when treatments were added) and the final census 13 months
+later.
+Figure 1. Bird-dispersed seeds per square meter for perch and hour, and morning observations of birds on perches (1.46
+control plots in six landslides in the Luquillo Experimental Forest, birds/hr) were similar to afternoon observations (1.67
+northeastern Puerto Rico (mean (cid:10) SE; n (cid:9) 6). The difference birds/hr). The average number of visitations to perches
+between the treatment means is significant (p (cid:9) 0.005).
+varied but was not significantly different among landslides
+((cid:12)2 (cid:9) 6.64; df (cid:9) 5; p (cid:9) 0.25) or vegetation cover types ((cid:12)2 (cid:9)
+4.45; df (cid:9) 2; p (cid:9) 0.10), although bare landslides tended to
+that colonized the six landslides was 1.49 (cid:10) 1.26 individu- have the lowest bird visitation to perches. The total num-
+als/m2 in control plots and 5.15 (cid:10) 2.10 individuals/m2 in ber of bird species visiting perches varied among land-
+perch plots during the 14-month study (Table 4). How- slides, but overall ES16 had the highest number of bird vis-
+ever, this tendency toward a slightly higher bird-dispersed itations to perches (Fig. 3A). Black-faced Grassquits were
+seedling density beneath perches than controls was not the most common visitors to perches at four of the six
+statistically significant ((cid:12)2 (cid:9) 1.87; df (cid:9) 1; p (cid:9) 0.17). landslides, Puerto Rican Tanagers were the only birds ob-
+Twenty-two species of birds, 16 of which consume fruits served on perches at landslide ES9, and a single Stripe-
+and/or seeds as part of their diet (Waide 1996), were iden- headed Tanager was the only observed visitor to perches
+tified on the six landslides during the bird observation por- on the bare landslide MY7 (Fig. 3A). The average time
+tion of the study. Bananaquits, Black-faced Grassquits, Pu- birds occupied perches was 1.10 (cid:10) 0.30 minutes per visit.
+erto Rican Emeralds (hummingbirds), and Scaly-napped The average time on perches did not differ among land-
+Pigeons were found at all six landslides. Seven of the 22 slides (F (cid:9) 2.09; df (cid:9) 5; p (cid:9) 0.09) or cover types (F (cid:9) 0.67;
+bird species were observed on the perches, and six of these df (cid:9) 2; p (cid:9) 0.52). Puerto Rican Tanagers on landslide ES9
+seven birds consume fruits and/or seeds as part of their diet and Gray Kingbirds on ES15 were the two species with the
+(Waide 1996). When the four habitat categories of bird ob- longest duration on the perches (Fig. 3B).
+servations were compared on (introduced) perches, on nat-
+ural perches, on vegetation at the forest edge, or flying over
+the landslide, birds were most commonly observed perching Discussion
+at the forest edges for all six landslides (Fig. 2). Bird perches increased the abundance, and number of spe-
+During the 30 hr of total bird observation at the six cies, of bird-dispersed seeds found on six landslides in the
+landslides, an average of 1.50 birds visited perches per LEF, Puerto Rico. The 14 species of seeds found under
+Table 3. Bird-dispersed and wind-dispersed seeds per square meter in perch and control plots on six landslides in the Luquillo Experimental
+Forest, northeastern Puerto Rico (mean (cid:10) SE; n (cid:9) 2 for each site).
+Bird-Dispersed Seeds Wind-Dispersed Seeds
+Landslide
+Site Cover Perch Control Perch Control
+RB12 Bare 1.3 (cid:10) 1.3 0 10,297.7 (cid:10) 1,019.3 7,648.2 (cid:10) 5,127.6
+MY7 Bare 23.3 (cid:10) 12.9 1.3 (cid:10) 1.3 39.9 (cid:10) 3.9 529.6 (cid:10) 253.9
+ES9 Climbing fern 19.3 (cid:10) 14.2 0 37.4 (cid:10) 14.2 50.3 (cid:10) 6.4
+ES17 Climbing fern 20.6 (cid:10) 7.7 1.3 (cid:10) 1.3 56.7 (cid:10) 12.9 97.9 (cid:10) 67.0
+ES15 Grass 110.8 (cid:10) 38.7 0 2,819.6 (cid:10) 667.5 1,970.4 (cid:10) 14.2
+ES16 Grass 117.3 (cid:10) 64.4 0 1,662.4 (cid:10) 1164.9 2,757.7 (cid:10) 1,113.4
+Means were based on 14-month seed totals.
+DECEMBER 2003 Restoration Ecology 461Bird Perches Increase Forest Seeds
+Figure 2. Mean percent visitation of birds observed at each of four
+locations (solid, forest edge; diagonal, introduced perch; white,
+natural perch on landslide; cross-hatch, flying) in six landslides in
+the Luquillo Experimental Forest, northeastern Puerto Rico.
+perches that were not found in control plots were tree and
+shrub species commonly found in mid- to late-successional
+forests in the LEF. Increasing forest seed deposition to the
+inner area of these landslides has direct implications for
+accelerating forest recovery because most of the seeds dis-
+persed into the six landslides were of wind-dispersed early
+successional origin. Therefore, without perches landslides
+will experience fewer birds perching that disperse forest
+seeds, which will likely slow forest recovery on landslides
+because of the establishment of dominant graminoids and
+ferns (Walker 1994; Walker & Boneta 1995). Although the
+14-month period did not produce significantly more forest
+seedlings in perch plots than in controls, perches create the Figure 3. (A) Total number of birds observed on perches and (B)
+possibility of accelerating forest regeneration on landslides average visitation time (minutes) of birds on perches in the six
+in the LEF over the long term if the forest seeds establish. landslides in the Luquillo Experimental Forest, northeastern Puerto
+The rate of seed deposition in this study was high com- Rico. For each landslide 5 hr (300 minutes) of total observation took
+place. BFG, Black-faced Grassquit; BQ, Bananaquit; GK, Gray
+pared with previous studies of disturbed sites in the tropics
+Kingbird; PRE, Puerto Rican Emerald; PRT, Puerto Rican Tanager;
+because seed dispersal (wind (cid:13) bird) in this study resulted
+SHT, Stripe-headed Tanager; YFG, Yellow-faced Grassquit.
+in 11.1 (bare), 5.7 (grass), and 0.2 (climbing fern) seeds/m2/
+day. The bare and grass habitat variables were higher than
+seed dispersal (combined wind and animal dispersed) into
+lowland rainforest treefall gaps in Costa Rica (1.6 seeds/ decades by grasses and climbing ferns (Walker 1994;
+m2/day; Denslow & Gomez Diaz 1990), gaps in the LEF Walker & Boneta 1995) and may also justify altering seed
+(0.78 seeds/m2/day; Devoe 1989), and forest understory in dispersal by using perches to increase species diversity and
+the LEF (2.55 seeds/m2/day; Devoe 1989). This suggests forest seed deposition.
+that bare and grass-covered landslides have higher seed in- Traps under perches with grass-covered understories
+puts than forests and forest gaps in the LEF. Although tended to have more bird-dispersed seeds than perches
+Walker and Neris (1993) reported seed rain values (0.3– with bare soil or climbing fern understories, although a
+1.8 seeds/m2/day) from other LEF landslides that more larger sample size would provide a more robust test of this
+closely resembled LEF gaps and forests, they did not in- hypothesis. Attraction of birds to perches in the two grass-
+clude graminoid seeds. In our study most (99%) seed in- covered landslides may result from the vegetated ground
+puts to landslides were wind-dispersed seeds, and 96% of providing more cover or a better source of food than bare
+those dispersed by wind were graminoids. This may help ground (Wunderle 1997). Interestingly, most positive ef-
+explain why landslides in the LEF are often dominated for fects of perches increasing seed rain have been found in
+462 Restoration Ecology DECEMBER 2003Bird Perches Increase Forest Seeds
+pastures (McDonnell & Stiles 1983; McDonnell 1986; Holl State University, personal communication). Only two spe-
+1998). To date, only one perch study has shown positive ef- cies of the seeds present beneath the perches (Clusia clu-
+fects with a bare understory (McClanahan & Wolfe 1993). sioides and Clusia rosea) have been documented as being
+Because tall trees and shrubs promote bird visitation in Pu- bat dispersed (Willig & Gannon 1996; M. Gannon 2002,
+erto Rico (J. Wunderle 2000, U.S. Forest Service, personal personal communication). There was no evidence of bat
+communication) and elsewhere (McDonnell 1986; Toh et excrement below perches, but bird excrement (uric acid)
+al. 1999), perches on climbing fern-covered landslides may was noted on seed baskets and ground cover below
+be less attractive to birds because climbing ferns often perches. Additionally, past observations by several indi-
+reached heights of more than 1.5 m, whereas the grasses viduals in the LEF (see Devoe 1989) determined that
+were sparser and less than 1 m tall. birds, not bats, take the majority of the same seed species
+Despite an increase in bird-dispersed seeds below as those found below the perches.
+perches compared with control plots, there was no signifi- Most of the bird species that were observed on perches
+cant difference in the presence of forest seedlings after 14 are considered at least facultatively omnivorous, consuming
+months when perch plots and control plots were com- seeds, fruits, and insects (Waide 1991, 1996) and are capable
+pared. This result is similar to that found by Holl (1998) in of dispersing forest seeds onto the landslide or landslide
+a 19-month study. Other artificial perch studies did not ad- edges. Although Bananaquits are classified as nectivores,
+dress this issue (McDonnell & Stiles 1983; McDonnell this species may be capable of dispersing small-sized seeds
+1986; Aide & Cavelier 1994) or found only a slight in- (e.g., Clusia clusioides, Miconia, and Passiflora), because
+crease in the number of seedlings of bird-dispersed seeds fruit, nectar, and invertebrates are common in the Banan-
+below perches compared with controls after 6 years (1.4– aquit’s diet (Snow & Snow 1971; Waide 1996). Puerto Rican
+2.0 plants/m2 below perches vs. 0–0.7 plants/m2 in controls; Tanagers, classified as omnivores, have been noted consum-
+McClanahan & Wolfe 1993). Therefore, the short duration ing fruits of similar species as those found below the perches
+of some studies may be one possibility for the lack of in- (Waide 1996). Gray Kingbirds are in the flycatcher family
+creased forest seedling densities below perches. In addi- but have been known to regularly consume fruits (A. Shiels
+tion, the following could have also contributed to the ab- 2001, personal observation; R. Waide 2001, University of
+sence of higher seedling densities of bird-dispersed seeds New Mexico, personal communication). Both Puerto Rican
+below perches compared with controls: seed loss from pre- Tanagers and Gray Kingbirds likely dispersed forest seeds
+dation (rat feces was noted multiple times in and around to perches based on visitation frequency and duration, as
+seed traps), erosion (especially on bare landslides), low well as their larger gape widths compared with most other
+soil nutrients (Guariguata 1990; Walker et al. 1996; Shiels species observed on perches. Gape sizes of birds usually
+2002), severe microclimate conditions (Walker 1994; Ever- correlate with fruit and seed sizes they are capable of dis-
+ham et al. 1996; Walker et al. 1996), or competition with persing (Jordano 2000), and many of the seeds dispersed
+preexisting landslide vegetation (Walker 1994; Walker, below perches were larger than 0.5 cm in length (e.g.,
+unpublished data). Guarea, Matayba, Myrsine, Nectandra, Rourea, Roystonea).
+Birds frequented the perches more often (approximately Such large seeds are likely regurgitated rather than passed
+1.5 visits/hr) but stayed perched a shorter duration in this through the digestive tract (J. Wunderle 2001, U.S. Forest
+study (approximately 1.10 minutes) when compared with a Service, personal communication). In contrast to the de-
+perch study in a Costa Rican pasture (approximately 0.12– scribed seed dispersers, it is unlikely that Black-faced Grass-
+0.41 visits/hr and approximately 3.2 minutes; Holl 1998). quits, Yellow-faced Grassquits, and Puerto Rican Emerald
+The difference between studies may be explained by varia- hummingbirds dispersed forest seeds below perches due to
+tion in the distance to the forest edge, because perches their more restrictive diets and smaller gape widths.
+were much further from the forest edge in Holl’s study Landslides in this study are clearly at different stages of
+(25–250 m) compared with those in our study (5 m). Addi- succession. Without perches, bird-dispersed seeds may only
+tionally, most birds in Holl’s study were common to the enter landslides from the forest edge, thereby contributing
+pasture (7 of 10) and not the forest, whereas our study had to a slow forest recovery. Dense cover of grasses (Holl
+only 3 of 7 bird species (Black-faced Grassquits, Yellow- 1998) and climbing fern (Walker 1994) can make it diffi-
+faced Grassquits, Gray Kingbird) that were restricted to cult for seeds to reach the soil (Nepstad et al. 1990; Re-
+open areas and not the forest. Therefore, bird species strepo & Vitousek 2001) and can inhibit seedling growth
+composition and proximity of perches to the forest edge due to low light levels and deep litter layers. In this study
+may influence bird visitation to perches, and both of these grass- and fern-covered landslides had less light than bare
+attributes may affect forest seed dispersal into disturbed landslides. However, perches in grass- and fern-covered
+areas. landslides tended to have a higher bird visitation rate than
+Although perching dispersers include both birds and perches in bare landslides. Therefore, influencing succes-
+bats, perching by bats in this study was unlikely. There is sional trajectories using perches may be most successful on
+only one species of frugivorous bat that frequents the un- landslides that have enough vegetative ground cover (e.g.,
+derstory at this elevation in the LEF, and it prefers larger grasses and ferns) to attract birds but not enough to inhibit
+perches than used in this study (M. Gannon 2002, Penn germination of later successional species.
+DECEMBER 2003 Restoration Ecology 463Bird Perches Increase Forest Seeds
+Conclusion Brown, S., A. E. Lugo, S. Silander, and L. Liegel. 1983. Research history
+and opportunities in the Luquillo Experimental Forest. U.S. Forest
+Additions of perches to landslides increased numbers of
+Service General Technical Report, SO-44, Southern Forest Experi-
+bird-dispersed seeds that are of mid- to late-successional
+mental Station, New Orleans, Louisiana.
+origin in the LEF. We were unable to determine why seed-
+Campbell, B. M., T. Lynman, and J. C. Hatton. 1990. Small-scale pattern-
+ling densities of bird-dispersed seeds were not consistently ing in the recruitment of forest species during succession in tropical
+higher beneath perches compared with controls given the dry forest, Mozambique. Vegetatio 87:51–57.
+greater dispersal of forest seeds below perches, but this Denslow, J. S., and A. E. Gomez Diaz. 1990. Seed rain to tree-fall gaps in
+could have been the result of insufficient time for a differ- a Neotropical rain forest. Canadian Journal of Forest Research 20:
+642–648.
+ence to be detected, seed loss from predation, erosion, low
+Devoe, N. N. 1989. Differential seeding and regeneration in openings and
+soil nutrients, severe microclimate conditions, or competi-
+beneath closed canopy in sub-tropical wet forest. Doctorate disserta-
+tion with preexisting landslide vegetation. Therefore, using tion. Yale University, New Haven, Connecticut.
+perches without any other restoration technique does not Everham, E. M., R. W. Myster, and E. VanDeGenachte. 1996. Effects of
+accelerate forest recovery on Puerto Rican landslides over light, moisture, temperature, and litter on the regeneration of five
+a 14-month period. Nevertheless, perch additions to land- tree species in the tropical montane wet forest of Puerto Rico.
+American Journal of Botany 83:1063–1068.
+slides represent a useful and inexpensive management
+Ewel, J. J., and J. L. Whitmore. 1973. The ecological life zones of Puerto
+technique for manipulating natural seed dispersal and cre-
+Rico and the Virgin Islands. U.S. Forest Service Research Paper.
+ate the possibility of accelerating the accumulation of a
+ITF-18. Institute of Tropical Forestry, Rio Piedras, Puerto Rico.
+forest seed bank. Garwood, N. C., D. P. Janos, and N. Brokaw. 1979. Earthquake-caused
+Landslide revegetation will occur without additions of landslides: a major disturbance to tropical forests. Science 205:997–
+bird perches, especially because most seed inputs to land- 999.
+slides are of wind-dispersed origin. However, for forest re- Guariguata, M. R. 1990. Landslide disturbance and forest regeneration in
+the upper Luquillo Mountains of Puerto Rico. Journal of Ecology
+covery to occur propagules of mid- to late-successional spe-
+78:814–832.
+cies must be introduced into landslides. Because few forest
+Guevara, S., S. E. Purata, and E. Van der Maarel. 1986. The role of rem-
+species are wind dispersed in the LEF (Devoe 1989; this
+nant forest trees in tropical secondary succession. Vegetatio 66:77–
+study) and perches are generally absent after landslides, 84.
+bird perches provide habitat structure that can be used to Holl, K. D. 1998. Do perching structures elevate seed rain and seedling es-
+accelerate forest seed inputs to landslides. Although pro- tablishment in abandoned tropical pasture? Restoration Ecology 6:
+moting forest seed dispersal is a critical step toward accel- 253–261.
+Janzen, D. H. 1988. Management of habitat fragments in a tropical dry
+erating forest recovery, supplemental restoration tech-
+forest: growth. Annual of the Missouri Botanic Garden 75:105–116.
+niques in addition to bird perches appear to be necessary
+JMP. 2000. SAS Institute, Incorporated. Cary, North Carolina.
+and should be explored in future studies to increase forest Jordano, P. 2000. Fruits and frugivory. Pages 125–165 in M. Fenner, edi-
+seedling establishment and forest recovery on landslides. tor. Seeds: the ecology of regeneration in plant communities. 2nd
+edition. CABI Publishing, New York.
+Larsen, M. C., and A. Simon. 1993. A rainfall intensity-duration threshold
+Acknowledgments for landslides in a humid-tropical environment, Puerto Rico.
+Geografiska Annaler 75A:13–23.
+This research was funded by the U.S. Forest Service, Uni-
+Larsen, M. C., and A. J. Torres Sanchez. 1998. The frequency and distri-
+versity of Puerto Rico, and National Science Foundation
+bution of recent landslides in three montane tropical regions in Pu-
+supporting the Luquillo Experimental Forest Long-term erto Rico. Geomorphology 24:309–331.
+Ecological Research Program. Additional funding was pro- Levey, D. J. 1988. Tropical wet forest treefall gaps and distributions of un-
+vided by University of Nevada, Las Vegas International derstory birds and plants. Ecology 69:1076–1089.
+Programs, and Department of Biological Sciences. We thank Little, E. L., R. O. Woodbury, and F. H. Wadsworth. 1974. Trees of Pu-
+erto Rico and the Virgin Islands. Volume 2. U.S. Department of Ag-
+Laura Weiss, Fred Landau, and Jakob Falk-Sørensen for
+riculture, U.S. Forest Service, Washington, D.C.
+their helpful field assistance. Special thanks to Maria
+McDonnell, M. J. 1986. Old field vegetation height and dispersal pattern
+Aponte for seed collections throughout much of the study.
+of bird disseminated woody plants. Bulletin of the Torrey Botanical
+This manuscript was greatly improved by critical review by Club 113:6–11.
+Mitch Aide, Robert Askins, David Ewert, Daniel Thomp- McDonnell, M. J., and E. W. Stiles. 1983. The structural complexity of old
+son, Diane Wagner, Joe Wunderle, and one anonymous field vegetation and the recruitment of bird-dispersed plant species.
+reviewer. Oecologia 56:109–116.
+McClanahan, T. R., and R. W. Wolfe. 1993. Accelerating forest succession
+in fragmented landscapes: the role of birds and perches. Conserva-
+tion Biology 7:279–288.
+LITERATURE CITED
+Myster, R. W., and L. R. Walker. 1997. Plant successional pathways
+Aide, T. M., and J. Cavelier. 1994. Barriers to lowland tropical forest res- on Puerto Rican landslides. Journal of Tropical Ecology 13:165–
+toration in the Sierra Nevada de Santa Marta, Colombia. Restora- 173.
+tion Ecology 2:219–229. Nepstad, D., C. Uhl, and E. A. S. Serrao. 1990. Surmounting barriers to
+Augspurger, C. K., and S. F. Franson. 1988. Input of wind-dispersed seeds forest regeneration in abandoned, highly degraded pastures: a case
+into light-gaps and forest sites in a Neotropical forest. Journal of study from Paragominas, Para, Brazil. Pages 215–229 in A. B.
+Tropical Ecology 4:239–252. Anderson, editor. Alternatives to deforestation: steps toward sus-
+464 Restoration Ecology DECEMBER 2003Bird Perches Increase Forest Seeds
+tainable use of the Amazon rain forest. Columbia University Press, Waide, R. B. 1996. Birds. Pages 363–398 in D. P. Reagan and R. B. Waide,
+New York. editors. The food web of a tropical rain forest. The University of
+Proctor, G. R. 1989. Ferns of Puerto Rico and the Virgin Islands. Memoirs Chicago Press, Chicago, Illinois.
+of the New York Botanical Garden. Volume 53. The New York Bo- Walker, L. R. 1994. Effects of fern thickets on woodland development
+tanical Gardens, Bronx. on landslides in Puerto Rico. Journal of Vegetation Science 5:525–
+Raffaele, H. A. 1989. Birds of Puerto Rico and the Virgin Islands. Prince- 532.
+ton University Press, Princeton, New Jersey. Walker, L. R., and W. Boneta. 1995. Plant and soil responses to fire on a
+Restrepo, C., and P. Vitousek. 2001. Landslides, alien species, and the di- fern-covered landslide in Puerto Rico. Journal of Tropical Ecology
+versity of a Hawaiian montane mesic ecosystem. Biotropica 33:409– 11:473–479.
+420. Walker, L. R., and L. Neris. 1993. Posthurricane seed rain dynamics in Pu-
+Schemske, D. W., and N. Brokaw. 1981. Treefalls and the distribution of erto Rico. Biotropica 25:408–418.
+understory birds in a tropical forest. Ecology 62:938–945. Walker, L. R., D. J. Zarin, N. Fetcher, R. W. Myster, and A. H. Johnson.
+Shiels, A. B. 2002. Bird perches and soil amendments as revegetation 1996. Ecosystem development and plant succession on landslides in
+techniques for landslides in Puerto Rico. MSc Thesis. University of the Caribbean. Biotropica 28:566–576.
+Nevada, Las Vegas. Wiley, J. W., and G. P. Bauer. 1985. Caribbean National Forest, Puerto
+Slocum, M. G. 2001. How tree species differ as recruitment foci in a tropi- Rico. American Birds 39:12–18.
+cal pasture. Ecology 82:2547–2559. Willig, M. R., and M. R. Gannon. 1996. Mammals. Pages 399–433 in D. P.
+Snow, B. K., and D. W. Snow. 1971. The feeding ecology of tanagers and Reagan and R. B. Waide, editors. The food web of a tropical rain
+honeycreepers in Trinidad. Auk 88:291–322. forest. The University of Chicago Press, Chicago, Illinois.
+Soil Survey Staff. 1995. Order 1 soil surveys of Luquillo Long-Term Eco- Willson, M. F., and F. H. J. Crome. 1989. Patterns of seed rain at the edge
+logical Research Grid, Puerto Rico. U.S. Department of Agricul- of a tropical Queensland rain forest. Journal of Tropical Ecology 5:
+ture, Natural Resource Conservation Service, Lincoln, Nebraska. 301–308.
+Taylor, C. M. 1994. Annotated checklist of the flowering plants of the El Wunderle, J. M. 1997. The role of animal seed dispersal in accelerating na-
+Verde Field Station, Puerto Rico. University of Puerto Rico, Rio tive forest regeneration on degraded tropical lands. Forest Ecology
+Piedras. and Management 99:223–235.
+Toh, I., M. Gillespie, and D. Lamb. 1999. The role of isolated trees in facil- Wunderle, J. M., A. Diaz, I. Velazquez, and R. Scharrón. 1987. Forest
+itating tree seedling recruitment at a degraded sub-tropical rainfor- openings and the distribution of understory birds in a Puerto Rican
+est site. Restoration Ecology 7:288–297. rainforest. Wilson Bulletin 99:22–37.
+Waide, R. B. 1991. The effect of Hurricane Hugo on bird populations in the Young, K. R., J. J. Ewel, and B. J. Brown. 1987. Seed dynamics during for-
+Luquillo Experimental Forest, Puerto Rico. Biotropica 23:475–480. est succession in Costa Rica. Vegetatio 71:157–173.
+DECEMBER 2003 Restoration Ecology 465

@@ -67,10 +67,29 @@ def run_all_trees(paper_text, verbose=True):
             "path": output["path"]
         }
 
+    # Calculate overall bias risk
+    overall_risk = "LOW RISK"
+    has_medium = False
+    for tree_id, tree_data in results.items():
+        res_str = str(tree_data["result"]).lower()
+        if "high" in res_str:
+            overall_risk = "HIGH RISK"
+            break
+        elif "med" in res_str:
+            has_medium = True
+            
+    if overall_risk != "HIGH RISK" and has_medium:
+        overall_risk = "MEDIUM RISK"
+        
+    results["overall"] = overall_risk
+
+    if verbose:
+        print(f"\n--- Overall Bias Risk: {overall_risk} ---")
+
     return results
 
 
-def analyse_all_papers(processed_dir: str):
+def analyse_all_papers(processed_dir: str, verbose: bool = True):
     """
     Reads all .txt files from a directory, runs analysis on each, and returns
     a dictionary of results.
@@ -97,6 +116,6 @@ def analyse_all_papers(processed_dir: str):
             all_results[paper_name] = "Skipped (empty file)"
             continue
 
-        all_results[paper_name] = run_all_trees(paper_text)
+        all_results[paper_name] = run_all_trees(paper_text, verbose=verbose)
 
     return all_results

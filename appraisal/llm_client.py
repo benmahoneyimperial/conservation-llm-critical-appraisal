@@ -10,7 +10,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("OPENROUTER_API_KEY is not set. Please ensure you have a .env file with this key.")
 
-MODEL = "qwen/qwen3-vl-32b-instruct"
+MODEL = "qwen/qwen3.5-9b"
 
 # Create a session object to reuse TCP connections (Keep-Alive)
 _session = requests.Session()
@@ -28,8 +28,7 @@ INSTRUCTIONS = (
     "Definitions for ALL Valid Options (not all of the below answers will be valid for all questions. Please be aware of this):\n"
     "- 'Yes' / 'No': The paper explicitly states information confirming the answer.\n"
     "- 'Seemingly Yes' / 'Seemingly No': The paper strongly implies the answer, but does not explicitly state it.\n"
-    "- 'Unclear': The paper does not provide enough details to make a judgment.\n"
-    "- 'Not Applicable': The question fundamentally does not apply to this study.\n\n"
+    "- 'Unclear': The paper does not provide enough details to make a judgment.\n\n"
 
     "You MUST conclude your response with the final selection in double brackets.\n"
     "Example format: [[Seemingly Yes]]"
