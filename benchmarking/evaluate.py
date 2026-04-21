@@ -4,9 +4,8 @@ import csv
 import argparse
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from appraisal.llm_client import ask_llm
-from appraisal.llm_evaluator import traverse_tree
-from appraisal.tree_data import (
+from appraisal.evaluator import traverse_tree
+from appraisal.trees import (
     decision_tree_1, decision_tree_2, decision_tree_3, 
     decision_tree_4, decision_tree_5, decision_tree_6, decision_tree_7
 )
@@ -65,7 +64,7 @@ def run_benchmark(benchmark_csv, processed_dir, verbose=True):
                 print(f"\nTesting {filename} | Tree {tree_idx} (Full Traversal)")
             
             # Run the Full Tree Traversal
-            actual = traverse_tree(tree, paper_text, verbose=verbose).lower()
+            actual = traverse_tree(tree, paper_text, verbose=verbose)["result"].lower()
             
             # Basic normalization for comparison
             is_correct = expected in actual

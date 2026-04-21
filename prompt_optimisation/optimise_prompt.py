@@ -4,7 +4,7 @@ import gepa.optimize_anything as oa
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from appraisal.llm_client import set_instructions, DEFAULT_INSTRUCTIONS, API_KEY
-from scripts.evaluate_benchmark import run_benchmark
+from benchmarking.evaluate import run_benchmark
 
 def evaluate(candidate: str) -> float:
     """

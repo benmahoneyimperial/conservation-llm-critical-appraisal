@@ -3,17 +3,16 @@ import sys
 import argparse
 import csv
 
-# Add the project root to the python path so we can import the appraisal package
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from appraisal.llm_evaluator import analyse_all_papers, run_all_trees
+from appraisal.evaluator import analyse_all_papers, run_all_trees
 
 def main():
     parser = argparse.ArgumentParser(description="Run the full critical appraisal pipeline on a single text file or a directory of processed text files.")
     parser.add_argument(
         "target",
         nargs="?",
-        default="data/processed_text", 
-        help="Path to a single .txt file or a directory containing processed .txt files."
+        default="data/markdown_outputs", 
+        help="Path to a single file or a directory containing processed .md/.txt files."
     )
     parser.add_argument("--output_csv", type=str, default=None, help="Optional path to save the results as a CSV file.")
     parser.add_argument("--quiet", action="store_true", help="Suppress detailed step-by-step reasoning logs.")

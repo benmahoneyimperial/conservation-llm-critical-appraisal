@@ -5,14 +5,22 @@ import requests
 import json
 import re
 import csv
+import pdfplumber
 from dotenv import load_dotenv
 
-# Add the project root to the python path to import project modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from paper_processing.pdf_processor import extract_text_from_pdf
-
 load_dotenv()
+
+
+def extract_text_from_pdf(pdf_path: str) -> str:
+    """Extract text directly from a PDF for the single-shot workflow."""
+    paper_text = ""
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            page_text = page.extract_text() or ""
+            paper_text += page_text
+    return paper_text
 
 def evaluate_with_llm(guidance_text: str, paper_text: str) -> dict:
     """
@@ -266,7 +274,7 @@ def evaluate_all(guidance_pdf_path: str, papers_dir: str, output_csv: str = None
         print(f"Error reading guidance PDF: {e}")
         return
 
-    pdf_files = [f for f in os.listdir(papers_dir) if f.lower().endswith('.pdf')]
+    pdf_files = [f for f in os.listdir(papers_dir) if f.lower().endswith(".pdf")]
     if not pdf_files:
         print(f"No PDF files found in '{papers_dir}'.")
         return

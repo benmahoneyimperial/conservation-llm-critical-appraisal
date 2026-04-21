@@ -3,13 +3,12 @@ import sys
 import argparse
 import re
 
-# Add the project root to the python path so we can import the appraisal package
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from appraisal.llm_evaluator import run_all_trees
+from appraisal.evaluator import run_all_trees
 
 def analyse_single_paper(file_path: str):
     """
-    Reads a single .txt file, runs analysis on it, and prints the results.
+    Reads a single .md or .txt file, runs analysis on it, and prints the results.
     """
     if not os.path.exists(file_path):
         print(f"Error: File not found at '{file_path}'")
@@ -39,6 +38,11 @@ def analyse_single_paper(file_path: str):
                 continue
             print(f"\n--- {tree_name} ---")
             final_judgment = tree_data.get("result", "N/A")
+            if tree_data.get("error"):
+                print(f"  Error: {tree_data['error']}")
+                failed_node = tree_data.get("failed_node")
+                if failed_node:
+                    print(f"  Failed Node: {failed_node}")
             for step in tree_data.get("path", []):
                 print(f"  Node: {step['node']}")
                 print(f"  LLM Final Answer: {step['answer']}")
@@ -48,7 +52,7 @@ def analyse_single_paper(file_path: str):
         print(f"  - {results}") # Fallback for unexpected format (e.g., if run_all_trees returns a string error)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run the critical appraisal pipeline on a single processed text file.")
-    parser.add_argument("file_path", type=str, help="The path to the processed .txt paper file to analyze.")
+    parser = argparse.ArgumentParser(description="Run the critical appraisal pipeline on a single processed markdown or text file.")
+    parser.add_argument("file_path", type=str, help="The path to the processed .md or .txt paper file to analyse.")
     args = parser.parse_args()
     analyse_single_paper(args.file_path)

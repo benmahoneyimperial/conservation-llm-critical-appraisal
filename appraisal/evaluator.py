@@ -1,11 +1,23 @@
 import os
-from .tree_data import TREES
+from .trees import TREES
 from .llm_client import ask_llm
+
+def build_prior_context(path, max_steps: int = 2):
+    """Summarise the most recent node decisions for the next question."""
+    if not path:
+        return None
+
+    recent_steps = path[-max_steps:]
+    lines = ["Previous node decisions:"]
+    for step in recent_steps:
+        lines.append(f"- {step['node']}: {step['question']}")
+        lines.append(f"  Answer: {step['answer']}")
+    return "\n".join(lines)
+
 
 def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
     node_id = start_node
     path = []
-    chat_history = []
 
     while True:
         node = tree[node_id]
@@ -20,8 +32,38 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
             }
 
         # Ask LLM
-        response = ask_llm(node["question"], paper_text, chat_history=chat_history, valid_answers=node.get("valid_answers"))
-        answer = response["final_answer"]
+        prior_context = build_prior_context(path)
+        response = ask_llm(
+            node["question"],
+            paper_text,
+            prior_context=prior_context,
+            valid_answers=node.get("valid_answers"),
+        )
+        if response.get("error"):
+            error_message = response["error"]
+            if verbose:
+                print(f"\nNode: {node_id}")
+                print(f"Error: {error_message}")
+            return {
+                "result": f"ERROR: {error_message}",
+                "path": path,
+                "error": error_message,
+                "failed_node": node_id,
+            }
+
+        answer = response.get("final_answer")
+        if not answer:
+            error_message = "LLM response did not include a final answer in [[...]] format."
+            if verbose:
+                print(f"\nNode: {node_id}")
+                print(f"Error: {error_message}")
+                print(f"LLM Full Response:\n{response.get('full_response')}\n")
+            return {
+                "result": f"ERROR: {error_message}",
+                "path": path,
+                "error": error_message,
+                "failed_node": node_id,
+            }
 
         answer = answer.strip().lower()
 
@@ -39,14 +81,10 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
         # Store trace
         path.append({
             "node": node_id,
+            "question": node["question"],
             "answer": answer,
             "full_response": response["full_response"]
         })
-
-        # Update chat history for the next node
-        chat_history.append({"role": "user", "content": node["question"]})
-        if response["full_response"]:
-            chat_history.append({"role": "assistant", "content": response["full_response"]})
 
         # Move to next node
         node_id = node["mapping"][answer]
@@ -66,6 +104,13 @@ def run_all_trees(paper_text, verbose=True):
             "result": output["result"],
             "path": output["path"]
         }
+        if output.get("error"):
+            results[tree_id]["error"] = output["error"]
+            results[tree_id]["failed_node"] = output.get("failed_node")
+            results["overall"] = f"ERROR: Tree {tree_id} failed at {output.get('failed_node')}"
+            if verbose:
+                print(f"\n--- Stopping early: Tree {tree_id} failed at {output.get('failed_node')} ---")
+            return results
 
     # Calculate overall bias risk
     overall_risk = "LOW RISK"
