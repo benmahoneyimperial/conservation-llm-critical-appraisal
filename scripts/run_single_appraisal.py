@@ -6,7 +6,7 @@ import re
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from appraisal.evaluator import run_all_trees
 
-def analyse_single_paper(file_path: str):
+def analyse_single_paper(file_path: str, quiet: bool = False):
     """
     Reads a single .md or .txt file, runs analysis on it, and prints the results.
     """
@@ -24,7 +24,7 @@ def analyse_single_paper(file_path: str):
         print("  - Warning: Text file is empty, skipping.")
         return
 
-    results = run_all_trees(paper_text)
+    results = run_all_trees(paper_text, verbose=not quiet)
 
     print("\n" + "="*30)
     print(f"=== FINAL RESULTS for {paper_name} ===")
@@ -46,7 +46,8 @@ def analyse_single_paper(file_path: str):
             for step in tree_data.get("path", []):
                 print(f"  Node: {step['node']}")
                 print(f"  LLM Final Answer: {step['answer']}")
-                print(f"  LLM Full Response:\n{step['full_response']}\n")
+                if not quiet:
+                    print(f"  LLM Full Response:\n{step['full_response']}\n")
             print(f"  Final Judgment for Tree {tree_name}: {final_judgment}")
     else:
         print(f"  - {results}") # Fallback for unexpected format (e.g., if run_all_trees returns a string error)
@@ -54,5 +55,6 @@ def analyse_single_paper(file_path: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the critical appraisal pipeline on a single processed markdown or text file.")
     parser.add_argument("file_path", type=str, help="The path to the processed .md or .txt paper file to analyse.")
+    parser.add_argument("--quiet", action="store_true", help="Suppress detailed step-by-step reasoning logs.")
     args = parser.parse_args()
-    analyse_single_paper(args.file_path)
+    analyse_single_paper(args.file_path, quiet=args.quiet)

@@ -3,6 +3,7 @@ import os
 import re
 from json import JSONDecodeError
 from dotenv import load_dotenv
+import datetime
 
 # Load environment variables from .env file
 load_dotenv()
@@ -19,8 +20,8 @@ _session = requests.Session()
 DEFAULT_INSTRUCTIONS = (
     "Instructions for Evaluation:\n"
     "1. Evidence Extraction: First, locate and quote the exact, relevant passages from the paper.\n"
-    "2. Reasoning: Explain step-by-step how the quoted evidence answers the specific question. "
-    "Do not assume or guess; if the information is missing, note that it is missing.\n"
+    "2. Reasoning: Explain step-by-step how the quoted evidence answers the specific question.\n"
+    "Use expert scientific judgment. If a standard methodological practice is strongly implied by the context, you should acknowledge it rather than strictly penalizing the paper for exact phrasing.\n"
     "3. Final Judgment: Based strictly on the reasoning, select the most appropriate option.\n\n"
 
     "You MUST provide ALL THREE sections above.\n"
@@ -46,6 +47,7 @@ def ask_llm(
     prompt: str,
     context: str,
     prior_context: str | None = None,
+    guidance_text: str | None = None,
     valid_answers: list = None,
     model: str = MODEL,
 ) -> dict:
@@ -75,14 +77,21 @@ def ask_llm(
     )
     user_prompt = "\n\n".join(user_prompt_parts)
 
-    system_prompt = (
-        "You are an expert scientific systematic reviewer specializing in the critical appraisal of academic literature for risk of bias.\n"
-        "Your task is to evaluate the provided study objectively and rigorously.\n"
-        "Please answer the evaluation question based STRICTLY on the text of the paper provided below. Do not use outside knowledge.\n\n"
-        f"{INSTRUCTIONS}\n\n"
-        f"--- PAPER TEXT ---\n{context}\n------------------"
-    )
+    system_prompt_parts = [
+        "You are an expert scientific systematic reviewer specializing in the critical appraisal of academic literature for risk of bias.",
+        "Your task is to evaluate the provided study objectively and rigorously.",
+        "Please answer the evaluation question based STRICTLY on the text of the paper provided below. Do not use outside knowledge.\n",
+        INSTRUCTIONS
+    ]
     
+    if guidance_text:
+        system_prompt_parts.append("\n--- CEECAT GUIDANCE ---")
+        system_prompt_parts.append(guidance_text)
+        system_prompt_parts.append("Use the above guidance as helpful background information to better understand the context of the biases being evaluated. It provides general information rather than strict rules.\n-----------------------\n")
+        
+    system_prompt_parts.append(f"--- PAPER TEXT ---\n{context}\n------------------")
+    system_prompt = "\n".join(system_prompt_parts)
+
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_prompt},
@@ -136,8 +145,24 @@ def ask_llm(
     
     # Extract final answer inside [[...]]
     match = re.search(r"\[\[(.*?)\]\]", content, re.DOTALL)
+    final_answer = match.group(1).strip() if match else None
+    
+    qa_log_file = os.getenv("QA_LOG_FILE")
+    if qa_log_file:
+        try:
+            os.makedirs(os.path.dirname(os.path.abspath(qa_log_file)), exist_ok=True)
+            with open(qa_log_file, "a", encoding="utf-8") as f:
+                timestamp = datetime.datetime.now().isoformat()
+                f.write(f"\n[{timestamp}] Model: {model}\n")
+                f.write("=== SYSTEM PROMPT ===\n" + system_prompt + "\n")
+                f.write("=== USER PROMPT ===\n" + user_prompt + "\n")
+                f.write("=== RAW RESPONSE ===\n" + content + "\n")
+                f.write("=== PARSED OUTPUT ===\n" + str(final_answer) + "\n")
+                f.write("-" * 50 + "\n")
+        except Exception as e:
+            print(f"Warning: Failed to write QA log to {qa_log_file}: {e}")
     
     return {
         "full_response": content,
-        "final_answer": match.group(1).strip() if match else None
+        "final_answer": final_answer
     }

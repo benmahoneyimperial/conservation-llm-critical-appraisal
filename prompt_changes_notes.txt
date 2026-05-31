@@ -1,0 +1,14 @@
+Changes made to LLM Prompt Instructions to address overly strict assessments
+===========================================================================
+
+File Modified: appraisal/llm_client.py (DEFAULT_INSTRUCTIONS)
+
+Original Instruction (Too Strict):
+"2. Reasoning: Explain step-by-step how the quoted evidence answers the specific question. Do not assume or guess; if the information is missing, note that it is missing."
+
+New Instruction (Expert Leeway):
+"2. Reasoning: Explain step-by-step how the quoted evidence answers the specific question. Use expert scientific judgment. If a standard methodological practice is strongly implied by the context, you should acknowledge it rather than strictly penalizing the paper for exact phrasing."
+
+Rationale:
+Large Language Models tend to be hyper-literal when reading scientific texts. The original prompt strictly forbade assumptions or guessing, which actively conflicted with the model's ability to use the "Seemingly Yes" / "Seemingly No" options. 
+By updating the instructions, the LLM is given permission to use expert domain knowledge and contextual clues to give authors the benefit of the doubt for standard scientific conventions. This aligns the LLM's grading style much closer to that of a human domain expert.

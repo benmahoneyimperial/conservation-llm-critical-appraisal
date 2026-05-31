@@ -15,7 +15,7 @@ def build_prior_context(path, max_steps: int = 2):
     return "\n".join(lines)
 
 
-def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
+def traverse_tree(tree, paper_text, start_node = "q_1_1", guidance_text = None, verbose = True):
     node_id = start_node
     path = []
 
@@ -37,6 +37,7 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
             node["question"],
             paper_text,
             prior_context=prior_context,
+            guidance_text=guidance_text,
             valid_answers=node.get("valid_answers"),
         )
         if response.get("error"):
@@ -67,11 +68,11 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
 
         answer = answer.strip().lower()
 
-        # Validate answer DO I WANT TO FORCE A 'no' if answer is invalid? PROS: keeps us on the tree, CONS: may bias towards 'no' if LLM is confused. Maybe better to return an error and mark this question as failed?
+        # Validate answer
         if answer not in node["valid_answers"]:
             if verbose:
-                print(f"Invalid answer '{answer}' → forcing 'no'")
-            answer = "no"
+                print(f"Invalid answer '{answer}' → forcing 'unclear'")
+            answer = "unclear" if "unclear" in node["valid_answers"] else node["valid_answers"][0]
 
         if verbose:
             print(f"\nNode: {node_id}")
@@ -90,7 +91,7 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", verbose = True):
         node_id = node["mapping"][answer]
 
 
-def run_all_trees(paper_text, verbose=True):
+def run_all_trees(paper_text, guidance_text=None, verbose=True):
     results = {}
 
     for tree_id, tree in TREES.items():
@@ -98,7 +99,7 @@ def run_all_trees(paper_text, verbose=True):
             print(f"\n--- Running Tree {tree_id} ---")
 
         start_node = "start" if "start" in tree else f"q_{tree_id}_1"
-        output = traverse_tree(tree, paper_text, start_node=start_node, verbose=verbose)
+        output = traverse_tree(tree, paper_text, start_node=start_node, guidance_text=guidance_text, verbose=verbose)
 
         results[tree_id] = {
             "result": output["result"],
@@ -134,18 +135,25 @@ def run_all_trees(paper_text, verbose=True):
     return results
 
 
-def analyse_all_papers(processed_dir: str, verbose: bool = True):
+def analyse_all_papers(processed_dir: str, guidance_path: str = None, verbose: bool = True):
     """
     Reads all .txt files from a directory, runs analysis on each, and returns
     a dictionary of results.
     """
     print(f"--- Starting Analysis on All Papers in '{processed_dir}' ---")
+    
+    guidance_text = None
+    if guidance_path and os.path.exists(guidance_path):
+        with open(guidance_path, "r", encoding="utf-8") as gf:
+            guidance_text = gf.read()
+        print(f"  -> Loaded CEECAT guidance from {guidance_path}")
+
     all_results = {}
     
-    text_files = [f for f in os.listdir(processed_dir) if f.endswith(".txt")]
+    text_files = [f for f in os.listdir(processed_dir) if f.endswith(".txt") or f.endswith(".md")]
 
     if not text_files:
-        print("No processed text files found. Did you run the 'preprocess_pdfs.py' script?")
+        print("No processed text or markdown files found in the specified directory.")
         return
 
     for text_file in text_files:
@@ -161,6 +169,6 @@ def analyse_all_papers(processed_dir: str, verbose: bool = True):
             all_results[paper_name] = "Skipped (empty file)"
             continue
 
-        all_results[paper_name] = run_all_trees(paper_text, verbose=verbose)
+        all_results[paper_name] = run_all_trees(paper_text, guidance_text=guidance_text, verbose=verbose)
 
     return all_results
