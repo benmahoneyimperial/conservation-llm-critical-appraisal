@@ -1,0 +1,141 @@
+import json
+import os
+import re
+
+import requests
+from dotenv import load_dotenv
+
+from .build_domain_shot_prompt import (
+    DEFAULT_PAPERS_DIR,
+    build_prompt_messages,
+    load_default_domain_guidance,
+    load_default_guidance_intro,
+    read_text_file,
+)
+
+load_dotenv()
+
+DEFAULT_MODEL = "deepseek/deepseek-v4-flash"
+
+
+def call_llm_and_process(domain_name: str, messages: list, model: str) -> dict:
+    """Call the LLM API and process the response."""
+    headers = {
+        "Authorization": f"Bearer {os.getenv('OPENROUTER_API_KEY')}",
+        "Content-Type": "application/json",
+    }
+
+    data = {
+        "model": model,
+        "messages": messages,
+    }
+
+    response = requests.post(
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers=headers,
+        json=data,
+        timeout=120,
+    )
+    response.raise_for_status()
+    content = response.json()["choices"][0]["message"]["content"].strip()
+
+    match = re.search(r"```(?:json)?(.*?)```", content, re.DOTALL | re.IGNORECASE)
+    json_str = match.group(1).strip() if match else content.strip()
+
+    parsed_json = json.loads(json_str)
+
+    return {"parsed_response": parsed_json}
+
+
+def evaluate_domain_with_llm(
+    domain_name: str,
+    domain_text: str,
+    paper_text: str,
+    intro_text: str,
+    model: str = DEFAULT_MODEL,
+) -> dict:
+    """Build the prompt, call the LLM, and return the processed response."""
+    messages = build_prompt_messages(
+        domain_name=domain_name,
+        domain_text=domain_text,
+        paper_text=paper_text,
+        intro_text=intro_text,
+    )
+    return call_llm_and_process(domain_name, messages, model)
+
+
+def evaluate_single(
+    paper_path: str,
+    intro_text: str,
+    model: str = DEFAULT_MODEL,
+    guidance_dict: dict | None = None,
+):
+    if guidance_dict is None:
+        guidance_dict = load_default_domain_guidance()
+
+    paper_name = os.path.basename(paper_path)
+    print(f"\n--- Evaluating Paper: {paper_name} ---")
+    print(f"Loaded {len(guidance_dict)} domains for evaluation.")
+
+    paper_text = read_text_file(paper_path)
+
+    final_results = {}
+    for domain_name, domain_text in guidance_dict.items():
+        print(f"  -> Assessing {domain_name}...")
+        response = evaluate_domain_with_llm(
+            domain_name,
+            domain_text,
+            paper_text,
+            intro_text,
+            model,
+        )
+        final_results[domain_name] = response
+
+    return final_results
+
+
+def evaluate_all(
+    papers_dir: str = DEFAULT_PAPERS_DIR,
+    model: str = DEFAULT_MODEL,
+    guidance_dict: dict | None = None,
+    intro_text: str | None = None,
+):
+    if guidance_dict is None:
+        guidance_dict = load_default_domain_guidance()
+    if intro_text is None:
+        intro_text = load_default_guidance_intro()
+
+    print(f"\n--- Starting Batch Domain-Shot Evaluation on: {papers_dir} ---")
+    valid_extensions = (".md",)
+    files = [f for f in os.listdir(papers_dir) if f.lower().endswith(valid_extensions)]
+
+    all_results = {}
+    for filename in sorted(files):
+        file_path = os.path.join(papers_dir, filename)
+        res = evaluate_single(
+            paper_path=file_path,
+            intro_text=intro_text,
+            model=model,
+            guidance_dict=guidance_dict,
+        )
+        all_results[filename] = res
+
+    return all_results
+
+
+def evaluate_single_by_filename(
+    paper_filename: str,
+    papers_dir: str = DEFAULT_PAPERS_DIR,
+    model: str = DEFAULT_MODEL,
+):
+    """Convenience helper for evaluating one markdown paper from the default papers directory."""
+    guidance_dict = load_default_domain_guidance()
+    intro_text = load_default_guidance_intro()
+    paper_path = os.path.join(papers_dir, paper_filename)
+
+    return evaluate_single(
+        paper_path=paper_path,
+        intro_text=intro_text,
+        model=model,
+        guidance_dict=guidance_dict,
+    )

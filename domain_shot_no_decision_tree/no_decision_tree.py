@@ -37,12 +37,8 @@ def load_domain_guidance(guidance_dir: str) -> dict:
     return dict(sorted(domain_guidance.items()))
 
 
-def evaluate_domain_with_llm(domain_name: str, domain_text: str, paper_text: str, intro_text: str, model: str = "meta-llama/llama-3.3-70b-instruct") -> dict:
-    headers = {
-        "Authorization": f"Bearer {os.getenv('OPENROUTER_API_KEY')}",
-        "Content-Type": "application/json"
-    }
-
+def build_prompt_messages(domain_name: str, domain_text: str, paper_text: str, intro_text: str) -> list:
+    """Builds the system and user prompt messages for the LLM."""
     system_prompt = f"""
     You are an expert human systematic reviewer performing structured risk-of-bias assessment for the domain: {domain_name}.
 
@@ -101,45 +97,40 @@ def evaluate_domain_with_llm(domain_name: str, domain_text: str, paper_text: str
     """
 
     user_prompt = f"\n{intro_text}\n\n--- GUIDANCE FOR {domain_name} ---\n{domain_text}\n\n--- RESEARCH PAPER ---\n{paper_text}\n\nPlease evaluate the paper for {domain_name} and return the JSON."
+    
+    return [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
+
+def call_llm_and_process(domain_name: str, messages: list, model: str) -> dict:
+    """Calls the LLM API and processes the response."""
+    headers = {
+        "Authorization": f"Bearer {os.getenv('OPENROUTER_API_KEY')}",
+        "Content-Type": "application/json"
+    }
 
     data = {
         "model": model,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
+        "messages": messages
     }
 
     response = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=data)
     response.raise_for_status()
     content = response.json()["choices"][0]["message"]["content"].strip()
-    
+
     match = re.search(r'```(?:json)?(.*?)```', content, re.DOTALL | re.IGNORECASE)
     json_str = match.group(1).strip() if match else content.strip()
-    
-    qa_log_file = os.getenv("QA_LOG_FILE")
-    if qa_log_file:
-        os.makedirs(os.path.dirname(os.path.abspath(qa_log_file)), exist_ok=True)
-        with open(qa_log_file, "a", encoding="utf-8") as f:
-            f.write(f"\n[{datetime.datetime.now().isoformat()}] Model: {model} | Domain: {domain_name}\n")
-            f.write(f"Response: {content}\n{'-' * 50}\n")
-            
-    try:
-        return {"parsed_response": json.loads(json_str)}
-    except json.JSONDecodeError:
-        return {"error": "Invalid JSON returned", "full_response": content}
 
-def calculate_overall_risk(domain_results: dict) -> str:
-    high_count = sum(1 for d in domain_results.values() if "high" in d.get("parsed_response", {}).get("risk", "").lower())
-    medium_count = sum(1 for d in domain_results.values() if "medium" in d.get("parsed_response", {}).get("risk", "").lower())
-    
-    if high_count > 0:
-        return "High Risk"
-    elif medium_count >= 2:
-        return "Medium Risk"
-    elif medium_count == 1:
-        return "Low Risk (with 1 Medium)"
-    return "Low Risk"
+    # This will now raise a json.JSONDecodeError if parsing fails, crashing the script
+    parsed_json = json.loads(json_str)
+
+    return {"parsed_response": parsed_json}
+
+def evaluate_domain_with_llm(domain_name: str, domain_text: str, paper_text: str, intro_text: str, model: str = "meta-llama/llama-3.3-70b-instruct") -> dict:
+    """Builds prompt, calls LLM, and returns the processed response."""
+    messages = build_prompt_messages(domain_name, domain_text, paper_text, intro_text)
+    return call_llm_and_process(domain_name, messages, model)
 
 def evaluate_single(guidance_dict: dict, paper_path: str, intro_text: str, model: str = "meta-llama/llama-3.3-70b-instruct"):
     paper_name = os.path.basename(paper_path)
@@ -155,11 +146,6 @@ def evaluate_single(guidance_dict: dict, paper_path: str, intro_text: str, model
         response = evaluate_domain_with_llm(domain_name, domain_text, paper_text, intro_text, model)
         final_results[domain_name] = response
         
-    overall_risk = calculate_overall_risk(final_results)
-    final_results["overall_risk"] = overall_risk
-    
-    print(f"\nFinal Result for {paper_name}")
-    print(f"Overall Risk: {overall_risk}")
     return final_results
 
 
