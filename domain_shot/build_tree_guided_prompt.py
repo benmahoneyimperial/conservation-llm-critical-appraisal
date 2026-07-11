@@ -3,8 +3,7 @@ import os
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DEFAULT_GUIDANCE_INTRO_PATH = os.path.join(PROJECT_ROOT, "data", "guidance_intro_md", "guidance_intro.md")
-DEFAULT_DECISION_TREES_DIR = os.path.join(PROJECT_ROOT, "data", "decsion_trees_only_md")
-ALTERNATE_DECISION_TREES_DIR = os.path.join(PROJECT_ROOT, "data", "decision_trees_only_md")
+DEFAULT_DECISION_TREES_DIR = os.path.join(PROJECT_ROOT, "data", "decision_trees_only_md")
 DEFAULT_DOMAIN_QUESTIONS_DIR = os.path.join(PROJECT_ROOT, "data", "domain_questions_md")
 DEFAULT_PAPERS_DIR = os.path.join(PROJECT_ROOT, "data", "sample_papers", "sample_papers_md")
 
@@ -51,17 +50,6 @@ def load_default_guidance_intro() -> str:
     return read_text_file(DEFAULT_GUIDANCE_INTRO_PATH)
 
 
-def _resolve_decision_trees_dir(decision_trees_dir: str) -> str:
-    """Resolve the decision-tree directory and support legacy typoed folder naming."""
-    if os.path.exists(decision_trees_dir):
-        return decision_trees_dir
-
-    if decision_trees_dir == DEFAULT_DECISION_TREES_DIR and os.path.exists(ALTERNATE_DECISION_TREES_DIR):
-        return ALTERNATE_DECISION_TREES_DIR
-
-    raise FileNotFoundError(f"Decision-tree directory not found: {decision_trees_dir}")
-
-
 def _resolve_domain_markdown_path(
     domain_name: str,
     base_dir: str,
@@ -96,11 +84,10 @@ def load_domain_questions(domain_name: str, questions_dir: str = DEFAULT_DOMAIN_
 
 def load_domain_decision_tree(domain_name: str, decision_trees_dir: str = DEFAULT_DECISION_TREES_DIR) -> str:
     """Load decision-tree markdown for one domain."""
-    resolved_dir = _resolve_decision_trees_dir(decision_trees_dir)
     path = _resolve_domain_markdown_path(
         domain_name=domain_name,
-        base_dir=resolved_dir,
-        preferred_suffixes=["_decision_tree", "_decsion_tree"],
+        base_dir=decision_trees_dir,
+        preferred_suffixes=["_decision_tree"],
         file_label="decision-tree file",
     )
     return read_text_file(path)
@@ -109,7 +96,7 @@ def load_domain_decision_tree(domain_name: str, decision_trees_dir: str = DEFAUL
 def _extract_domain_name(file_path: str) -> str:
     """Normalize a markdown filename into its base domain identifier."""
     stem = os.path.splitext(os.path.basename(file_path))[0]
-    for suffix in ("_decision_tree", "_decsion_tree", "_questions"):
+    for suffix in ("_decision_tree", "_questions"):
         if stem.endswith(suffix):
             return stem[: -len(suffix)]
     return stem
@@ -120,12 +107,13 @@ def load_default_domain_prompt_parts(
     questions_dir: str = DEFAULT_DOMAIN_QUESTIONS_DIR,
 ) -> dict:
     """Load per-domain decision trees and questions, keyed by domain name."""
-    resolved_trees_dir = _resolve_decision_trees_dir(decision_trees_dir)
+    if not os.path.exists(decision_trees_dir):
+        raise FileNotFoundError(f"Decision-tree directory not found: {decision_trees_dir}")
 
     if not os.path.exists(questions_dir):
         raise FileNotFoundError(f"Domain questions directory not found: {questions_dir}")
 
-    tree_files = glob.glob(os.path.join(resolved_trees_dir, "*.md"))
+    tree_files = glob.glob(os.path.join(decision_trees_dir, "*.md"))
     question_files = glob.glob(os.path.join(questions_dir, "*.md"))
 
     tree_domains = {_extract_domain_name(path) for path in tree_files}
@@ -140,7 +128,7 @@ def load_default_domain_prompt_parts(
     prompt_parts = {}
     for domain_name in common_domains:
         prompt_parts[domain_name] = {
-            "decision_tree_text": load_domain_decision_tree(domain_name, decision_trees_dir=resolved_trees_dir),
+            "decision_tree_text": load_domain_decision_tree(domain_name, decision_trees_dir=decision_trees_dir),
             "domain_questions_text": load_domain_questions(domain_name, questions_dir=questions_dir),
         }
 
@@ -154,7 +142,7 @@ def build_prompt(
     domain_questions_text: str,
     paper_text: str,
 ) -> str:
-    """Join tree+question prompt parts into a single prompt string in the intended order."""
+    """Join prompt parts into a single prompt string in the intended order."""
     guidance_intro = intro_text or ""
     decision_tree = decision_tree_text or ""
     domain_questions = domain_questions_text or ""
@@ -162,14 +150,16 @@ def build_prompt(
 
     sections = [
         f"--- GUIDANCE INTRO ---\n{guidance_intro}",
-        f"--- DECISION TREE ({domain_name}) ---\n{decision_tree}",
         f"--- DOMAIN QUESTIONS ({domain_name}) ---\n{domain_questions}",
+        f"--- DECISION TREE ({domain_name}) ---\n{decision_tree}",
         (
             "--- TARGET PAPER ---\n"
             f"{paper}\n\n"
-            "Use the decision tree and domain questions to assess risk of bias and provide "
-            "your final domain risk judgement in JSON only. Answer all questions exactly once "
-            "using only allowed labels and include a decision_path consistent with the tree."
+            "How to use these sections:\n"
+            "1. Use GUIDANCE INTRO only as helpful background context for interpreting bias concepts.\n"
+            "2. Read the TARGET PAPER and answer all DOMAIN QUESTIONS first (exactly once each, using allowed labels only).\n"
+            "3. Then apply the DECISION TREE to those answers to produce decision_path and final_risk_judgement.\n"
+            "4. Return JSON only, following the required schema from the system message."
         ),
     ]
 

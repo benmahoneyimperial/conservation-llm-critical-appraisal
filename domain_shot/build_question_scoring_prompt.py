@@ -98,8 +98,11 @@ def build_prompt(
         (
             "--- TARGET PAPER ---\n"
             f"{paper}\n\n"
-            "Answer all domain questions and provide an overall integer risk_of_bias_score_0_to_10 "
-            "where 0 = no risk of bias and 10 = extreme risk of bias, in the required JSON format."
+            "How to use these sections:\n"
+            "1. Use GUIDANCE INTRO as helpful background context for interpreting bias concepts.\n"
+            "2. Read the TARGET PAPER and answer all DOMAIN QUESTIONS first (exactly once each, using allowed labels only).\n"
+            "3. Then assign risk_of_bias_score_0_to_10 using those question-level answers, with higher concern answers leading to higher scores.\n"
+            "4. Return JSON only, following the required schema from the system message."
         ),
     ]
 

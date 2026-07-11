@@ -12,8 +12,8 @@ from .build_domain_shot_prompt import (
     load_default_guidance_intro,
     read_text_file,
 )
-from .build_tree_questions_prompt import (
-    build_prompt_messages as build_tree_questions_prompt_messages,
+from .build_tree_guided_prompt import (
+    build_prompt_messages as build_tree_guided_prompt_messages,
     load_default_domain_prompt_parts,
 )
 
@@ -89,7 +89,7 @@ def evaluate_domain_with_llm_tree_questions(
     model: str = DEFAULT_MODEL,
 ) -> dict:
     """Build a tree+questions prompt, call the LLM, and return the processed response."""
-    messages = build_tree_questions_prompt_messages(
+    messages = build_tree_guided_prompt_messages(
         domain_name=domain_name,
         intro_text=intro_text,
         decision_tree_text=decision_tree_text,

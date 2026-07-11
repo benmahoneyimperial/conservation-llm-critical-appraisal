@@ -1,6 +1,6 @@
 import pytest
 
-from domain_shot.build_few_shot_prompt import (
+from domain_shot.build_question_scoring_prompt import (
     SYSTEM_PROMPT_INSTRUCTIONS,
     build_prompt,
     build_prompt_messages,
@@ -9,7 +9,7 @@ from domain_shot.build_few_shot_prompt import (
 )
 
 
-def test_build_few_shot_prompt_sections_in_order():
+def test_build_question_scoring_prompt_sections_in_order():
     prompt = build_prompt(
         domain_name="domain_1",
         intro_text="Guidance intro",
@@ -26,7 +26,7 @@ def test_build_few_shot_prompt_sections_in_order():
     assert prompt.index("Q1") < prompt.index("Paper text")
 
 
-def test_build_few_shot_prompt_messages_include_system_prompt():
+def test_build_question_scoring_prompt_messages_include_system_prompt():
     messages = build_prompt_messages(
         domain_name="domain_1",
         intro_text="Guidance intro",

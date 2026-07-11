@@ -1,6 +1,6 @@
 import pytest
 
-from domain_shot.build_tree_questions_prompt import (
+from domain_shot.build_tree_guided_prompt import (
     SYSTEM_PROMPT_INSTRUCTIONS,
     build_prompt,
     build_prompt_messages,
@@ -10,7 +10,7 @@ from domain_shot.build_tree_questions_prompt import (
 )
 
 
-def test_build_tree_questions_prompt_sections_in_order():
+def test_build_tree_guided_prompt_sections_in_order():
     prompt = build_prompt(
         domain_name="domain_1",
         intro_text="Guidance intro",
@@ -24,12 +24,12 @@ def test_build_tree_questions_prompt_sections_in_order():
     assert "--- DOMAIN QUESTIONS (domain_1) ---" in prompt
     assert "--- TARGET PAPER ---" in prompt
 
-    assert prompt.index("Guidance intro") < prompt.index("Tree step A")
-    assert prompt.index("Tree step A") < prompt.index("Q1")
-    assert prompt.index("Q1") < prompt.index("Paper text")
+    assert prompt.index("Guidance intro") < prompt.index("Q1")
+    assert prompt.index("Q1") < prompt.index("Tree step A")
+    assert prompt.index("Tree step A") < prompt.index("Paper text")
 
 
-def test_build_tree_questions_prompt_messages_include_system_prompt():
+def test_build_tree_guided_prompt_messages_include_system_prompt():
     messages = build_prompt_messages(
         domain_name="domain_1",
         intro_text="Guidance intro",
