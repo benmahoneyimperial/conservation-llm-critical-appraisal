@@ -7,15 +7,31 @@ from dotenv import load_dotenv
 
 from .build_domain_shot_prompt import (
     DEFAULT_PAPERS_DIR,
-    build_prompt_messages,
+    build_prompt_messages as build_domain_shot_prompt_messages,
     load_default_domain_guidance,
     load_default_guidance_intro,
     read_text_file,
 )
+from .build_tree_questions_prompt import (
+    build_prompt_messages as build_tree_questions_prompt_messages,
+    load_default_domain_prompt_parts,
+)
 
 load_dotenv()
 
-DEFAULT_MODEL = "deepseek/deepseek-v4-flash"
+DEFAULT_MODEL = "anthropic/claude-opus-4.8"
+
+
+def _load_default_guidance_by_mode(prompt_mode: str) -> dict:
+    """Load default per-domain prompt content based on prompt mode."""
+    if prompt_mode == "domain_guidance":
+        return load_default_domain_guidance()
+    if prompt_mode == "tree_questions":
+        return load_default_domain_prompt_parts()
+
+    raise ValueError(
+        f"Unsupported prompt_mode '{prompt_mode}'. Expected 'domain_guidance' or 'tree_questions'."
+    )
 
 
 def call_llm_and_process(domain_name: str, messages: list, model: str) -> dict:
@@ -55,11 +71,30 @@ def evaluate_domain_with_llm(
     model: str = DEFAULT_MODEL,
 ) -> dict:
     """Build the prompt, call the LLM, and return the processed response."""
-    messages = build_prompt_messages(
+    messages = build_domain_shot_prompt_messages(
         domain_name=domain_name,
         domain_text=domain_text,
         paper_text=paper_text,
         intro_text=intro_text,
+    )
+    return call_llm_and_process(domain_name, messages, model)
+
+
+def evaluate_domain_with_llm_tree_questions(
+    domain_name: str,
+    decision_tree_text: str,
+    domain_questions_text: str,
+    paper_text: str,
+    intro_text: str,
+    model: str = DEFAULT_MODEL,
+) -> dict:
+    """Build a tree+questions prompt, call the LLM, and return the processed response."""
+    messages = build_tree_questions_prompt_messages(
+        domain_name=domain_name,
+        intro_text=intro_text,
+        decision_tree_text=decision_tree_text,
+        domain_questions_text=domain_questions_text,
+        paper_text=paper_text,
     )
     return call_llm_and_process(domain_name, messages, model)
 
@@ -69,26 +104,47 @@ def evaluate_single(
     intro_text: str,
     model: str = DEFAULT_MODEL,
     guidance_dict: dict | None = None,
+    prompt_mode: str = "domain_guidance",
 ):
     if guidance_dict is None:
-        guidance_dict = load_default_domain_guidance()
+        guidance_dict = _load_default_guidance_by_mode(prompt_mode)
 
     paper_name = os.path.basename(paper_path)
     print(f"\n--- Evaluating Paper: {paper_name} ---")
-    print(f"Loaded {len(guidance_dict)} domains for evaluation.")
+    print(f"Loaded {len(guidance_dict)} domains for evaluation using mode '{prompt_mode}'.")
 
     paper_text = read_text_file(paper_path)
 
     final_results = {}
-    for domain_name, domain_text in guidance_dict.items():
+    for domain_name, domain_payload in guidance_dict.items():
         print(f"  -> Assessing {domain_name}...")
-        response = evaluate_domain_with_llm(
-            domain_name,
-            domain_text,
-            paper_text,
-            intro_text,
-            model,
-        )
+        if prompt_mode == "domain_guidance":
+            response = evaluate_domain_with_llm(
+                domain_name,
+                domain_payload,
+                paper_text,
+                intro_text,
+                model,
+            )
+        elif prompt_mode == "tree_questions":
+            if not isinstance(domain_payload, dict):
+                raise ValueError(
+                    "guidance_dict values must be dict payloads in tree_questions mode."
+                )
+
+            response = evaluate_domain_with_llm_tree_questions(
+                domain_name=domain_name,
+                decision_tree_text=domain_payload["decision_tree_text"],
+                domain_questions_text=domain_payload["domain_questions_text"],
+                paper_text=paper_text,
+                intro_text=intro_text,
+                model=model,
+            )
+        else:
+            raise ValueError(
+                f"Unsupported prompt_mode '{prompt_mode}'. Expected 'domain_guidance' or 'tree_questions'."
+            )
+
         final_results[domain_name] = response
 
     return final_results
@@ -99,13 +155,16 @@ def evaluate_all(
     model: str = DEFAULT_MODEL,
     guidance_dict: dict | None = None,
     intro_text: str | None = None,
+    prompt_mode: str = "domain_guidance",
 ):
     if guidance_dict is None:
-        guidance_dict = load_default_domain_guidance()
+        guidance_dict = _load_default_guidance_by_mode(prompt_mode)
     if intro_text is None:
         intro_text = load_default_guidance_intro()
 
-    print(f"\n--- Starting Batch Domain-Shot Evaluation on: {papers_dir} ---")
+    print(
+        f"\n--- Starting Batch Domain-Shot Evaluation on: {papers_dir} (mode={prompt_mode}) ---"
+    )
     valid_extensions = (".md",)
     files = [f for f in os.listdir(papers_dir) if f.lower().endswith(valid_extensions)]
 
@@ -117,6 +176,7 @@ def evaluate_all(
             intro_text=intro_text,
             model=model,
             guidance_dict=guidance_dict,
+            prompt_mode=prompt_mode,
         )
         all_results[filename] = res
 
@@ -127,9 +187,10 @@ def evaluate_single_by_filename(
     paper_filename: str,
     papers_dir: str = DEFAULT_PAPERS_DIR,
     model: str = DEFAULT_MODEL,
+    prompt_mode: str = "domain_guidance",
 ):
     """Convenience helper for evaluating one markdown paper from the default papers directory."""
-    guidance_dict = load_default_domain_guidance()
+    guidance_dict = _load_default_guidance_by_mode(prompt_mode)
     intro_text = load_default_guidance_intro()
     paper_path = os.path.join(papers_dir, paper_filename)
 
@@ -138,4 +199,5 @@ def evaluate_single_by_filename(
         intro_text=intro_text,
         model=model,
         guidance_dict=guidance_dict,
+        prompt_mode=prompt_mode,
     )

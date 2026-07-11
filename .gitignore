@@ -19,4 +19,4 @@ __pycache__/
 # Ignore data directories to prevent committing copyrighted papers
 data/papers/
 #data/processed_text/*.csv
-data/
+data/sample_papers/
