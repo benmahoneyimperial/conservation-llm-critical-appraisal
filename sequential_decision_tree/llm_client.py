@@ -12,7 +12,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("OPENROUTER_API_KEY is not set. Please ensure you have a .env file with this key.")
 
-MODEL = "openai/gpt-5.2"
+MODEL = "openai/gpt-4.1-nano"
 
 # Create a session object to reuse TCP connections (Keep-Alive)
 _session = requests.Session()
@@ -37,6 +37,50 @@ DEFAULT_INSTRUCTIONS = (
 )
 
 INSTRUCTIONS = DEFAULT_INSTRUCTIONS
+
+
+def _normalize_to_valid_answer(candidate: str, valid_answers: list | None) -> str | None:
+    """Normalize a parsed candidate to one of the valid answers when possible."""
+    cleaned = candidate.strip().strip("[](){}<> ").strip(".:;,*_`\"")
+    if not cleaned:
+        return None
+
+    if not valid_answers:
+        return cleaned
+
+    valid_map = {ans.lower(): ans for ans in valid_answers}
+    normalized = cleaned.lower()
+    return valid_map.get(normalized)
+
+
+def _extract_final_answer(content: str, valid_answers: list | None = None) -> str | None:
+    """Extract final answer from LLM output with bracket-first, answer-line fallback."""
+    # Preferred format: [[Answer]]
+    match = re.search(r"\[\[(.*?)\]\]", content, re.DOTALL)
+    if match:
+        parsed = _normalize_to_valid_answer(match.group(1), valid_answers)
+        if parsed:
+            return parsed
+
+    # Fallback format: "Answer: X" (including markdown bold variants)
+    answer_line_matches = list(
+        re.finditer(r"(?im)^\s*(?:\*\*)?answer(?:\*\*)?\s*:\s*(.+?)\s*$", content)
+    )
+    for m in reversed(answer_line_matches):
+        parsed = _normalize_to_valid_answer(m.group(1), valid_answers)
+        if parsed:
+            return parsed
+
+    # Last-line fallback for outputs that end with just the label.
+    if valid_answers:
+        valid_map = {ans.lower(): ans for ans in valid_answers}
+        lines = [line.strip().strip("*_`") for line in content.splitlines() if line.strip()]
+        for line in reversed(lines):
+            normalized = line.strip(".:;,*_`\"").lower()
+            if normalized in valid_map:
+                return valid_map[normalized]
+
+    return None
 
 def set_instructions(new_instructions: str):
     """Update the instructions used in the prompt."""
@@ -143,9 +187,8 @@ def ask_llm(
     
     content = result["choices"][0]["message"]["content"].strip()
     
-    # Extract final answer inside [[...]]
-    match = re.search(r"\[\[(.*?)\]\]", content, re.DOTALL)
-    final_answer = match.group(1).strip() if match else None
+    # Extract final answer (preferred [[...]] format, with one-call fallback parsing)
+    final_answer = _extract_final_answer(content, valid_answers=valid_answers)
     
     qa_log_file = os.getenv("QA_LOG_FILE")
     if qa_log_file:

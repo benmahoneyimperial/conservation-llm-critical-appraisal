@@ -148,6 +148,18 @@ def build_prompt(
     domain_questions = domain_questions_text or ""
     paper = paper_text or ""
 
+    applicability_gate = ""
+    if domain_name == "domain_3":
+        applicability_gate = (
+            "5. Domain 3 applicability gate: determine if the study is observational. "
+            "If not observational, set every Domain 3 answer to Not applicable and return final_risk_judgement as Not Applicable.\n"
+        )
+    elif domain_name == "domain_4":
+        applicability_gate = (
+            "5. Domain 4 applicability gate: determine if the study is experimental. "
+            "If not experimental, set every Domain 4 answer to Not applicable and return final_risk_judgement as Not Applicable.\n"
+        )
+
     sections = [
         f"--- GUIDANCE INTRO ---\n{guidance_intro}",
         f"--- DOMAIN QUESTIONS ({domain_name}) ---\n{domain_questions}",
@@ -159,7 +171,8 @@ def build_prompt(
             "1. Use GUIDANCE INTRO only as helpful background context for interpreting bias concepts.\n"
             "2. Read the TARGET PAPER and answer all DOMAIN QUESTIONS first (exactly once each, using allowed labels only).\n"
             "3. Then apply the DECISION TREE to those answers to produce decision_path and final_risk_judgement.\n"
-            "4. Return JSON only, following the required schema from the system message."
+            "4. Return JSON only, following the required schema from the system message.\n"
+            f"{applicability_gate}"
         ),
     ]
 

@@ -1,0 +1,241 @@
+{
+  "paper": "2.md",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "tree_guided": {
+    "domain_1": {
+      "parsed_response": {
+        "question_answers": {
+          "1.1": "Yes",
+          "1.2": "No",
+          "1.3": "No",
+          "1.4": "Not applicable",
+          "1.5": "Not applicable",
+          "1.6": "Skip"
+        },
+        "decision_path": [
+          "1.1 -> Yes",
+          "1.2 -> No",
+          "1.3 -> No",
+          "High"
+        ],
+        "final_risk_judgement": "High Risk",
+        "short_rationale": "The study compares seed rain among pre-existing, non-randomly assigned habitats (maple-beech forest, old field, plantation) and relates seed rain to plant density using simple ANOVA/regression without controlling for potential confounders (e.g., natural perch availability, landscape context, bird community differences, distance to seed sources) that could jointly influence both habitat/density and seed rain. No justification is provided for omitting these potential confounders, so the default algorithm yields a High risk of confounding bias."
+      }
+    },
+    "domain_2": {
+      "parsed_response": {
+        "question_answers": {
+          "2.1": "Seemingly yes",
+          "2.2": "Unclear",
+          "2.3": "Seemingly yes",
+          "2.4": "Seemingly yes",
+          "2.5": "Not applicable",
+          "2.6": "Not applicable",
+          "2.7": "Skip"
+        },
+        "decision_path": [
+          "2.1 -> Seemingly yes (treated as Yes) -> 2.2_Left",
+          "2.2 -> Unclear (treated as No, no branch difference) -> 2.3_Left",
+          "2.3 -> Seemingly yes (treated as Yes, some data/species were excluded from analysis via the <3-seed threshold) -> 2.4",
+          "2.4 -> Seemingly yes (exclusion criteria applied uniformly across habitats/perch groups, groups remain comparable) -> Med",
+          "final_judgement -> Medium Risk"
+        ],
+        "final_risk_judgement": "Medium Risk",
+        "short_rationale": "All 12 plots and their traps appear to have been consistently monitored throughout the year with no reported loss of sampling units, but the authors excluded rare species (<3 total seeds) and certain seed types (e.g., raccoon-derived, intact fruits) from statistical analysis. This exclusion was applied uniformly across habitat and perch groups, preserving comparability, which per the decision tree corresponds to a Medium risk of post-intervention/exposure selection bias."
+      }
+    },
+    "domain_3": {
+      "parsed_response": {
+        "question_answers": {
+          "3.1": "Yes",
+          "3.2": "Yes",
+          "3.3": "Seemingly no",
+          "3.4": "Skip"
+        },
+        "decision_path": [
+          "3.1 -> Yes",
+          "3.2_Left -> Yes",
+          "3.3_FarLeft -> No",
+          "Low"
+        ],
+        "final_risk_judgement": "Low Risk",
+        "short_rationale": "The study's exposure/comparator groups (habitat types defined by stand age and vegetation criteria; plant density classes defined by basal-diameter thresholds) were clearly and objectively defined and appropriate for the causal questions addressed, and there is no indication in the methods that classification was influenced by researcher knowledge, expectation, or desire, supporting a low risk of misclassified comparison bias for the observational comparisons (habitat and plant-density effects on seed rain)."
+      }
+    },
+    "domain_4": {
+      "parsed_response": {
+        "question_answers": {
+          "4.1": "Seemingly yes",
+          "4.2": "Seemingly no",
+          "4.3": "Not applicable",
+          "4.4": "Seemingly yes",
+          "4.5": "Not applicable",
+          "4.6": "Skip"
+        },
+        "decision_path": [
+          "Study type determination -> Experimental (artificial perch treatment formally applied by researchers to half of seed traps at each plot)",
+          "4.1 -> Seemingly yes (researchers who installed perches were aware of the tested hypothesis regarding perch effects on seed rain)",
+          "4.2_Center -> Seemingly no (no evidence in Methods of deviations from planned perch/trap construction, placement, or collection protocol; standardized design described)",
+          "4.4_Left -> Seemingly yes (traps with and without perches were constructed and deployed uniformly across all plots per the described standardized protocol, with no reported implementation failures)",
+          "final_judgement -> Low"
+        ],
+        "final_risk_judgement": "Low Risk",
+        "short_rationale": "The perch treatment was an experimentally applied structural manipulation implemented uniformly across all plots according to a standardized protocol, with no reported deviations, alterations, or implementation failures in either the perch or no-perch trap groups, leading the decision tree to a Low risk of performance bias."
+      }
+    },
+    "domain_5": {
+      "parsed_response": {
+        "question_answers": {
+          "5.1": "No",
+          "5.2": "Yes",
+          "5.3": "Yes",
+          "5.4": "Not applicable"
+        },
+        "decision_path": [
+          "5.1 -> No",
+          "5.2_Left -> Yes",
+          "5.3_Left -> Yes",
+          "Low"
+        ],
+        "final_risk_judgement": "Low Risk",
+        "short_rationale": "Seed identification and counting were performed using standardized morphological keys (Martin and Barkley 1961; Young and Young 1992) applied uniformly across all traps, habitats, and perch/no-perch treatments, with no indication that knowledge of trap type or habitat influenced measurement. The outcome (seed rain counts) was appropriate for assessing dispersal effects, and identical trap design and collection schedule (~every 2 months) were used across all groups, indicating low risk of detection bias."
+      }
+    },
+    "domain_6": {
+      "parsed_response": {
+        "question_answers": {
+          "6.1": "No",
+          "6.2": "No",
+          "6.3": "No"
+        },
+        "decision_path": [
+          "6.1 -> No",
+          "6.2_Left -> No",
+          "6.3_Left -> No",
+          "Low"
+        ],
+        "final_risk_judgement": "Low Risk",
+        "short_rationale": "The paper reports full data for all collected species and habitats (Table 1), explicitly states a pre-specified inclusion rule (≥3 seeds) unrelated to results, and clearly justifies why individual-species hypothesis tests were omitted (to avoid inflating experiment-wide error), with no indication that findings or analyses were selectively withheld based on direction or significance."
+      }
+    },
+    "domain_7": {
+      "parsed_response": {
+        "question_answers": {
+          "7.1": "Seemingly yes",
+          "7.2": "No",
+          "7.3": "No",
+          "7.4": "Seemingly no"
+        },
+        "decision_path": [
+          "7.1 -> Seemingly yes (treated as Yes)",
+          "7.2_Right -> No",
+          "7.3_Center -> No",
+          "7.4_Center -> No (Seemingly no)",
+          "Med"
+        ],
+        "final_risk_judgement": "Medium Risk",
+        "short_rationale": "Researchers who collected/identified seeds and set up plots were clearly aware of habitat/perch treatments (no blinding reported), but there is no evidence of descriptive or inferential statistical errors; transformations (sqrt, log) and RMA regression were reasonably justified though assumption checks (e.g., normality, equal variance) were not explicitly reported, warranting a cautious 'Seemingly no' rather than confirmed 'No'."
+      }
+    }
+  },
+  "question_scoring": {
+    "domain_1": {
+      "parsed_response": {
+        "question_answers": {
+          "1.1": "Yes",
+          "1.2": "No",
+          "1.3": "No",
+          "1.4": "Not applicable",
+          "1.5": "Not applicable"
+        },
+        "risk_of_bias_score_0_to_10": 7,
+        "short_rationale": "Habitat type and local plant density were not randomly assigned, and numerous plausible confounders (e.g., forest edge proximity, bird activity patterns, alternative fruit availability, canopy structure, distance to bird roosts) that could jointly influence both habitat/plant density and seed rain were neither identified nor statistically controlled for in the ANOVA or RMA regression analyses. No justification (e.g., instrumental variable, restriction) was provided for omitting these potential confounders, indicating high risk of confounding bias for the reported habitat and density-seed rain associations."
+      }
+    },
+    "domain_2": {
+      "parsed_response": {
+        "question_answers": {
+          "2.1": "Seemingly yes",
+          "2.2": "Unclear",
+          "2.3": "Seemingly no",
+          "2.4": "Not applicable",
+          "2.5": "Not applicable",
+          "2.6": "Not applicable"
+        },
+        "risk_of_bias_score_0_to_10": 2,
+        "short_rationale": "All 12 plots (10 traps each) appear to have been sampled continuously for the entire year with no reported loss of traps, plots, or subjects after installation, and no differential attrition is described (2.1.b Seemingly yes, 2.3 Seemingly no), so conditional questions 2.4-2.6 are not applicable. However, the paper does not state whether researchers were blinded to trap/plot selection, leaving 2.2 Unclear, which introduces a small residual uncertainty."
+      }
+    },
+    "domain_3": {
+      "parsed_response": {
+        "question_answers": {
+          "3.1": "Seemingly yes",
+          "3.2": "Seemingly yes",
+          "3.3": "Yes",
+          "3.4": "Skip"
+        },
+        "risk_of_bias_score_0_to_10": 4,
+        "short_rationale": "Habitats and exotic/native seed categories were reasonably well-defined and classification approaches (age, species composition, plant density) appear appropriate for the causal question, but the authors explicitly acknowledge that seed identification limitations (e.g., inability to distinguish congeneric Lonicera/Vitis/Rubus species) and infrequent trap visits could have led to misclassification of secondary vs. primary seed rain or bird vs. mammal dispersal, indicating a real but moderate risk of misclassified comparison bias."
+      }
+    },
+    "domain_4": {
+      "parsed_response": {
+        "question_answers": {
+          "4.1": "Seemingly yes",
+          "4.2": "Seemingly no",
+          "4.3": "Not applicable",
+          "4.4": "Seemingly yes",
+          "4.5": "Not applicable",
+          "4.6": "Skip"
+        },
+        "risk_of_bias_score_0_to_10": 3,
+        "short_rationale": "The perch vs. no-perch comparison is an experimentally applied treatment (researchers installed standardized artificial perches on half the traps), so Domain 4 applies to this element of the study. The paper gives a detailed, standardized perch design and no mention of deviations, failures, or unequal implementation across groups, suggesting low-to-moderate risk of performance bias, though explicit confirmation of successful implementation for all traps/plots is not stated, leaving some residual uncertainty."
+      }
+    },
+    "domain_5": {
+      "parsed_response": {
+        "question_answers": {
+          "5.1": "Seemingly no",
+          "5.2": "Yes",
+          "5.3": "Seemingly no",
+          "5.4": "No"
+        },
+        "risk_of_bias_score_0_to_10": 5,
+        "short_rationale": "Seed identification/counting itself is an objective morphological method applied identically across habitats and perch treatments, supporting low concern for desire/knowledge-driven bias (5.1) and appropriateness of the outcome (5.2). However, the authors explicitly acknowledge that seed predation (granivory) rates likely differ among habitats (especially higher in maple-beech forest) between the ~2-month trap visits, which could differentially and systematically bias detected seed rain across habitat groups, and they explicitly state they did not quantify or correct for this (no labeled-seed loss experiment), leaving this potential detection bias unaddressed."
+      }
+    },
+    "domain_6": {
+      "parsed_response": {
+        "question_answers": {
+          "6.1": "No",
+          "6.2": "No",
+          "6.3": "Seemingly no",
+          "6.4": "Skip"
+        },
+        "risk_of_bias_score_0_to_10": 1,
+        "short_rationale": "The study reports comprehensive seed counts for all collected species across all habitat/perch combinations in a full table, explicitly states its inclusion criterion (≥3 seeds) for species-level statistical analyses, and transparently discloses why individual species hypothesis tests were avoided (to control experiment-wide error rate), indicating minimal selective reporting of outcomes, subgroups, or analyses."
+      }
+    },
+    "domain_7": {
+      "parsed_response": {
+        "question_answers": {
+          "7.1": "Seemingly yes",
+          "7.2": "Seemingly no",
+          "7.3": "Seemingly no",
+          "7.4": "Seemingly no",
+          "7.5": "Skip"
+        },
+        "risk_of_bias_score_0_to_10": 3,
+        "short_rationale": "Analysts were almost certainly aware of habitat/perch treatment status (no blinding reported), but the paper explicitly reports appropriate, well-justified statistical methods (square-root transformation for count data, Tukey contrasts, RMA regression with log-transformation, outlier checks) with no evident descriptive or inferential errors or clear assumption violations, so risk from statistical analysis is low, though some uncertainty remains due to lack of explicit blinding statements."
+      }
+    }
+  }
+}

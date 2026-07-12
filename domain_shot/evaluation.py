@@ -5,26 +5,38 @@ import re
 import requests
 from dotenv import load_dotenv
 
-from .build_domain_shot_prompt import (
+from .build_tree_guided_prompt import (
     DEFAULT_PAPERS_DIR,
-    build_prompt_messages as build_domain_shot_prompt_messages,
-    load_default_domain_guidance,
     load_default_guidance_intro,
     read_text_file,
-)
-from .build_tree_guided_prompt import (
     build_prompt_messages as build_tree_guided_prompt_messages,
     load_default_domain_prompt_parts,
 )
 
 load_dotenv()
 
-DEFAULT_MODEL = "anthropic/claude-opus-4.8"
+DEFAULT_MODEL = "anthropic/claude-sonnet-5"
+
+
+def _load_domain_guidance_module():
+    """Import domain-guidance prompt builder lazily so other modes still work when absent."""
+    try:
+        from .build_domain_shot_prompt import (  # pylint: disable=import-outside-toplevel
+            build_prompt_messages as build_domain_shot_prompt_messages,
+            load_default_domain_guidance,
+        )
+    except ModuleNotFoundError as exc:
+        raise ModuleNotFoundError(
+            "domain_guidance mode is unavailable because 'domain_shot.build_domain_shot_prompt' is missing."
+        ) from exc
+
+    return build_domain_shot_prompt_messages, load_default_domain_guidance
 
 
 def _load_default_guidance_by_mode(prompt_mode: str) -> dict:
     """Load default per-domain prompt content based on prompt mode."""
     if prompt_mode == "domain_guidance":
+        _, load_default_domain_guidance = _load_domain_guidance_module()
         return load_default_domain_guidance()
     if prompt_mode == "tree_questions":
         return load_default_domain_prompt_parts()
@@ -71,6 +83,7 @@ def evaluate_domain_with_llm(
     model: str = DEFAULT_MODEL,
 ) -> dict:
     """Build the prompt, call the LLM, and return the processed response."""
+    build_domain_shot_prompt_messages, _ = _load_domain_guidance_module()
     messages = build_domain_shot_prompt_messages(
         domain_name=domain_name,
         domain_text=domain_text,

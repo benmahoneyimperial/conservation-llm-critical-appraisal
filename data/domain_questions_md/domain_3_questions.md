@@ -1,5 +1,11 @@
 Domain 3 - Misclassified Comparison Bias Checklist (Structured for LLM Use)
 
+Applicability rule (read first):
+1. Determine whether the study is observational.
+2. If the study is not observational, set every Domain 3 question (3.1-3.4) to Not applicable.
+3. Only answer Domain 3 questions substantively when the study is observational.
+
+
 Question ID: 3.1
 Category: Conditional
 When to answer: If study type is observational; otherwise select Not applicable

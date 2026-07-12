@@ -1,5 +1,10 @@
 Domain 4 - Performance Bias Checklist (Structured for LLM Use)
 
+Applicability rule (read first):
+1. Determine whether the study is experimental.
+2. If the study is not experimental, set every Domain 4 question (4.1-4.6) to Not applicable.
+3. Only answer Domain 4 questions substantively when the study is experimental.
+
 Question ID: 4.1
 Category: Conditional
 When to answer: If experimental treatments are applied in the study; otherwise select Not applicable

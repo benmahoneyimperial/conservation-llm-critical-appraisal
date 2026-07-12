@@ -32,6 +32,7 @@ Scoring rules:
 Use the full 0-10 range.
 More severe adverse answers (No, Seemingly no, Unclear) must not produce a lower score.
 Base the score only on evidence in the target paper and keep it consistent with the question-level answers.
+Follow conditional logic from the domain questions and use Not applicable when conditions are not met.
 """
 
 
@@ -92,6 +93,18 @@ def build_prompt(
     domain_questions = domain_questions_text or ""
     paper = paper_text or ""
 
+    applicability_gate = ""
+    if domain_name == "domain_3":
+        applicability_gate = (
+            "5. Domain 3 applicability gate: determine if the study is observational. "
+            "If not observational, set every Domain 3 answer to Not applicable and set risk_of_bias_score_0_to_10 to 0.\n"
+        )
+    elif domain_name == "domain_4":
+        applicability_gate = (
+            "5. Domain 4 applicability gate: determine if the study is experimental. "
+            "If not experimental, set every Domain 4 answer to Not applicable and set risk_of_bias_score_0_to_10 to 0.\n"
+        )
+
     sections = [
         f"--- GUIDANCE INTRO ---\n{guidance_intro}",
         f"--- DOMAIN QUESTIONS ({domain_name}) ---\n{domain_questions}",
@@ -102,7 +115,8 @@ def build_prompt(
             "1. Use GUIDANCE INTRO as helpful background context for interpreting bias concepts.\n"
             "2. Read the TARGET PAPER and answer all DOMAIN QUESTIONS first (exactly once each, using allowed labels only).\n"
             "3. Then assign risk_of_bias_score_0_to_10 using those question-level answers, with higher concern answers leading to higher scores.\n"
-            "4. Return JSON only, following the required schema from the system message."
+            "4. Return JSON only, following the required schema from the system message.\n"
+            f"{applicability_gate}"
         ),
     ]
 
