@@ -1,0 +1,795 @@
+{
+  "model": "openai/gpt-4.1-nano",
+  "timestamp_utc": "2026-07-12T20:59:02.573022+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {
+    "1.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> Not applicable",
+            "1.4 -> Not applicable",
+            "1.5 -> Not applicable",
+            "1.6 -> Skip",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study explicitly acknowledges potential for confounding (e.g., differences in seed dispersal and environmental conditions) but does not clearly demonstrate control for all potential confounders, which suggests an elevated risk of confounding bias. Other factors such as seed predation and abiotic stress are considered but are unlikely to be fully controlled, contributing to persistent bias risk."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "No",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> No",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "2.7 -> Unpredictable",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Subjects or areas in the study were excluded or lost after intervention, and the study involved non-random selection processes, leading to potential selection bias; additionally, neither adjustment nor clear assessment of systematic differences in selection was evidenced, increasing the risk of bias. The high seed predation, herbivory, and adverse abiotic conditions likely further affected the representativeness and reliability of the findings, justifying a high risk of bias conclusion."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> Not applicable",
+            "3.2 -> Not applicable",
+            "3.3 -> Not applicable",
+            "3.4 -> Not applicable",
+            "final_judgement -> Not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is not observational, so the domain-specific questions on misclassified comparison biases do not apply. All answers are set to 'Not applicable' following the guidance, leading to an overall judgement of 'Not Applicable'."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "4.1 -> Not applicable",
+            "4.2 -> Not applicable",
+            "4.3 -> Not applicable",
+            "4.4 -> Not applicable",
+            "4.5 -> Not applicable",
+            "4.6 -> Not applicable",
+            "Final decision: Not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The target study is observational and not experimental, so all performance bias questions are not applicable by the decision tree criteria, leading to an overall judgement of 'Not Applicable' for domain 4."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "No",
+            "5.4": "No"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly no",
+            "5.2 -> Yes",
+            "5.3 -> No",
+            "5.4 -> No",
+            "5.1 -> No",
+            "5.2 -> Yes",
+            "5.3 -> No",
+            "5.4 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study does not report evidence that outcomes were affected by knowledge of exposure, yet the outcome measured was appropriate and methods were consistent across groups, indicating low detection bias. The assessment follows the structured decision tree, leading to a low risk of detection bias overall."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Unclear",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no"
+          },
+          "decision_path": [
+            "6.1 -> Unclear",
+            "6.2 -> Seemingly no",
+            "6.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The paper provides limited explicit information on whether the reported outcome data are from selected measurements, and it suggests that outcome reporting may be selectively biased toward favorable findings, leading to a high risk of outcome reporting bias. The evidence indicates that some relevant outcomes or analyses may be partially reported or selectively disclosed, and the overall assessment follows the decision tree leading to a high risk classification."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Unclear",
+            "7.2": "Yes",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Unclear",
+            "7.2 -> Yes",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear -> 7.2_Left -> High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The authors did not explicitly state whether they were aware of intervention or exposure received by the individuals estimating effectiveness, leading to an unclear answer and a conservative assessment of high risk. Additionally, there was evidence of error in applied descriptive statistics, increasing the chance of bias in outcome assessment; thus, the overall risk is considered high."
+        }
+      }
+    },
+    "2.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> Not applicable",
+            "1.4 -> Not applicable",
+            "1.5 -> Not applicable",
+            "1.6 -> Skip",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study explicitly states that confounding is possible, but it does not control for potential confounders, leading to an unaddressed risk of confounding bias. Since confounders were not controlled and no justifiable reason was provided, the risk of bias is high."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "No",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> No",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "2.7 -> Unpredictable",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study indicates that after sampling, some subjects or areas were excluded or lost from analysis, which introduces post-intervention/exposure selection bias. Given that the exclusion was during analysis or after intervention starts, and the available answers indicate non-random or systematic loss of data without proper adjustment, the risk is judged high. The optional bias assessment is unpredictable due to lack of evidence on magnitude or direction of potential biases."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Seemingly no",
+            "3.2": "No",
+            "3.3": "Unclear",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> Seemingly no",
+            "3.2 -> No",
+            "3.3 -> Unclear",
+            "3.4 -> Not applicable",
+            "High"
+          ],
+          "final_risk_judgement": "Unclear",
+          "short_rationale": "The study is observational, so question 3.1 is answered as 'Seemingly no' based on the study design description. The classification of groups (3.2) is problematic due to potential issues with seed dispersal and habitat use, leading to a 'No' answer. The measurement error (3.3) is uncertain from the available information, thus 'Unclear.' Since the study involves observational data and applies to natural seed dispersal, question 3.4 is not applicable. Overall, the combination of uncertainties results in an 'Unclear' overall risk assessment for misclassification bias."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "No",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "4.1 -> No",
+            "not applicable -> (as per decision tree, if 4.1 is No, directly finalizes as 'Low')",
+            "Low"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational and does not involve experimental treatments, so the questions regarding performance bias (4.1-4.6) are not applicable. Therefore, the overall risk of performance bias is not assessable, leading to a 'Not Applicable' judgment for this domain."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Yes",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "5.4 -> Not applicable",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study explicitly states that outcome measurement procedures were consistent across groups and that the measurement was appropriate for the effect of interest. There is no evidence of systematic differences in outcome measurement procedures or potential biases from awareness or selection, leading to a low risk of detection bias."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "Yes",
+            "6.4": "Unclear"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2 -> No",
+            "6.3 -> Yes",
+            "6.4 -> Unclear",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The study explicitly reports that only part of measured outcomes is reported and that analysis of causal relationships is partially reported, suggesting potential outcome reporting bias. The optional question on biases in reporting was answered as 'Unclear,' reflecting insufficient information to determine bias magnitude, leading to a moderate overall risk assessment."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Unclear (Yes)",
+            "7.2": "Unclear (Yes)",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Unclear (Yes)",
+            "7.2 -> Unclear (Yes)",
+            "7.1 -> Yes",
+            "7.2 -> Yes",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Yes",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> Yes",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear (Yes)"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study did not explicitly report whether personnel estimating seed dispersal outcomes were aware of the intervention or exposure, and the descriptive and inferential statistical methods used may have had errors or inappropriate assumptions, contributing to a high risk of outcome assessment bias. Since inferential statistics were conducted and some questions remained unclear, the overall assessment indicates a high risk of bias in outcome assessment."
+        }
+      }
+    },
+    "3.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Seemingly yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Seemingly yes",
+            "1.2 -> No",
+            "1.3 -> Not applicable",
+            "1.4 -> Not applicable",
+            "1.5 -> Not applicable",
+            "1.6 -> Skip",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study investigates spatially directed seed dispersal influenced by experimental plantings, indicating a potential for confounding factors affecting effectiveness. However, the study explicitly demonstrates external influences and dispersal mechanisms, and the authors attempt to control for confounders. The decision tree suggests a low risk of confounding bias despite the presence of potential confounders, as the authors acknowledge and address dispersal dynamics, justifying an overall low risk assessment."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "decision_path": [
+            "2.1 -> Yes",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> Seemingly no",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "2.4 -> Seemingly no",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "2.6 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Despite efforts to select and include comparable groups and to adjust for biases, the study shows potential for systematic selection biases and unaddressed confounding, especially given the lack of blinding during selection and analysis, which suggests a high risk of post-intervention/exposure selection bias and confounding effects, despite some attempts to account for these factors."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Seemingly no",
+            "3.2": "Seemingly no",
+            "3.3": "Yes",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> Seemingly no",
+            "3.2 -> Seemingly no",
+            "3.3 -> Yes",
+            "3.4 -> Not applicable",
+            "3.1 -> Seemingly no",
+            "3.2 -> Seemingly no",
+            "3.3 -> Yes",
+            "3.4 -> Not applicable",
+            "3.1 -> Seemingly no",
+            "3.2 -> Seemingly no",
+            "3.3 -> Yes",
+            "3.4 -> Not applicable",
+            "Low risk of bias"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study pertains to an experimental reclamation site with manipulations and observations, thus it is not observational. Therefore, questions specific to observational studies (Domain 3) are not applicable. The assessment concludes that Domain 3 is not applicable for this study."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "4.1 -> Not applicable",
+            "4.2_Left -> Not applicable",
+            "4.2_Center -> Not applicable",
+            "4.3 -> Not applicable",
+            "4.4_Left -> Not applicable",
+            "4.4_Center -> Not applicable",
+            "4.4_Right -> Not applicable",
+            "4.5_Center -> Not applicable",
+            "4.5_Right -> Not applicable",
+            "Not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study described is an observational, landscape-scale experiment involving planting and monitoring, not an experimental intervention study. Therefore, performance bias criteria are not applicable, and the overall judgement is 'Not Applicable'."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "No",
+            "5.4": "No"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly yes",
+            "5.2 -> Yes",
+            "5.3 -> No",
+            "5.4 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study involves outcome measurement that could be affected by knowledge of dispersal sources and methods, but there is no indication of biasing measurement processes. Outcomes are appropriate for assessing dispersal effects, and measurement methods are consistent across groups, with no evidence of differences in outcome measurement procedures. Based on the decision tree, this results in a low risk of detection bias."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Yes",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Unclear"
+          },
+          "decision_path": [
+            "6.1 -> Yes",
+            "6.2 -> No",
+            "6.3 -> No",
+            "6.4 -> Unclear",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study likely reports selective outcome data, as only a subset of woody recruits and possibly certain species were emphasized; recruitment of species outside the initial focus was rapid and brief, suggesting potential reporting bias. However, there is insufficient explicit information on reporting of all outcomes or subgroups, and details about analysis or outcome measurement biases are unclear, leading to a conservative high risk assessment."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Unclear",
+            "7.2": "Unclear",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.5 -> Skip",
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> Unclear",
+            "7.2 -> Unclear",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable"
+          ],
+          "final_risk_judgement": "Unclear",
+          "short_rationale": "The paper does not explicitly state whether persons estimating intervention effectiveness or exposure impact were aware of the intervention, nor does it provide details on descriptive or inferential statistical errors or assumptions. As a result, it is not possible to definitively assess the risk of outcome assessment biases, leading to an overall 'Unclear' risk of bias judgment."
+        }
+      }
+    },
+    "4.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> Not applicable",
+            "1.4 -> Not applicable",
+            "1.5 -> Not applicable",
+            "1.6 -> Skip",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study explicitly acknowledges the potential for confounding factors, such as differences in bird activity and site characteristics, which were not fully controlled or adjusted for. No evidence indicates that all potential confounders were adequately controlled, leading to a high risk of confounding bias in the results."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> Seemingly no",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "2.7 -> Unpredictable",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "There was exclusion of subjects or areas during analysis, suggesting potential selection bias. No blinding of selection or adjustment for biases was reported, and the assessment of bias magnitude was unpredictable, leading to a high overall risk of post-intervention/exposure selection bias."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2 -> Yes",
+            "3.3 -> No",
+            "3.4 -> Not applicable",
+            "High"
+          ],
+          "final_risk_judgement": "Unclear",
+          "short_rationale": "The study is observational, so Criterion 3 questions are applicable. The intervention/exposure and comparator groups are well-defined and appropriate; measurement classification appears accurate. Since measurement error is unlikely due to the nature of seed identification, bias from misclassification is minimal, but lacking explicit evaluation of potential classification influences leads to an overall uncertain risk of bias. Given the evidence, a high or moderate risk could be argued, but without definitive bias indicators, the overall judgment remains uncertain."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "4.1 -> Not applicable",
+            "4.2 -> Not applicable",
+            "4.3 -> Not applicable",
+            "4.4 -> Not applicable",
+            "4.5 -> Not applicable",
+            "4.6 -> Not applicable",
+            "Final judgement -> Not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational and does not involve experimental treatments, thus all performance bias questions are not applicable according to the decision tree and guidance."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "No",
+            "5.4": "No"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly no",
+            "5.2 -> Yes",
+            "5.3 -> No",
+            "5.4 -> No",
+            "5.1 -> Seemingly no",
+            "5.2 -> Yes",
+            "5.3 -> No",
+            "5.4 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study does not report evidence that outcome measures were affected by knowledge of exposure, intervention, subjects, or areas, and the measurement methods were consistent across groups. Outcome appropriateness and measurement consistency are supported by the study details, indicating a low risk of detection bias."
+        }
+      },
+      "domain_6": {
+        "error": "Expecting ',' delimiter: line 17 column 469 (char 748)"
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "No",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.3 -> Not applicable",
+            "7.4 -> Not applicable",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.1 -> No",
+            "7.2 -> No"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The assessment indicates that the study did not conduct inferential statistics and did not report errors or inappropriate methods in descriptive analyses, as all related questions were answered 'No.' Consequently, the outcome assessment bias is judged as low risk due to lack of evidence for systematic errors in measurement, statistical analysis, or inference."
+        }
+      }
+    },
+    "5.md": {
+      "domain_1": {
+        "error": "Expecting ',' delimiter: line 20 column 375 (char 762)"
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Unclear",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> Seemingly no",
+            "2.5 -> Unclear",
+            "2.6 -> No",
+            "2.7 -> Unpredictable",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study did not sample the entire population, and subjects or areas were lost during analysis, which increases the risk of post-intervention/exposure selection bias. The unblinded selection process and unclear adjustment for bias further elevate this risk, leading to a high overall risk of bias in this domain."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "No",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> No",
+            "3.2 -> Not applicable",
+            "3.3 -> Not applicable",
+            "3.4 -> Not applicable",
+            "Final judgement based on 3.1 being No -> Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study is not observational but experimental, so domain 3 questions are not applicable; in the context of an experimental study, no misclassification bias of the comparison groups is relevant, leading to a low overall risk of bias in this domain."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "4.1 -> Not applicable",
+            "4.2 -> Not applicable",
+            "4.3 -> Not applicable",
+            "4.4 -> Not applicable",
+            "4.5 -> Not applicable",
+            "4.6 -> Not applicable",
+            "Final assessment: Not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational and does not involve experimental treatments; therefore, all performance bias questions are not applicable according to the decision tree applicability rule."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Yes",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "5.4 -> Not applicable",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study explicitly states that outcome measurement methods were consistent across groups and that outcome measures were appropriate, with no evidence of systematic differences in measurement. No concerns about systematic measurement error or bias were reported or implied, leading to a judgment of low detection bias risk."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Unclear",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no"
+          },
+          "decision_path": [
+            "6.1 -> Unclear",
+            "6.2 -> Seemingly no",
+            "6.3 -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper does not explicitly report whether outcome data are selectively chosen, leading to an 'Unclear' answer for 6.1; it suggests that reporting is comprehensive for the seed dispersal data, as no evidence of selective outcome reporting is provided. Given the data and discussion do not indicate outcome reporting bias, the overall risk is judged low. The decision tree defaults to low risk following an 'Unclear' for 6.1, with the other answers supporting this conclusion."
+        }
+      },
+      "domain_7": {
+        "error": "Expecting ',' delimiter: line 29 column 408 (char 974)"
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@ from .build_tree_guided_prompt import (
 
 load_dotenv()
 
-DEFAULT_MODEL = "anthropic/claude-sonnet-5"
+DEFAULT_MODEL = "openai/gpt-5.5"
 
 
 def _load_domain_guidance_module():

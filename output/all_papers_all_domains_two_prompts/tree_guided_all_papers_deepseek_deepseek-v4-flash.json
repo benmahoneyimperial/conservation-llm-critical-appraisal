@@ -1,0 +1,701 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "timestamp_utc": "2026-07-12T20:47:17.744419+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {
+    "1.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "No",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study compares tree establishment in an abandoned pasture versus mature forest without randomization or adjustment for confounding variables. Multiple potential confounders (e.g., land-use history, soil properties, seed bank composition) are not controlled, and no justification for omitting control is provided. Therefore, confounding bias is likely."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "No",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> No",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The abandoned pasture and mature forest sites were selected without random assignment or exchangeability; plots were lost to fire (differential loss); and no statistical adjustment was made for post-exposure selection differences, leading to high risk of selection bias."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2 -> Yes",
+            "3.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study is observational, comparing an abandoned pasture (intervention) to mature forest (comparator) without formal assignment. The exposure (pasture vs forest) is clearly defined, and groups are appropriately classified. There is no evidence of misclassification due to error or influence of knowledge."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Applicability rule -> Study is not experimental (observational control-impact design with no experimental assignment of the intervention).",
+            "All Domain 4 questions set to Not applicable.",
+            "final_judgement -> Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational: researchers compared existing abandoned pasture and mature forest without formally assigning the intervention (forest-to-pasture conversion). Therefore, performance bias (Criterion 4) does not apply, and all Domain 4 questions are marked Not applicable."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly yes (interpreted as Yes for tree)",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Researchers were not blinded to site conditions, and some outcome assessments (e.g., herbivory percentage) involved subjective judgments that could be influenced by knowledge of groups. However, the outcomes were appropriate for the research questions and measurement methods were consistent across groups."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2 -> No",
+            "6.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study reports all measured outcomes, subgroups (e.g., habitats, species), and analyses comprehensively, with no evidence of selective reporting; data are presented in full tables and figures."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Yes",
+            "7.2": "No",
+            "7.3": "No",
+            "7.4": "No",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Yes",
+            "7.2 -> No",
+            "7.3 -> No",
+            "7.4 -> No",
+            "final_judgement -> Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The researchers were fully aware of the exposure (pasture vs forest) when analyzing the data, but the study uses standard statistical methods without apparent errors. The decision tree yields medium risk due to the combination of analyst awareness and no evidence of inferential errors."
+        }
+      }
+    },
+    "2.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "No",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study compares seed rain among habitats without controlling for potential confounders such as bird abundance or landscape context. No adjustment or justification for omission is provided, so confounding is uncontrolled."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "Unclear",
+            "2.3": "No",
+            "2.4": "Not applicable",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> Yes",
+            "2.2 -> Unclear",
+            "2.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low",
+          "short_rationale": "The study attempted to collect data from the entire populations of inference (all seeds falling into traps at fixed plots), so exchangeability between groups based on selection can be assumed (Q2.1 Yes). The paper does not mention blinding of selection, but selection was random and systematic (Q2.2 Unclear). No subjects or areas were excluded or lost after the start of the study (Q2.3 No). Therefore the decision tree leads to Low risk."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2 -> Yes",
+            "3.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study is observational and compares seed rain across clearly defined habitat types (maple-beech forest, old field, conifer plantation) with explicit descriptions. There is no indication of misclassification or measurement error in group assignment, so risk of misclassified comparison bias is low."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Not experimental -> Not applicable",
+            "Not experimental -> Not applicable",
+            "final_risk_judgement -> Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is primarily observational, comparing seed rain across habitats without assignment of the main exposure (habitat type). Therefore, Criterion 4 on performance bias does not apply."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Unclear",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Yes",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The paper does not report blinding of seed collectors or identifiers; collectors likely knew habitat and perch treatment, but seed counting and identification are relatively objective. Due to insufficient information on blinding, the conservative algorithm suggests medium risk of detection bias."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly yes",
+            "6.2": "No",
+            "6.3": "No"
+          },
+          "decision_path": [
+            "6.1 -> Seemingly yes (treated as Yes) -> 6.2_Right",
+            "6.2 -> No -> 6.3_Center",
+            "6.3 -> No -> Med",
+            "Final judgement: Medium Risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The study explicitly considered only species with ≥3 seeds, potentially omitting rare species from reported data, indicating selective measurement reporting. However, all included species are fully reported by subgroup and analysis, and no additional unreported analyses were identified. Hence medium risk of outcome reporting bias."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Yes",
+            "7.2": "No",
+            "7.3": "No",
+            "7.4": "No",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Yes",
+            "7.2 -> No",
+            "Inferential statistics conducted -> Yes",
+            "7.3 -> No",
+            "7.4 -> No",
+            "7.4_Left -> No -> Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The analysts (the authors) were clearly aware of the exposure (habitat type, perch presence) as they designed and conducted the study (7.1=Yes). There are no errors in descriptive or inferential statistics (7.2=No, 7.3=No), and the assumptions for the applied ANOVA and RMA regression appear to have been met (e.g., square-root and log transformations were used as appropriate; 7.4=No). Therefore the decision tree yields Low Risk."
+        }
+      }
+    },
+    "3.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly yes",
+            "1.3": "Not applicable",
+            "1.4": "Yes",
+            "1.5": "Yes",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly yes",
+            "1.4 -> Yes",
+            "1.5 -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study used random assignment with stratification and controlled for key confounders through design and analysis. Potential confounders were measured accurately and analyses appropriate, so confounding bias is likely low."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Yes",
+            "2.6": "No"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> Seemingly no",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study uses a quasi-experimental design with planted and empty plots; selection of plots was not random and there was no blinding of selection. Loss of experimental plants and missing data occurred, and the paper did not adjust for potential post-intervention selection bias, particularly regarding differential bird visitation and survival of recruits. Therefore, the risk of post-intervention/exposure selection bias is high."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "3.1 -> Not applicable (study is experimental)"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is an experimental test of nucleation on a reclaimed landfill, with formal assignment of planted clusters and treatments by the researchers, so it is classified as experimental. Therefore Domain 3 (Misclassified Comparison Bias) does not apply."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Seemingly yes",
+            "4.2": "No",
+            "4.3": "Not applicable",
+            "4.4": "Seemingly yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "decision_path": [
+            "4.1 -> Seemingly yes",
+            "4.2 -> No",
+            "4.4 -> Seemingly yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study is experimental, and treatments were implemented as intended with no evidence of alterations; awareness of the hypothesis by researchers did not lead to differential treatment procedures."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Unclear",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Yes (Unclear mapped to Yes for tree traversal)",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "Medium Risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The paper does not report blinding of field data collectors, making it unclear whether knowledge of treatment could have affected outcome measurement (5.1 Unclear). The outcome (woody plant recruitment) is appropriate and measurement methods were identical across groups (5.2 Yes, 5.3 Yes). Following the decision tree, the unclear response on 5.1 and positive answers on 5.2 and 5.3 lead to a default Medium Risk judgement."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "Seemingly yes"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2 -> No",
+            "6.3 -> Seemingly yes (treated as Yes for tree)",
+            "Medium risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The paper reports most outcome measurements comprehensively (Q6.1 No) and provides subgroup data (Q6.2 No), but explicitly states that analyses were restricted to plant size effects only, omitting intended N-fixer comparisons without fully reporting that analysis (Q6.3 Seemingly yes). The decision tree maps this pattern to Medium risk."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "No",
+            "7.3": "No",
+            "7.4": "Unclear",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2 -> No",
+            "7.3 -> No",
+            "7.4 -> Unclear",
+            "High"
+          ],
+          "final_risk_judgement": "High",
+          "short_rationale": "The paper describes an experimental study where researchers likely knew treatment assignments (seemingly yes). No errors were found in descriptive or inferential statistics, but assumption checks for applied methods (e.g., normality, equal variances) were not reported (unclear). According to the decision tree, this yields a high risk of outcome assessment bias."
+        }
+      }
+    },
+    "4.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "No",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> No",
+            "High risk of bias"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study is observational and does not control for all potential confounders such as site characteristics, bird abundance, and seed source proximity. No justification is provided for omitting these confounders, leading to high risk of confounding bias."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "No",
+            "2.5": "No",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> No",
+            "2.2 -> No",
+            "2.3 -> Yes",
+            "2.4 -> No",
+            "2.5 -> No",
+            "final_judgement -> Medium Risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Trap locations were selected systematically without randomisation, researchers were not blinded to selection, and some traps were lost. Groups (perches, snags, controls) were not comparable due to differing site characteristics and distances, and no adjustments were made for these differences, resulting in medium risk of post-intervention/exposure selection bias."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2 -> Yes",
+            "3.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study is observational. The exposure groups (standard perches, snags, early successional vegetation) and comparator groups (control traps, distances) are well-defined and appropriate for the intended assessment. There is no evidence of misclassification due to error or influence; seed classification is based on published regional vegetation studies."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Study is observational -> Domain 4 not applicable",
+            "4.1 -> Not applicable",
+            "4.2 -> Not applicable",
+            "4.3 -> Not applicable",
+            "4.4 -> Not applicable",
+            "4.5 -> Not applicable",
+            "4.6 -> Not applicable",
+            "final_risk_judgement -> Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational (no experimental assignment of treatments), so Domain 4 (Performance Bias) is not applicable."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Unclear",
+            "5.2": "Yes",
+            "5.3": "Seemingly yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Unclear",
+            "5.2 -> Yes",
+            "5.3 -> Seemingly yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The outcome (seed counts) was measured using identical seed traps and protocols across groups, with measurement procedures that are objective and unlikely to be influenced by knowledge of group assignment. Therefore, detection bias is low despite unclear reporting of blinding."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Yes",
+            "6.2": "No",
+            "6.3": "No"
+          },
+          "decision_path": [
+            "6.1 -> Yes",
+            "6.2 -> No",
+            "6.3_Center -> No",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "The paper explicitly reports only larger (>2 mm) endozoochorous seeds, indicating selection of measurements. However, no evidence of unreported subgroups or partially reported analyses was found. Thus, the risk of outcome reporting bias is medium."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Unclear",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Seemingly no",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Unclear (treated as Yes for branching)",
+            "7.2 -> Seemingly no (No) -> 7.3_Center",
+            "7.3 -> Seemingly no (No) -> 7.4_Center",
+            "7.4 -> Seemingly no (No) -> Med",
+            "final_judgement -> Medium Risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Analyst awareness of exposure is not reported (Unclear), but descriptive and inferential statistics appear correctly applied without evidence of errors or assumption violations. Following the decision tree, the unclear awareness leads to a Medium risk judgement."
+        }
+      }
+    },
+    "5.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Confounding is possible (e.g., gap characteristics differ with distance), and the authors only matched a few variables without controlling all potential confounders or providing strong justification for omission, leading to high risk of confounding bias."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Seemingly no",
+            "2.2": "No",
+            "2.3": "No",
+            "2.4": "Seemingly yes",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable"
+          },
+          "decision_path": [
+            "2.1 -> Seemingly no (treated as No)",
+            "2.2 -> No",
+            "2.3 -> No",
+            "2.4 -> Seemingly yes (treated as Yes)",
+            "Med -> Medium Risk"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Selection of gaps for distance treatments was purposive, not random, but gaps were matched on area, altitude, age, and vegetation, and within-gap trap placement was random. No exclusions or loss to follow-up are reported, and groups appear comparable, reducing but not eliminating potential selection bias."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2 -> Yes",
+            "3.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low",
+          "short_rationale": "The study's exposure groups (distance from forest, perch presence) are clearly defined and accurately measured. No evidence of misclassification or measurement error. The decision tree yields low risk."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Study is observational (no experimental intervention) -> Domain 4 not applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study is observational, monitoring seed rain in natural gaps without applying an experimental intervention. No experimental treatments are assigned or evaluated, so Domain 4 performance bias criteria are not applicable."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly no",
+            "5.2 -> Yes",
+            "5.3 -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Seed counting is objective and unbiased by knowledge of group; measurement methods were identical across all groups and appropriate for the causal effect of interest."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "No"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2 -> No",
+            "6.3 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper reports all 683 seeds collected across treatments and species, provides full subgroup data (distance, perch, origin), and includes all planned statistical analyses (ANOVA, Tukey, correlations). No selective reporting is evident."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "No",
+            "7.3": "Seemingly no",
+            "7.4": "No",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> No",
+            "7.2 -> No",
+            "7.3 -> Seemingly no",
+            "7.4 -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper provides clear descriptions of the statistical methods used, and there is no indication of errors or inappropriate methods. Analysts were not described as aware of group assignment, and inferential methods appear appropriate. Therefore, low risk of outcome assessment bias is judged."
+        }
+      }
+    }
+  }
+}

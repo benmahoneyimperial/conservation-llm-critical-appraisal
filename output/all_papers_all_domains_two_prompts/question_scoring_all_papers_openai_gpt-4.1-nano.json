@@ -1,0 +1,491 @@
+{
+  "model": "openai/gpt-4.1-nano",
+  "timestamp_utc": "2026-07-12T20:59:02.573022+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {
+    "1.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 8,
+          "short_rationale": "The study indicates that seed dispersal in the abandoned pasture is limited by low seed input and high predation, and seedling establishment is hindered by biotic and abiotic barriers such as seed predation, herbivory, and harsh environmental conditions. Many potential confounders relevant to seed dispersal and seedling survival, such as seed vectors and predators, were not controlled. The evidence suggests serious concerns about bias due to ecological complexity and lack of control, leading to a high risk score."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Unclear (No)",
+            "2.6": "Unclear (No)",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 8,
+          "short_rationale": "The study indicates that subject or area exclusion occurred during analysis (2.3: Yes) and that selection was not random (2.1: No) or blinded (2.2: No), raising concerns about systematic bias in post-intervention selection. Some questions about group comparability and adjustment (2.4-2.6) are uncertain or unaddressed, contributing to a high risk score due to potential bias from non-random, unblinded selection and inadequate adjustment for confounders."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is not explicitly classified as observational; it involves experimental manipulations (e.g., creating treefall gaps), thus domain 3 questions are not applicable. Consequently, the overall risk of bias is very low given the study design and the answers provided."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is observational, not experimental, so all performance bias questions are not applicable. Therefore, there are no concerns related to this domain affecting the risk of bias assessment."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "No",
+            "5.2": "Yes",
+            "5.3": "No",
+            "5.4": "No",
+            "5.4 (Optional)": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study systematically addressed the measurement of outcomes and their appropriateness for causal inference, with consistent measurement methods across groups. However, there is no evidence that outcome assessment was blinded or that potential biases from knowledge of exposure were explicitly controlled, which slightly increases risk. The low potential for bias is supported by standardized methods, but lack of explicit blinding in outcome assessment justifies a very low but not zero bias risk score."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "Seemingly no",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 5,
+          "short_rationale": "The study presents explicit information suggesting outcome data are likely from select measurements, but it appears some results may be selectively reported, especially concerning the diversity of seed species and germination data. Although the authors describe comprehensive analyses, the absence of details on complete reporting protocols and no indication of pre-registered outcomes carry moderate concerns about reporting bias that could influence the interpretation of seed dispersal and establishment results."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "Seemingly no",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study reports that outcome assessors were likely unaware of treatment details, and statistical analyses seem appropriate without indicated errors. Some uncertainty remains regarding inferential statistical assumptions, but overall, the risk of outcome assessment bias appears very low; the small concerns result in a very low to low overall bias score."
+        }
+      }
+    },
+    "2.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "Is it possible for the impact of the exposure or the effectiveness of the intervention to be confounded in this study?": "Seemingly yes",
+            "Did the author(s) control for all the potential confounders?": "Not applicable",
+            "Is there any justifiable reason for not controlling for all the potential confounders (so that omission of some potential confounders is unlikely to influence the assessment of effectiveness or impact)?": "Not applicable",
+            "Were the potential confounders that were controlled for (and/or the instrumental variable used, if applicable) likely to be measured accurately and precisely enough?": "Not applicable",
+            "Did the author(s) analyze the effect appropriately by taking into account potential confounders, as well as the issue of accuracy and precision of measurements of potential confounders (and the instrumental variable, if applicable)?": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The study was observational and did not explicitly control for confounders, which could influence seed dispersal results. While the correlation between seed rain and plant abundance suggests potential confounding, the absence of explicit confounder control and measurement details indicates a moderate risk of confounding bias."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "Yes",
+            "2.3": "Yes",
+            "2.4": "Not applicable",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study clearly states that selection of subjects or areas occurred after intervention/exposure and that researchers were aware of the selection process, which minimizes post-intervention selection bias. Although some areas were excluded or lost from analysis, the sampling aimed to include nearly entire populations, reducing potential bias. The absence of adjustments for potential biases and the high mobility and heterogeneity of seed dispersers introduce some remaining concern, but overall, the study demonstrates minimal post-intervention/exposure selection bias."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study involves experimental seed trap data collection and vegetation surveys but does not clearly establish an observational study design; thus, Domain 3 questions are not applicable. As all questions are answered as not applicable, the risk score is minimal."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is observational, not experimental, therefore all performance bias questions (Domain 4) are not applicable. The overall study quality does not involve experimental treatment application or alterations, so the risk of performance bias is negligible."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable",
+            "5.4 (Optional)": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study clearly measured relevant outcomes, and outcome measurement methods were consistent across groups, reducing detection bias. There is limited evidence of influence by knowledge of exposure on outcome measurement, and no indication of selective outcome reporting or errors in statistical analysis, leading to a low overall risk of detection bias."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study appears to comprehensively report relevant outcome data, and no evidence suggests selective or unreported analyses or subgroups. The absence of indications of reporting biases aligns with a low overall risk of outcome reporting bias."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "Seemingly no",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study does not indicate that outcome assessors were aware of the exposure or intervention details, suggesting a low risk of assessment bias. Descriptive statistical analyses appear to be appropriate and free of obvious errors according to the description. Inferential statistics were not applied, hence no concerns about related errors or assumption violations; most questions point towards minimal bias risks for outcome assessment."
+        }
+      }
+    },
+    "3.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Seemingly yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 3,
+          "short_rationale": "The study explicitly states that external sources heavily influence recruitment, indicating potential confounding factors related to landscape and natural dispersal barriers, yet it does not report specific control of confounders. The lack of controlled confounding variables suggests a low to moderate risk, but the strong influence of external natural seed sources and disperser behavior introduces some bias concerns."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1.a": "No",
+            "2.1.b": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Unclear (No)",
+            "2.6": "No",
+            "2.7": "Unpredictable"
+          },
+          "risk_of_bias_score_0_to_10": 8,
+          "short_rationale": "The study involved post-intervention selection of areas and exclusion of some areas after start of intervention, with no blinding of researchers regarding selection, and no clear adjustment for selection differences. Although there was ongoing recruitment from external sources, the selection process after treatment and lack of blinding pose significant risks of bias, leading to a high overall risk score. Some effects of systematic selection are also uncertain, further elevating risk level."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study is observational with well-defined intervention and control groups, and the measurement of exposure and comparison groups was appropriate. There is a low likelihood that misclassification of exposure occurred due to error or influence, and the optional bias prediction was skipped. Overall, the study shows minimal bias in classification of groups."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is observational and does not involve experimental treatments or interventions, therefore the entire performance bias domain is not applicable. As no experimental manipulation or allocation occurs, the risk of performance bias is inherently minimal within this context."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "No",
+            "5.4 (Optional item)": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study provides explicit information on outcome measurement methods, appropriateness, and consistency across groups, indicating low risk of detection bias. However, the potential influence of knowledge of study details on outcome measures cannot be fully determined from the paper, but likely minimal due to the objective nature of plant recruitment assessment, leading to a very low overall risk."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Yes",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study explicitly reports outcomes for the recruited woody plants and discusses the potential for selective outcome measurement, indicating a low risk of reporting bias. There is no evidence or indication that relevant outcome data are unreported for certain subgroups, nor that analyses are partially reported. The scoring reflects a very low risk with minor concerns about transparency."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "No",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study does not explicitly state whether personnel estimating intervention effects were aware of exposure, but given the field setting and typical practices, it is likely they were not fully blinded, posing minimal bias risk. Descriptive analysis methods appear appropriate and correctly applied. Inferential statistical errors are unlikely, and assumptions for inferential tests are not explicitly discussed, making that risk unclear but likely low. Overall, the evidence suggests very low to low risk of outcome assessment bias with minor concerns about potential personnel awareness."
+        }
+      }
+    },
+    "4.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Seemingly yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Unpredictable"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The study indicates a potential for confounding as the seed dispersal patterns could be influenced by bird behavior and site characteristics, though it does not specify control for confounders. There is no evidence of proper control or measurement of confounders, leading to some concern about bias impacting the findings' validity."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1.a": "No",
+            "2.1.b": "No",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Yes",
+            "2.6": "No",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "The study involved non-random, systematic site selection and lacked blinding during post-intervention sampling, with some exclusion or loss of data during analysis, indicating potential selection bias. Additionally, the absence of adjustment for biases and the nature of observational data heighten the risk of post-intervention/exposure selection bias and related confounding, justifying a high risk score."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Seemingly no",
+            "3.2": "Seemingly no",
+            "3.3": "Seemingly no",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The study is observational, but the study defines groups and measurements clearly, with little ambiguity in classifying seeds and their sources. However, the potential for measurement errors and classification biases exists due to reliance on visual identification and classification of seeds, leading to some concerns about bias."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is observational and does not involve experimental treatments, thus domain 4 questions related to performance bias are not applicable. The overall risk of bias is low for this aspect given the study design."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "No",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable",
+            "5.4 (Optional)": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study appears to have measured outcomes consistently across groups, with outcome measures appropriate to the causal effect of interest. There was no evidence that outcome measurement was influenced by knowledge of exposure or intervention, and no adjustments for differences between groups were discussed. The reported answers indicate minimal risk of detection bias, with only minor concerns due to the lack of explicit blinding procedures, leading to a low overall risk score."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study appears to have comprehensive outcome reporting with no evidence of selective outcome data or unreported subgroups or analyses. However, potential biases related to outcome reporting are minimally addressed, and some degree of uncertainty remains about the full transparency of reporting practices, justifying a low risk score with minor concerns."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "No",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study clearly states that the individuals estimating seed dispersal were not aware of the exposure or intervention status, and contains no evidence of errors or inappropriate methods in the statistical analyses. No inferential statistics were applied, and there is no indication of violated assumptions or predicted biases in the statistical methods used. Thus, there are minimal concerns regarding outcome assessment bias."
+        }
+      }
+    },
+    "5.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Seemingly yes",
+            "1.2": "No",
+            "1.3": "Not applicable",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study indicates potential for confounding in seed dispersal patterns due to landscape features, but it does not explicitly control for confounders, resulting in a very low risk of bias. The absence of control for all potential confounders and the lack of evidence for justifiable omission options suggest minimal bias concern, affecting the overall score only slightly."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly no",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The study selected subjects based on landslides and island locations, with some exclusion or loss after intervention, indicating potential post-intervention selection bias. The absence of blinding of researchers during subject selection and the presence of lost data or exclusions contribute to some concerns, but the effort to follow nearly entire populations reduces the severity of bias. The overall risk is low to moderate, given clear control for some biases but potential for systematic differences after intervention."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "No",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study clearly defines and appropriately selected the study groups relevant for assessing seed dispersal, and the classification methods are appropriate. There is no evidence of misclassification or bias due to measurement errors. Since the study is observational, Criterion 3 applies, but no significant concerns about misclassification were identified, resulting in a low risk of bias overall."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study is observational, not experimental, therefore performance bias domain questions are not applicable; all domain questions are marked accordingly, leading to a score of zero."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable",
+            "5.4 (Optional)": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study appears to have appropriate outcome measures for assessing seed dispersal, and the measurement methods were consistent across groups, reducing detection bias. The authors discussed potential influences of knowledge or desire for certain outcomes, indicating awareness of bias risks, but no explicit biases are reported. Overall, the evidence suggests minimal detection bias, but with some minor concern for unblinded outcome assessment, leading to a low risk score."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "No",
+            "6.2": "No",
+            "6.3": "No",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study adequately reports outcome data with no evidence of selective outcome reporting or unreported subgroups; no analyses of multiple outcomes are indicated as missing, and the study does not suggest selective reporting. However, the evidence does not explicitly confirm that all relevant outcome measures were reported, leading to a slight concern. The answers indicate low risk, but with minimal uncertainty, resulting in a low overall score."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "No",
+            "7.2": "No",
+            "7.3": "Not applicable",
+            "7.4": "Not applicable",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "The study clearly states that the person estimating intervention effectiveness was not aware of exposure received, and that descriptive and inferential statistical analyses were conducted appropriately with no violations or errors reported. Consequently, there is minimal concern for outcome assessment bias, leading to an overall low risk of bias assessment."
+        }
+      }
+    }
+  }
+}

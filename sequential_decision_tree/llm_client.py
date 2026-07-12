@@ -12,7 +12,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("OPENROUTER_API_KEY is not set. Please ensure you have a .env file with this key.")
 
-MODEL = "openai/gpt-4.1-nano"
+MODEL = "deepseek/deepseek-v4-flash"
 
 # Create a session object to reuse TCP connections (Keep-Alive)
 _session = requests.Session()
@@ -41,7 +41,7 @@ INSTRUCTIONS = DEFAULT_INSTRUCTIONS
 
 def _normalize_to_valid_answer(candidate: str, valid_answers: list | None) -> str | None:
     """Normalize a parsed candidate to one of the valid answers when possible."""
-    cleaned = candidate.strip().strip("[](){}<> ").strip(".:;,*_`\"")
+    cleaned = candidate.strip().strip("[]{}<> ").strip(".:;,*_`\"")
     if not cleaned:
         return None
 
@@ -62,9 +62,13 @@ def _extract_final_answer(content: str, valid_answers: list | None = None) -> st
         if parsed:
             return parsed
 
-    # Fallback format: "Answer: X" (including markdown bold variants)
+    # Fallback format: "Answer: X" or "Final answer/selection/judgment: X"
+    # (including markdown headings/bold variants).
     answer_line_matches = list(
-        re.finditer(r"(?im)^\s*(?:\*\*)?answer(?:\*\*)?\s*:\s*(.+?)\s*$", content)
+        re.finditer(
+            r"(?im)^\s*(?:[#>*-]\s*)*(?:\*\*)?(?:final\s+)?(?:answer|selection|judg(?:e)?ment)(?:\*\*)?\s*:\s*(.+?)\s*$",
+            content,
+        )
     )
     for m in reversed(answer_line_matches):
         parsed = _normalize_to_valid_answer(m.group(1), valid_answers)

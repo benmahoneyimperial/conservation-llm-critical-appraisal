@@ -1,0 +1,485 @@
+{
+  "model": "openai/gpt-5.5",
+  "timestamp_utc": "2026-07-12T21:55:16.361200+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {
+    "1.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 6,
+          "short_rationale": "The study compares one abandoned pasture with nearby mature forest/treefall gaps, so confounding by site history or other habitat differences is possible. The authors attempted some design control by choosing sites in close proximity and the same topographical position, but the paper does not show that all potential confounders were controlled or that omissions were unlikely to influence the comparisons."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1.a": "Unclear",
+            "2.2": "Seemingly no",
+            "2.3": "Yes",
+            "2.4": "Unclear",
+            "2.5": "Seemingly yes",
+            "2.6": "Seemingly no",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "Some sampling was random or systematic, but the paper does not establish exchangeability of selected areas across habitats, and researchers were evidently aware of habitat status when selecting plots, traps, and blocks. Importantly, 15 of 40 abandoned-pasture seedling plots were lost to fire, with no reported assessment of comparability or adjustment for this post-exposure loss."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study is observational for the abandoned-pasture versus mature-forest comparison, and the paper clearly defines the abandoned pasture history, mature forest comparator, locations, and habitat categories. The observed groups appear appropriate for the intended comparison, and the detailed site descriptions, including no evidence of alteration in the mature forest, make meaningful misclassification unlikely."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Seemingly yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study included experimental components, including created treefall gaps, seed placements, seedling basins, and transplanted seedlings. The paper indicates researchers were aware of the hypotheses and comparisons, but it provides detailed implementation procedures and does not report treatment deviations; transplants were assigned to random positions and planting was alternated between ecosystems to distribute timing effects."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Seemingly yes",
+            "5.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "Outcome measures were generally appropriate and based on direct counts, recorded seed removal, seedling survivorship/height, and instrument-based microclimatic measurements, with largely parallel methods across pasture, forest understory, and treefall gaps. However, the paper does not report blinding, and field assessors were likely aware of habitat/group status, creating minor concern for more judgment-based outcomes such as herbivory assessment and seedling identification."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly yes",
+            "6.3": "Unclear",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 5,
+          "short_rationale": "The paper reports many relevant outcomes described in the methods across habitats, species, and experiments, with tables and figures for seedling density, seed banks, seed removal, survivorship, growth, and abiotic measures. However, some subgroup outcome data appear only partially reported, such as exact removal percentages for several small-seeded pioneer species being summarized only as >70%, and there is no protocol or analysis plan to determine whether all causal analyses were fully reported."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Unclear",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The paper reports multiple inferential analyses, including AOV/Scheffe tests, G-tests, Student's t-tests, and regression, with no explicit evidence of calculation or coding errors. Analysts were seemingly aware of habitat/exposure status because analyses directly compared obvious abandoned pasture, forest understorey, and treefall gap groups, and the paper does not report blinding. Assumption checks or detailed justification for the inferential methods are not reported, so appropriateness of assumptions remains unclear."
+        }
+      }
+    },
+    "2.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "The study compared seed rain among existing habitats and related seed rain to local plant densities, and the authors note that cause and effect could go both ways for seed rain and adult plant abundance. The analyses used ANOVA and RMA regression but did not demonstrate control of all potential confounders, and the discussion acknowledges unquantified issues such as habitat-varying seed predation and possible non-avian or primary seed deposition."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1.a": "Seemingly yes",
+            "2.2": "Seemingly no",
+            "2.3": "Yes",
+            "2.4": "Unclear",
+            "2.5": "Seemingly yes",
+            "2.6": "No",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 6,
+          "short_rationale": "Seed traps were placed at random locations within sites, but the paper does not report blinded selection and explicitly states that some collected data were disregarded. The authors also note that long intervals between collections may have allowed seed predation that could vary among habitats, likely affecting maple-beech forests, and they did not quantify or adjust for seed loss with labeled seeds."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Seemingly yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The observational habitat groups were explicitly described as maple-beech forests, old fields, and conifer plantations, with ages, vegetation characteristics, plot structure, and sampling locations reported. The paper provides no indication that habitat or native/exotic classifications were vague or likely misclassified; plant origin was classified using Mitchell and Tucker (1997), and uncertain Rubus seeds were kept separate as unknown."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Seemingly yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study is experimental for the artificial-perch comparison because researchers established seed traps and provisioned one half with perches. The paper describes perches/traps being implemented as intended and reports results by perch status, with no reported alterations or deviations in treatment procedures; the main minor concern is that researchers applying treatments were likely aware of the perch comparison."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 3,
+          "short_rationale": "Outcome measurement used the same seed-trap design, recovery schedule, and seed-identification approach across habitats and perch groups, and the measured seed rain was appropriate for the stated causal comparisons. However, collectors would seemingly have known habitat/perch status during field collection, and the authors acknowledge that infrequent trap visits may have allowed seed predation or degradation, potentially varying among habitats and causing underestimation or misattribution of seed rain."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly yes",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The paper reports seed counts by taxon, habitat, and perch status in Table 1 and describes its exclusions from analysis, so selective omission of measured outcome data or subgroups is not strongly indicated. However, the Methods state that seed rain of the most common exotic taxa was related to abundance using RMA regression, while full numeric results are not reported for all such taxa, especially Lonicera, suggesting some partial reporting of analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Seemingly no",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The paper reports the statistical methods used, including ANOVA after square-root transformation, Tukey multiple comparisons, and RMA regression after outlier inspection and log transformation to meet assumptions. No errors in descriptive or inferential statistics are evident from the report, although analysts were seemingly aware of habitat/perch/exposure details because these were the variables analyzed."
+        }
+      }
+    },
+    "3.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly yes",
+            "1.3": "Not applicable",
+            "1.4": "Seemingly yes",
+            "1.5": "Seemingly yes",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study used an experimental layout with plots placed in a random array and stratified to prevent neighboring plots with the same treatment, and it explicitly considered potential confounding influences such as fencing effects, source proximity, plot distance, and background recruitment. Some residual concern remains because the paper reports strong spatial source-proximity patterns and a fence effect, but these were measured or analyzed rather than ignored."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "Seemingly no",
+            "2.3": "Seemingly no",
+            "2.4": "Not applicable",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The paper reports that the 24 plots were placed in a random, stratified array and that recruitment censuses identified all stems within each plot and its adjoining transects, with analyses including all planted and unplanted plots. No post-intervention loss or exclusion of plots/areas is apparent, although blinding of researchers to selection or treatment status is not reported and seems unlikely given the visible planted/unplanted plots."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "Domain 3 is not applicable because this was an experimental study: the authors state they installed 16 clusters of trees and shrubs, included empty plots, varied plant size as a treatment, and placed plots in a random array. Therefore misclassified comparison bias for observational exposure/comparator classification is not assessed."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Seemingly yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The study was experimental: the authors introduced planted clusters and controls in a randomized stratified plot array. Persons applying treatments were likely aware of the comparisons because the authors installed plants according to specified factorial treatments, but the paper describes implementation as recorded, including replacement of dead plants, fencing, watering, and near-complete first-season survival, with no clear evidence of unbalanced or unaccounted treatment deviations affecting estimates."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "Outcome measurement involved field censuses in visibly planted, fenced, or unplanted plots, so assessor knowledge of group status could seemingly have been possible. However, the measured outcomes—woody plant recruitment, seed rain, species identification, and height classes—were appropriate for the study aims, and the paper states that the same census approach was used across plots and transects."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Yes",
+            "6.3": "Yes",
+            "6.4": "Unpredictable"
+          },
+          "risk_of_bias_score_0_to_10": 6,
+          "short_rationale": "The paper reports many recruitment outcomes by plot type, plant size, dispersal mode, distance, and time, so there is no clear indication that measured outcome data were selectively omitted overall. However, the study was designed as a two-by-two factorial experiment including nitrogen-fixer treatments, but the authors explicitly state that analyses of plot treatments were restricted to plant size effects, leaving relevant subgroup outcomes and causal analyses for the N-fixer treatment unreported."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Unclear",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The paper reports multiple inferential analyses, including repeated-measures ANOVA, Scheffé post hoc tests, G tests, Pearson correlations, and regressions, with no evident calculation errors in the reported results. However, the authors do not report analyst blinding and, as the experimenters analyzing treatment effects, they were seemingly aware of plot treatments. The paper also does not report checks or justification for assumptions underlying the applied inferential methods, leaving some uncertainty about appropriateness."
+        }
+      }
+    },
+    "4.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "The paper itself notes that site characteristics such as topographic complexity, standing water, vegetational development, and bird activity may account for site differences, but it does not show that these or all other potential confounders were controlled. Some variables were recorded or analyzed, such as distance and snag branch number, but the study also states that no systematic bird survey was undertaken and provides no clear justification for leaving potential confounders uncontrolled."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "No",
+            "2.2": "Seemingly no",
+            "2.3": "Yes",
+            "2.4": "Unclear",
+            "2.5": "Seemingly yes",
+            "2.6": "Seemingly yes",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 6,
+          "short_rationale": "The study used sampled traps/transects rather than the entire population, and snag locations were explicitly described as placed at “convenient locations,” while researchers appear to have selected and placed study areas/traps themselves. The paper explicitly reports that seed traps beneath snags were occasionally lost or removed, although the authors analyzed snag data on a seeds-per-month basis to normalize for this bias. Comparability of included areas after these losses is not fully established."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 0,
+          "short_rationale": "Domain 3 is not applicable because the target paper includes experimentally applied treatments: standardized perches were constructed and placed, with control traps placed without perches. Under the guidance, experimental studies are assessed under performance bias rather than misclassified comparison bias."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Seemingly yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Seemingly yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study included experimental treatments because standardized perches were constructed and placed, with control traps placed at the same intervals without a perch. The paper describes the perch/control implementation and does not report altered treatment procedures; treatment implementation appears to have occurred as recorded, although applicator awareness of the comparison is strongly implied."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 3,
+          "short_rationale": "The outcomes—seed counts, genus identification, weights, and diversity—were appropriate for assessing seed dispersal patterns, and the paper states that seed traps in the studies used the same construction and were visited every 2 to 4 weeks. However, seeds were counted and identified by researchers, with no blinding reported, and trap locations such as beneath perches or near snags would seemingly be apparent, creating some potential for measurement knowledge to influence outcomes."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Yes",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 4,
+          "short_rationale": "The paper reports relevant seed outcome data across the described edge, standard perch, and snag studies in tables by site, distance, seed type, and structure. However, it explicitly states that “all other single variable correlations were statistically insignificant” without reporting those analysis results, indicating partial reporting of some relevant analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly yes",
+            "7.3": "Unclear",
+            "7.4": "Seemingly yes",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "The paper indicates the authors conducted the analyses and gives no indication that analysts were blinded to study details. There are internal inconsistencies in descriptive table values, and the snag correlation analyses appear to include repeated observations of some of the same snags across two years without accounting for non-independence, creating serious concerns about applied statistical methods."
+        }
+      }
+    },
+    "5.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Unclear",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 6,
+          "short_rationale": "The paper reports some design measures relevant to confounding, including that the nine gaps were similar in area, altitude, age, and dominant vegetation, and that there were no other relevant vegetation patches likely to differentially influence seed rain. However, it does not establish that all potential confounders for comparisons among gap distances or perch conditions were controlled, nor does it provide a clear justification that any omitted confounders would be unlikely to affect the findings."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1.a": "Yes",
+            "2.2": "Seemingly no",
+            "2.3": "Yes",
+            "2.4": "Yes",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The paper reports systematic treatment-based gap selection, random trap placement, and that all nine gaps were similar in area, altitude, age, and dominant vegetation, supporting comparability. Some data were excluded from analyses, including wind-dispersed seeds and seeds from traps without perches in one analysis, but these exclusions were explicitly described and appear methodologically justified. Blinding of selection was not reported and is seemingly absent because researchers placed traps according to known treatments."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "For the observational distance comparison, the paper explicitly defined the groups as gaps inside native laurel forest, gaps approximately 100 m from the native forest edge, and gaps approximately 300 m from the edge, and reported that gaps were similar in area, altitude, age, and dominant vegetation. The physical exposure/comparator classifications appear objective, with no evidence that classification was influenced by knowledge or desire, although no separate validation procedure was reported."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Seemingly yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Seemingly yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 1,
+          "short_rationale": "The study experimentally installed perch and no-perch seed traps, and the researchers’ stated objective was to compare seed rain with and without perches, implying awareness of the tested comparison. The paper describes perches being erected over traps and no-perch traps being installed, with no reported deviations or altered treatment procedures."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The outcomes were seed counts and species identifications from droppings collected in seed traps, identified under a dissecting microscope by comparison with a reference collection, which is appropriate for assessing bird-dispersed seed rain. All seed traps were visited weekly and the same laboratory identification approach was described across groups, although the paper does not report blinding and field collectors would seemingly know whether traps had perches and their locations."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no",
+            "6.4": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 2,
+          "short_rationale": "The paper reports the main outcome data and analyses corresponding to its stated objectives, including total seed counts, treatment-level seed rain, native/exotic origin, species-level counts, temporal patterns, perch comparisons, distance analyses, and caloric-content correlations. No protocol is available, but there is no clear evidence within the paper that outcome measurements, subgroups, or causal analyses were selectively omitted."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Yes",
+            "7.3": "Seemingly yes",
+            "7.4": "Unclear",
+            "7.5": "Skip"
+          },
+          "risk_of_bias_score_0_to_10": 7,
+          "short_rationale": "Analysts necessarily used treatment labels such as perch/no perch, seed origin, and distance from native forest in the statistical models, implying awareness of intervention/exposure status. There are notable numerical inconsistencies in descriptive reporting: Table 1 seed counts for perched traps sum to 732, plus 10 without perches, whereas the Results and Table 2 report a total of 683 seeds. Inferential reporting also appears questionable, for example distance from native forest has three treatment levels but is reported with F1,17, creating concern about statistical coding or reporting."
+        }
+      }
+    }
+  }
+}
