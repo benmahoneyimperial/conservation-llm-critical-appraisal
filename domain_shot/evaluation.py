@@ -15,7 +15,7 @@ from .build_tree_guided_prompt import (
 
 load_dotenv()
 
-DEFAULT_MODEL = "openai/gpt-5.5"
+DEFAULT_MODEL = "google/gemini-3.1-pro-preview"
 
 
 def _load_domain_guidance_module():

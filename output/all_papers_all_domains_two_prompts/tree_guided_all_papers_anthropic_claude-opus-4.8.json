@@ -1,0 +1,699 @@
+{
+  "model": "anthropic/claude-opus-4.8",
+  "timestamp_utc": "2026-07-12T22:18:42.008690+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {
+    "1.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "No",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The study compares a single abandoned pasture with a single adjacent mature forest, and the two sites differ in numerous baseline attributes (soil bulk density, root length density, herbivore/rodent populations, land-use history) that influence both habitat type and seedling establishment; these confounders were largely not controlled or accounted for, and no justifiable rationale (e.g., instrumental variable or overadjustment) for omitting them is provided."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Seemingly no",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "No",
+            "2.5": "Yes",
+            "2.6": "No"
+          },
+          "decision_path": [
+            "2.1 -> Seemingly no",
+            "2.2_Right -> No",
+            "2.3_Right -> Yes",
+            "2.4 -> No",
+            "2.5 -> Yes",
+            "2.6 -> No",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Selection of areas was not full-population and researchers were not blinded; substantial post-establishment losses occurred (e.g. 15 of 40 pasture plots lost to fire, seedling attrition, clipped/excluded plants), groups were not clearly comparable, and no explicit adjustment for post-intervention/exposure selection bias was reported."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2_Left -> Yes",
+            "3.3_FarLeft -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This observational comparative study clearly defines the intervention/exposure group (heavily-used abandoned pasture) and comparator (adjacent mature forest/treefall gaps), with detailed land-use history and site characteristics, and there is no indication of incorrect classification of these existing groups; thus misclassified comparison bias is low."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Seemingly yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "decision_path": [
+            "4.1 -> Yes",
+            "4.2_Center -> No",
+            "4.4_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This is an experimental study involving assigned treatments (experimental treefall gaps created by felling trees, seedling transplants, seed placements, herbivore exclusion). Researchers were necessarily aware of treatments; however, the paper describes procedures implemented as intended (e.g., ant elimination, seedling replacement, protective cages) with no reported deviations affecting treatment procedures, so the study appears at low risk of performance bias."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly yes",
+            "5.2": "Yes",
+            "5.3": "Seemingly yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly yes",
+            "5.2_Right -> Yes",
+            "5.3_Right -> Yes",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Outcome measurements (seedling survival/growth, seed removal, microclimate) were largely objective and used comparable methods across the abandoned pasture and forest habitats, and measured outcomes matched the intended assessment. However, measurements were made by non-blinded field researchers with strong prior expectations, and some measurements involved subjective judgement (e.g., percent foliage removed), creating a possible pathway for detection bias, leading via the decision tree to a Medium risk judgement."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no"
+          },
+          "decision_path": [
+            "6.1 -> Seemingly no",
+            "6.2_Left -> Seemingly no",
+            "6.3_Left -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper reports outcome data across all measured experiments (seedling establishment, seed availability, predation, herbivory, abiotic factors) with full tables, including non-significant results (e.g., H. courbaril), and reports subgroup data across habitats and species, showing no clear evidence of selective reporting of measurements, subgroups, or analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Unclear"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2_Right -> Seemingly no",
+            "7.3_Center -> Seemingly no",
+            "7.4_Center -> Unclear",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Analysts were the researchers who applied the treatments and thus aware of group status (7.1). Descriptive statistics (means ± SE) appear reported without apparent error and inferential tests (AOV/Scheffe, G-tests, t-tests) are applied, but assumption checks and justification for test choices are not reported, so 7.4 is Unclear; under the conservative default this drives a High risk judgement."
+        }
+      }
+    },
+    "2.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "No",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> No",
+            "1.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The observational study relates seed rain to plant density and habitat/perch presence without controlling for potential confounders such as differential seed predation by granivores (which authors acknowledge varied among habitats), bird habitat-use patterns, or natural perch availability; no justifiable reason is given for omitting these confounders, and the authors themselves note these unmeasured factors could bias seed-capture estimates."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "No",
+            "2.3": "Seemingly no",
+            "2.4": "Not applicable",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> Yes",
+            "2.2_Left -> No",
+            "2.3_Left -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Seed traps were established at random locations within each site (2.1.a random selection), and seeds were collected systematically over the full study period with no indication that subjects/areas were excluded or lost after the study began, so the left branch resolves to Low risk despite lack of blinding of selection."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2_Left -> Yes",
+            "3.3_FarLeft -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This is an observational study measuring seed rain and plant density across defined habitats and perch treatments; exposure groups (habitats, perch presence/absence, and plant density measures) were clearly defined and measured directly by seed trapping and vegetation census, and misclassification driven by observer knowledge or desire is not evident, supporting low risk of misclassified comparison bias."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Applicability gate: study is observational, not experimental -> Domain 4 Not applicable",
+            "Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study observationally measured natural seed rain and existing plant densities across habitats; the artificial perch is a physical device rather than a formally assigned experimental treatment, but the core comparisons (habitat, seed rain vs. plant abundance) rely on observed existing conditions without formal assignment of interventions/exposures, so Domain 4 (experimental performance bias) does not apply."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> No",
+            "5.2_Left -> Yes",
+            "5.3_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Outcome measurement was objective seed counting from identical seed traps recovered every ~2 months, unlikely to be influenced by knowledge of group (habitat/perch) status, and the same trap methods and identification references were applied across all groups."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no",
+            "6.4": "Skip"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2_Left -> No",
+            "6.3_Left -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study reports complete seed collection totals for all species and habitats in Table 1, with analyses presented for both significant and non-significant effects (e.g., no perch effect, non-significant sapling relationship), indicating no selective reporting of measurements, subgroups, or analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Seemingly no",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2_Right -> No (Seemingly no)",
+            "7.3_Center -> No (Seemingly no)",
+            "7.4_Center -> No (Seemingly no)",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Analysts appear aware of group status as observational field study conducted by researchers (7.1 Seemingly yes). Descriptive and inferential statistics (ANOVA with appropriate square-root transformation for count data, Tukey multiple comparisons, and RMA model II regression justified for the data structure) appear appropriate with no evident errors or assumption violations, leading to a Medium risk judgement via the 7.2_Right/7.3_Center/7.4_Center path."
+        }
+      }
+    },
+    "3.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "This experimental reclamation study is susceptible to confounding (e.g., spatial/directional gradients, wind exposure, substrate heterogeneity, source-population proximity). Although plots were stratified in a random array, the authors did not control for or adjust for many potential confounders (e.g., proximity to source populations, wind exposure, substrate depth/drainage) and provided no justifiable reason such as an instrumental variable, so the risk of confounding bias is high."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Seemingly no",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Seemingly yes",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> Seemingly no",
+            "2.2_Right -> No",
+            "2.3_Right -> Yes",
+            "2.4 -> Seemingly yes",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Plots were a stratified random array covering the fixed experimental field, but some recruits/individuals were lost or excluded (12.5% of marked recruits died, Ailanthus and N-fixer treatment removed/dropped), triggering Criterion 2.4; the compared planted vs. unplanted plots were established on the same prepared site under a randomized layout, so groups appear comparable, yielding a Medium-risk judgement."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Not applicable",
+            "3.2": "Not applicable",
+            "3.3": "Not applicable",
+            "3.4": "Not applicable"
+          },
+          "decision_path": [
+            "Applicability gate: study type = experimental (researchers formally installed and assigned plantings and treatments)",
+            "Domain 3 applies only to observational studies -> Not applicable",
+            "Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "This is an experimental study in which the researchers formally installed and assigned tree/shrub clusters and plant-size treatments in a factorial design; therefore Criterion 3 (misclassified comparison bias, observational studies only) is not applicable."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Yes",
+            "4.2": "Seemingly yes",
+            "4.3": "Unclear",
+            "4.4": "Seemingly no",
+            "4.5": "Seemingly no",
+            "4.6": "Skip"
+          },
+          "decision_path": [
+            "4.1 -> Yes",
+            "4.2_Center -> Yes",
+            "4.3 -> Unclear",
+            "4.4_Right -> Seemingly no",
+            "4.5_Right -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "This is an experimental study with researcher-applied plantings and treatments; the researchers explicitly abandoned the N-fixer treatment analysis mid-study because leaf mulch could mask N-fixer effects, and treatments deviated (plant mortality, dieback, pest damage, replacement, watering). The N-fixer treatment was dropped rather than analytically accounted for, indicating altered/unsuccessful treatment procedures not properly handled in analysis."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> No",
+            "5.2_Left -> Yes",
+            "5.3_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Outcomes were objective counts and measurements of woody plant recruits (stems identified to species, height classes, seed traps) applied uniformly across planted and unplanted plots using the same census procedures, making detection influenced by knowledge of treatment unlikely and measurement methods comparable across groups."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no"
+          },
+          "decision_path": [
+            "6.1 -> Seemingly no",
+            "6.2_Left -> Seemingly no",
+            "6.3_Left -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper reports outcomes across multiple dispersal modes, treatments, subgroups, and years, including non-significant results (e.g., N-fixer effects, size treatment effects on seed rain), with no evidence of selective disclosure of measurements, subgroups, or analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Seemingly no",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2_Right -> No (Seemingly no)",
+            "7.3_Center -> No (Seemingly no)",
+            "7.4_Center -> No (Seemingly no)",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Analysts (the researchers who applied treatments) were clearly aware of treatment status, so 7.1 is seemingly yes. However, descriptive and inferential statistics (repeated-measures ANOVA, regressions, G-tests) appear appropriately applied with no evident errors or assumption violations reported, leading to a Medium risk judgement via the analyst-awareness branch."
+        }
+      }
+    },
+    "4.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "This observational comparison of perches, snags, and edges is susceptible to confounding (e.g., site characteristics such as topographic complexity, water availability, vegetation development, and snag structure differences), and the authors did not control for these potential confounders nor provide a justifiable reason for omitting them."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Seemingly yes",
+            "2.2": "No",
+            "2.3": "Yes",
+            "2.4": "Unclear",
+            "2.5": "Unclear",
+            "2.6": "No",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> Seemingly yes",
+            "2.2_Left -> No",
+            "2.3_Left -> Yes",
+            "2.4 -> Unclear",
+            "2.5 -> Unclear",
+            "2.6 -> No",
+            "High"
+          ],
+          "short_rationale": "Seed traps were placed systematically at fixed intervals (2.1 seemingly yes), but researchers were not blinded to selection (2.2 no). Seed traps beneath snags were 'occasionally lost or removed' during the study (2.3 yes), and although authors normalized data to seeds/month, comparability of remaining data (2.4) and whether losses relate to intervention effects (2.5) are unclear, and no explicit statistical adjustment for selection bias was made (2.6 no), leading to High risk under the conservative algorithm."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2_Left -> Yes",
+            "3.3_FarLeft -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This is an observational study comparing seed dispersal to different perch types (edge, standard perches, snags) and controls, which were clearly defined and appropriate for assessing dispersal effects; seeds were counted and identified to genus with explicit classification rules, and there is no indication that classification of the compared conditions was influenced by knowledge, experience, or desire."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Not applicable",
+            "4.2": "Not applicable",
+            "4.3": "Not applicable",
+            "4.4": "Not applicable",
+            "4.5": "Not applicable",
+            "4.6": "Not applicable"
+          },
+          "decision_path": [
+            "Applicability gate: study is experimental (researchers erected standard perches and snags as applied structures) -> but comparison relies on structures placed by researchers vs controls; however the outcome (natural bird seed dispersal) is observed, not assigned",
+            "Determined study involves researcher-applied perch/snag treatments -> experimental treatments applied",
+            "Reassessed: Domain 4 gate -> Not applicable path selected due to insufficient reporting on treatment implementation, but applicability requires substantive experimental assessment",
+            "Not Applicable"
+          ],
+          "final_risk_judgement": "Not Applicable",
+          "short_rationale": "The study installed standard perches and snags (structures applied by researchers) and compared seed capture beneath them versus controls, which could be considered experimental; however, the paper provides no information about persons applying treatments, treatment alterations, or implementation fidelity relevant to Domain 4, and given the treatments are passive physical structures observed for natural bird-mediated seed deposition, performance bias assessment is not meaningfully applicable."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> No",
+            "5.2_Left -> Yes",
+            "5.3_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Outcome measurement (counting and identifying seeds caught in standardized plastic seed traps) is objective and mechanical, unlikely to be influenced by knowledge of group; seeds were counted/identified consistently across groups using the same trap methodology, and the measured outcome (seed quantities and types) matched the intended assessment of dispersal patterns."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no",
+            "6.4": "Skip"
+          },
+          "decision_path": [
+            "6.1 -> Seemingly no",
+            "6.2_Left -> Seemingly no",
+            "6.3_Left -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The paper reports outcome data across all three study types, distances, and seed categories (forest/non-forest) in complete tables, with correlations and statistical comparisons reported including non-significant results, indicating no evident selective reporting of measurements, subgroups, or analyses."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Unclear",
+            "7.3": "Seemingly no",
+            "7.4": "Unclear"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2_Right -> Unclear (treated as Yes conservatively? No -> follow No branch)",
+            "7.3_Center -> Seemingly no",
+            "7.4_Center -> Unclear",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "Analysts (the authors) were aware of study conditions (7.1 Seemingly yes). Descriptive statistics appear reasonable but adequacy is not fully verifiable (7.2 Unclear). Inferential statistics were applied (correlations, t-tests, Mann-Whitney U-test), and while no clear error is evident (7.3 Seemingly no), the appropriateness of assumptions (e.g., small samples, use of Pearson correlation for causal relationships flagged in guidance) cannot be confirmed (7.4 Unclear); under the conservative algorithm, unclear at 7.4_Center yields High risk."
+        }
+      }
+    },
+    "5.md": {
+      "domain_1": {
+        "parsed_response": {
+          "question_answers": {
+            "1.1": "Yes",
+            "1.2": "Seemingly no",
+            "1.3": "Seemingly no",
+            "1.4": "Not applicable",
+            "1.5": "Not applicable",
+            "1.6": "Skip"
+          },
+          "decision_path": [
+            "1.1 -> Yes",
+            "1.2 -> Seemingly no",
+            "1.3 -> Seemingly no",
+            "High"
+          ],
+          "final_risk_judgement": "High Risk",
+          "short_rationale": "The perch effect could be confounded by uncontrolled variables (e.g., gap-level differences, distance, bird abundance), and while perch/no-perch traps were paired within gaps, potential confounders such as microhabitat, seasonal bird activity, and gap characteristics were not explicitly controlled or listed, with no justifiable reason given for their omission."
+        }
+      },
+      "domain_2": {
+        "parsed_response": {
+          "question_answers": {
+            "2.1": "Yes",
+            "2.2": "No",
+            "2.3": "Seemingly no",
+            "2.4": "Not applicable",
+            "2.5": "Not applicable",
+            "2.6": "Not applicable",
+            "2.7": "Skip"
+          },
+          "decision_path": [
+            "2.1 -> Yes",
+            "2.2_Left -> No",
+            "2.3_Left -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Seed traps were randomly placed within gaps and monitored weekly over a complete year, with all recovered seeds counted, so selection after intervention followed a systematic/random sampling approach (2.1 Yes). No indication of subjects/areas being excluded or lost after study start (2.3 Seemingly no), directing the tree to Low risk despite lack of blinding in selection."
+        }
+      },
+      "domain_3": {
+        "parsed_response": {
+          "question_answers": {
+            "3.1": "Yes",
+            "3.2": "Yes",
+            "3.3": "Seemingly no",
+            "3.4": "Skip"
+          },
+          "decision_path": [
+            "3.1 -> Yes",
+            "3.2_Left -> Yes",
+            "3.3_FarLeft -> Seemingly no",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This is an observational study comparing existing gap conditions (native forest, 100 m, 300 m from forest edge; perch vs no perch) without formal assignment of exposure. Groups and comparators were clearly defined by distance and perch presence and appropriately measured (seed traps, calibrated calorimeter, seed identification against reference collection), and there is no indication that classification of gaps or perch presence was influenced by knowledge or desire, so misclassification risk is low."
+        }
+      },
+      "domain_4": {
+        "parsed_response": {
+          "question_answers": {
+            "4.1": "Yes",
+            "4.2": "Seemingly no",
+            "4.3": "Not applicable",
+            "4.4": "Yes",
+            "4.5": "Not applicable",
+            "4.6": "Skip"
+          },
+          "decision_path": [
+            "4.1 -> Yes",
+            "4.2_Center -> No (Seemingly no)",
+            "4.4_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "This is an experimental study in which researchers formally installed perches and seed traps across gap treatments. Investigators applied the perch treatments knowing the comparison being made (4.1 Yes), but there is no indication of altered or deviated treatment procedures (4.2 Seemingly no), and the perches and traps appear to have been installed and monitored as intended across all gaps over the full year (4.4 Yes), yielding low risk of performance bias."
+        }
+      },
+      "domain_5": {
+        "parsed_response": {
+          "question_answers": {
+            "5.1": "Seemingly no",
+            "5.2": "Yes",
+            "5.3": "Yes",
+            "5.4": "Not applicable"
+          },
+          "decision_path": [
+            "5.1 -> Seemingly no",
+            "5.2_Left -> Yes",
+            "5.3_Left -> Yes",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "Outcome measurement was objective (counting and identifying entire seeds under a dissecting microscope with a reference collection), unlikely to be influenced by knowledge of treatment. The measured outcome (seed rain) matched the intended assessment, and the same trap and laboratory identification methods were applied consistently across all groups, weekly for one year."
+        }
+      },
+      "domain_6": {
+        "parsed_response": {
+          "question_answers": {
+            "6.1": "Seemingly no",
+            "6.2": "Seemingly no",
+            "6.3": "Seemingly no",
+            "6.4": "Skip"
+          },
+          "decision_path": [
+            "6.1 -> No",
+            "6.2_Left -> No",
+            "6.3_Left -> No",
+            "Low"
+          ],
+          "final_risk_judgement": "Low Risk",
+          "short_rationale": "The study reports outcomes for all treatments, seed origins, and gaps consistently (Tables 1 and 2 present full seed counts), and all analyses stated in the methods (perch effects, distance, caloric content, correlations) are reported in the results, showing no apparent selective reporting."
+        }
+      },
+      "domain_7": {
+        "parsed_response": {
+          "question_answers": {
+            "7.1": "Seemingly yes",
+            "7.2": "Seemingly no",
+            "7.3": "Seemingly no",
+            "7.4": "Seemingly no",
+            "7.5": "Skip"
+          },
+          "decision_path": [
+            "7.1 -> Seemingly yes",
+            "7.2_Right -> No",
+            "7.3_Center -> No",
+            "7.4_Center -> No",
+            "Med"
+          ],
+          "final_risk_judgement": "Medium Risk",
+          "short_rationale": "Analysts were seemingly aware of treatment allocation (no blinding mentioned), but the descriptive and inferential statistics appear appropriate: ANOVA with reported normality and homogeneous variance, GLM with Tukey HSD, and Kendall's correlation used because parametric assumptions were not met. No statistical errors or assumption violations are evident."
+        }
+      }
+    }
+  }
+}

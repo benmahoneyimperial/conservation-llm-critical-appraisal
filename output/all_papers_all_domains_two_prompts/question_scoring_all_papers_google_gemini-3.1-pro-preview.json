@@ -1,0 +1,14 @@
+{
+  "model": "google/gemini-3.1-pro-preview",
+  "timestamp_utc": "2026-07-13T08:10:17.108318+00:00",
+  "domains": [
+    "domain_1",
+    "domain_2",
+    "domain_3",
+    "domain_4",
+    "domain_5",
+    "domain_6",
+    "domain_7"
+  ],
+  "results": {}
+}

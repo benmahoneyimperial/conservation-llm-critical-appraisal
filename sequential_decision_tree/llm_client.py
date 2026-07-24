@@ -12,7 +12,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("OPENROUTER_API_KEY is not set. Please ensure you have a .env file with this key.")
 
-MODEL = "deepseek/deepseek-v4-flash"
+MODEL = "google/gemini-3.1-pro-preview"
 
 # Create a session object to reuse TCP connections (Keep-Alive)
 _session = requests.Session()
