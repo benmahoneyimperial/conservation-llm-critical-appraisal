@@ -10,7 +10,7 @@ INPUT_FOLDER = Path("data/papers/papers_pdf/test_5")
 OUTPUT_FOLDER = Path("data/papers/papers_md/test_extraction_md")
 
 PIPELINE_ID = "pl_DaOCkFJs7xHv"
-PIPELINE_VERSION = 3
+PIPELINE_VERSION = 4
 
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
@@ -38,10 +38,22 @@ for pdf in INPUT_FOLDER.glob("*.pdf"):
             raise Exception(f"Pipeline failed: {execution.status}")
 
         # Extract JSON result from extraction step
-        result = client.get_step_result(
+        # Get full step result
+                # Extract JSON result from extraction step
+        step_result = client.get_step_result(
             execution.execution_id,
             step_index=1
         )
+
+        # Extract only your schema
+        result = step_result["extraction_schema_json"]
+
+        # Remove citation metadata fields
+        result = {
+            key: value
+            for key, value in result.items()
+            if not key.endswith("_citations")
+        }
 
         # Save JSON
         output_file = OUTPUT_FOLDER / f"{pdf.stem}.json"
