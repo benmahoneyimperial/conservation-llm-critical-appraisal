@@ -20,3 +20,13 @@ __pycache__/
 data/papers/
 #data/processed_text/*.csv
 data/sample_papers/
+
+#outputs
+outputs/
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
