@@ -15,7 +15,7 @@ from .build_tree_guided_prompt import (
 
 load_dotenv()
 
-DEFAULT_MODEL = "google/gemini-3.1-pro-preview"
+DEFAULT_MODEL = "deepseek/deepseek-v4-pro"
 
 
 def _load_domain_guidance_module():
@@ -58,13 +58,19 @@ def call_llm_and_process(domain_name: str, messages: list, model: str) -> dict:
         "messages": messages,
     }
 
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data,
-        timeout=120,
-    )
-    response.raise_for_status()
+    from pipeline.retry import with_retry
+
+    def _post():
+        result = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers=headers,
+            json=data,
+            timeout=120,
+        )
+        result.raise_for_status()
+        return result
+
+    response = with_retry(_post)
     content = response.json()["choices"][0]["message"]["content"].strip()
 
     match = re.search(r"```(?:json)?(.*?)```", content, re.DOTALL | re.IGNORECASE)

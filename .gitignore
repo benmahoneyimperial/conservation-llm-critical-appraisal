@@ -30,3 +30,6 @@ output/
 
 # Logs
 *.log
+
+# Analysis data (generated CSV)
+analysis/appraisals_long.csv

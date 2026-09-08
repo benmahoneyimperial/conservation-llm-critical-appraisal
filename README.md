@@ -1,35 +1,42 @@
 # conservation-llm-critical-appraisal
-Benchmarking Large Language Models (LLMs) against human experts for critical appraisal of conservation literature using the CEECAT framework
+
+Benchmarking Large Language Models (LLMs) against human experts for critical appraisal of conservation literature using the CEECAT framework.
 
 ## Project layout
 
-- `appraisal/`: decision-tree appraisal system based on CEECAT domain trees.
-- `single_shot/`: separate single-prompt appraisal system.
-- `benchmarking/`: benchmark runner for comparing expected and actual domain outcomes.
-- `preprocessing/`: PDF-to-Markdown extraction and Methods/Results section utilities.
+- `domain_shot/`: prompt builders for tree-guided and question-scoring appraisal methods.
+- `sequential_decision_tree/`: sequential decision-tree evaluation system based on CEECAT domain trees.
+- `pipeline/`: orchestration layer for running appraisals across models, methods, and papers.
 - `scripts/`: command-line entry points for the main workflows.
-- `data/`: benchmark data, processed paper text, and guidance assets.
+- `data/`: benchmark data, decision trees, domain questions, and guidance assets.
+- `analysis/`: data processing and export utilities.
+- `tests/`: unit tests for prompt builders and extractors.
 
 ## Main entry points
 
-- `scripts/run_appraisal.py`: run the decision-tree appraisal pipeline on one paper or a directory of processed text files.
-- `scripts/run_single_appraisal.py`: inspect a single paper with full decision-tree trace output.
-- `scripts/run_single_shot.py`: run the separate single-shot appraisal workflow.
-- `scripts/extract_methods_results_markdown.py`: convert PDFs to Markdown with MarkItDown, then write Methods/Results-only Markdown files.
-- `benchmarking/evaluate.py`: run the benchmark dataset against the decision-tree system.
+- `scripts/run_pipeline.py`: run the appraisal pipeline across multiple models and methods, with chunking and resumability.
+- `scripts/run_three_methods_multi_model.py`: run all three appraisal methods (sequential, tree-guided, question-scoring) on papers.
+- `scripts/export_results.py`: merge per-paper result files into consolidated JSON exports.
+- `scripts/pipeline_status.py`: show progress per model and method.
 
-## MarkItDown Workflow
+## Setup
 
-Install the PDF converter dependency first:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then run:
+2. Configure environment variables (copy `.env.example` to `.env` and fill in your API keys).
+
+3. Run the pipeline:
 
 ```bash
-python3 scripts/extract_methods_results_markdown.py
+python scripts/run_pipeline.py --dry-run  # preview the plan
+python scripts/run_pipeline.py --limit 2   # smoke test with 2 papers
+python scripts/run_pipeline.py             # full run
 ```
 
-By default the script reads PDFs from `data/papers` and writes extracted markdown files to `data/markdown_outputs`.
+## Output
+
+Results are written to `output/<model>/` directories and can be exported to `analysis/appraisals_long.csv` using `analysis/build_dataset.py`.

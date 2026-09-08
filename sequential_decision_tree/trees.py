@@ -747,9 +747,9 @@ decision_tree_7 = {
         "question": "7.2. Is it likely that there is/are error(s) or inappropriate methods in the applied descriptive statistical analyses? (E.g., miscalculations of sample sizes, means, medians, variances, ranges for intervention/exposure and comparator groups, error in converting analogue to digital data.)",
         "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear (yes)"],
         "mapping": {
-            "yes": "result_med",
-            "seemingly yes": "result_med",
-            "unclear (yes)": "result_med",
+            "yes": "result_high",
+            "seemingly yes": "result_high",
+            "unclear (yes)": "result_high",
             "no": "result_low",
             "seemingly no": "result_low"
         }
@@ -798,9 +798,9 @@ decision_tree_7 = {
         "question": "7.2. Is it likely that there is/are error(s) or inappropriate methods in the applied descriptive statistical analyses? (E.g., miscalculations of sample sizes, means, medians, variances, ranges for intervention/exposure and comparator groups, error in converting analogue to digital data.)",
         "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear (yes)"],
         "mapping": {
-            "yes": "q_7_3_inf_m",
-            "seemingly yes": "q_7_3_inf_m",
-            "unclear (yes)": "q_7_3_inf_m",
+            "yes": "q_7_3_inf_r",
+            "seemingly yes": "q_7_3_inf_r",
+            "unclear (yes)": "q_7_3_inf_r",
             "no": "q_7_3_inf_l",
             "seemingly no": "q_7_3_inf_l"
         }
@@ -828,9 +828,9 @@ decision_tree_7 = {
         "question": "7.3. Is it likely that there is/are error(s) in the applied inferential statistics (including null hypothesis testing, estimation, coding)? (E.g., miscalculations of differences between intervention/exposure and comparator, errors in coding, etc.)",
         "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear (yes)"],
         "mapping": {
-            "yes": "q_7_4_inf_m",
-            "seemingly yes": "q_7_4_inf_m",
-            "unclear (yes)": "q_7_4_inf_m",
+            "yes": "q_7_4_inf_r",
+            "seemingly yes": "q_7_4_inf_r",
+            "unclear (yes)": "q_7_4_inf_r",
             "no": "q_7_4_inf_l",
             "seemingly no": "q_7_4_inf_l"
         }
@@ -873,9 +873,9 @@ decision_tree_7 = {
         "question": "7.4. Were assumptions for the applied inferential statistics violated or the applied inferential statistical methods inappropriate for the inferential goal(s)? (E.g., use of inappropriate sample sizes to test the hypothesis, normality not assumed when conducting a parametric test...)",
         "valid_answers": ["yes", "seemingly yes", "seemingly no", "no", "unclear (yes)"],
         "mapping": {
-            "yes": "result_med",
-            "seemingly yes": "result_med",
-            "unclear (yes)": "result_med",
+            "yes": "result_high",
+            "seemingly yes": "result_high",
+            "unclear (yes)": "result_high",
             "no": "result_low",
             "seemingly no": "result_low"
         }

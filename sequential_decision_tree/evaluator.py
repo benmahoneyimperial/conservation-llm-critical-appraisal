@@ -1,6 +1,53 @@
 import os
+import json
+import datetime
 from .trees import TREES
 from .llm_client import ask_llm
+
+
+def _default_checkpoint_path(processed_dir: str) -> str:
+    return os.path.join(processed_dir, ".sequential_decision_tree_checkpoint.json")
+
+
+def _load_checkpoint(checkpoint_path: str) -> dict:
+    with open(checkpoint_path, "r", encoding="utf-8") as f:
+        payload = json.load(f)
+
+    # Backward compatible: support plain {paper_name: result} checkpoint format.
+    if isinstance(payload, dict) and "results" in payload and isinstance(payload["results"], dict):
+        return payload["results"]
+    if isinstance(payload, dict):
+        return payload
+    raise ValueError("Checkpoint file format is invalid.")
+
+
+def _save_checkpoint(checkpoint_path: str, results: dict, processed_dir: str, guidance_path: str | None):
+    os.makedirs(os.path.dirname(checkpoint_path) or ".", exist_ok=True)
+    payload = {
+        "saved_at": datetime.datetime.now().isoformat(),
+        "processed_dir": processed_dir,
+        "guidance_path": guidance_path,
+        "completed_papers": len(results),
+        "results": results,
+    }
+
+    temp_path = f"{checkpoint_path}.tmp"
+    with open(temp_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    os.replace(temp_path, checkpoint_path)
+
+
+def _is_complete_result(result: object) -> bool:
+    """Return whether a checkpoint record is a complete, non-error appraisal."""
+    if not isinstance(result, dict) or str(result.get("overall", "")).startswith("ERROR:"):
+        return False
+
+    for tree_id in TREES:
+        tree_result = result.get(tree_id)
+        if not isinstance(tree_result, dict) or tree_result.get("error") or tree_result.get("failed_node"):
+            return False
+
+    return True
 
 def build_prior_context(path, max_steps: int = 2):
     """Summarise the most recent node decisions for the next question."""
@@ -15,9 +62,10 @@ def build_prior_context(path, max_steps: int = 2):
     return "\n".join(lines)
 
 
-def traverse_tree(tree, paper_text, start_node = "q_1_1", guidance_text = None, verbose = True):
+def traverse_tree(tree, paper_text, start_node = "q_1_1", guidance_text = None, verbose = True, ask = None):
     node_id = start_node
     path = []
+    ask_fn = ask or ask_llm
 
     while True:
         node = tree[node_id]
@@ -33,7 +81,7 @@ def traverse_tree(tree, paper_text, start_node = "q_1_1", guidance_text = None, 
 
         # Ask LLM
         prior_context = build_prior_context(path)
-        response = ask_llm(
+        response = ask_fn(
             node["question"],
             paper_text,
             prior_context=prior_context,
@@ -135,12 +183,25 @@ def run_all_trees(paper_text, guidance_text=None, verbose=True):
     return results
 
 
-def analyse_all_papers(processed_dir: str, guidance_path: str = None, verbose: bool = True):
+def analyse_all_papers(
+    processed_dir: str,
+    guidance_path: str = None,
+    verbose: bool = True,
+    checkpoint_path: str | None = None,
+    resume: bool = True,
+):
     """
-    Reads all .txt files from a directory, runs analysis on each, and returns
-    a dictionary of results.
+    Reads all .txt, .md, or .json files from a directory, runs analysis on each, and returns
+    a dictionary of results. For JSON files, extracts the full content as text.
+
+    Checkpoint behavior:
+    - Saves progress after each paper.
+    - Can resume from an existing checkpoint file.
     """
     print(f"--- Starting Analysis on All Papers in '{processed_dir}' ---")
+
+    if checkpoint_path is None:
+        checkpoint_path = _default_checkpoint_path(processed_dir)
     
     guidance_text = None
     if guidance_path and os.path.exists(guidance_path):
@@ -149,20 +210,52 @@ def analyse_all_papers(processed_dir: str, guidance_path: str = None, verbose: b
         print(f"  -> Loaded CEECAT guidance from {guidance_path}")
 
     all_results = {}
-    
-    text_files = [f for f in os.listdir(processed_dir) if f.endswith(".txt") or f.endswith(".md")]
+    if resume and os.path.exists(checkpoint_path):
+        try:
+            all_results = _load_checkpoint(checkpoint_path)
+            print(
+                f"  -> Resuming from checkpoint: {checkpoint_path} "
+                f"({len(all_results)} papers already completed)"
+            )
+        except Exception as exc:
+            print(f"  - Warning: Could not load checkpoint '{checkpoint_path}': {exc}")
+            print("  - Starting with a fresh run.")
+            all_results = {}
 
-    if not text_files:
-        print("No processed text or markdown files found in the specified directory.")
-        return
+    checkpoint_name = os.path.basename(checkpoint_path)
+    all_files = sorted(
+        f
+        for f in os.listdir(processed_dir)
+        if f.endswith((".txt", ".md", ".json"))
+        and not f.startswith(".")
+        and f != checkpoint_name
+    )
 
-    for text_file in text_files:
-        paper_name = os.path.splitext(text_file)[0]
+    if not all_files:
+        print("No processed text, markdown, or JSON files found in the specified directory.")
+        return all_results
+
+    for file_name in all_files:
+        paper_name = os.path.splitext(file_name)[0]
+
+        if resume and _is_complete_result(all_results.get(paper_name)):
+            print(f"\n--- Skipping already completed: {paper_name} ---")
+            continue
+
         print(f"\n--- Analyzing: {paper_name} ---")
         
-        file_path = os.path.join(processed_dir, text_file)
-        with open(file_path, "r", encoding="utf-8") as f:
-            paper_text = f.read()
+        file_path = os.path.join(processed_dir, file_name)
+        
+        # Load content based on file type
+        if file_name.endswith(".json"):
+            with open(file_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+                # Convert JSON to formatted string
+                paper_text = json.dumps(json_data, indent=2, ensure_ascii=False)
+        else:
+            # Handle .txt and .md files
+            with open(file_path, "r", encoding="utf-8") as f:
+                paper_text = f.read()
 
         if not paper_text.strip():
             print("  - Warning: Text file is empty, skipping.")
@@ -170,5 +263,15 @@ def analyse_all_papers(processed_dir: str, guidance_path: str = None, verbose: b
             continue
 
         all_results[paper_name] = run_all_trees(paper_text, guidance_text=guidance_text, verbose=verbose)
+
+        # Save checkpoint after each paper so long runs can be resumed safely.
+        _save_checkpoint(
+            checkpoint_path=checkpoint_path,
+            results=all_results,
+            processed_dir=processed_dir,
+            guidance_path=guidance_path,
+        )
+
+    print(f"\n--- Checkpoint saved at: {checkpoint_path} ---")
 
     return all_results

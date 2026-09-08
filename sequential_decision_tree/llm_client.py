@@ -12,7 +12,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not API_KEY:
     raise ValueError("OPENROUTER_API_KEY is not set. Please ensure you have a .env file with this key.")
 
-MODEL = "google/gemini-3.1-pro-preview"
+MODEL = "z-ai/glm-5.2"
 
 # Create a session object to reuse TCP connections (Keep-Alive)
 _session = requests.Session()
@@ -147,17 +147,23 @@ def ask_llm(
 
     data = {
         "model": model,
-        "messages": messages
+        "messages": messages,
     }
     
-    try:
-        response = _session.post(
+    def _post():
+        result = _session.post(
             "https://openrouter.ai/api/v1/chat/completions",
             headers=headers,
             json=data,
             timeout=120,
         )
-        response.raise_for_status()
+        result.raise_for_status()
+        return result
+
+    try:
+        from pipeline.retry import with_retry
+
+        response = with_retry(_post)
     except requests.RequestException as exc:
         status_code = getattr(exc.response, "status_code", "unknown")
         body = ""
@@ -188,8 +194,36 @@ def ask_llm(
             "final_answer": None,
             "error": error_message
         }
-    
-    content = result["choices"][0]["message"]["content"].strip()
+
+    choices = result.get("choices")
+    if not choices:
+        return {
+            "full_response": str(result)[:1000],
+            "final_answer": None,
+            "error": "API response did not include any choices."
+        }
+
+    first_choice = choices[0] or {}
+    message = first_choice.get("message") or {}
+    content = message.get("content")
+
+    if content is None:
+        # Some providers can return empty content for filtered, interrupted,
+        # or otherwise malformed generations.
+        finish_reason = first_choice.get("finish_reason")
+        return {
+            "full_response": str(first_choice)[:1000],
+            "final_answer": None,
+            "error": (
+                "API returned an empty message content"
+                f" (finish_reason={finish_reason})."
+            )
+        }
+
+    if not isinstance(content, str):
+        content = str(content)
+
+    content = content.strip()
     
     # Extract final answer (preferred [[...]] format, with one-call fallback parsing)
     final_answer = _extract_final_answer(content, valid_answers=valid_answers)
